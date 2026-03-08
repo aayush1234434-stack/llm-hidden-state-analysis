@@ -18,3 +18,8 @@ venv/
 
 # mac files
 .DS_Store
+
+.genosis/
+.venv/
+env/
+__pycache__/
