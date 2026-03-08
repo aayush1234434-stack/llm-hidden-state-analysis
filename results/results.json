@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "Who was the man behind The Chipmunks?",
+    "model_answer": " David Seville.",
+    "correct": true,
+    "ground_truth": "David Seville"
+  },
+  {
+    "question": "Which Lloyd Webber musical premiered in the US on 10th December 1993?",
+    "model_answer": " \"Sunset Boulevard\" premiered in the US on 10th December 1993. \n\nLloyd Webber's musical \"Sunset Boulevard\" is based on the film of the same name and features songs by Kander and E",
+    "correct": true,
+    "ground_truth": "Sunset Blvd"
+  },
+  {
+    "question": "Who was the next British Prime Minister after Arthur Balfour?",
+    "model_answer": " David Lloyd George. \n\nThe next British Prime Minister after Arthur Balfour, who served as Chancellor of the Exchequer under Gladstone, was David Lloyd George. He became Prime Minister on 12 May 1908 and held",
+    "correct": false,
+    "ground_truth": "Sir Henry Campbell-Bannerman"
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Kiss You All Over?",
+    "model_answer": " The Bee Gees. They had a 1978 hit with \"Kiss You All Over\".",
+    "correct": false,
+    "ground_truth": "Internal exile"
+  },
+  {
+    "question": "What claimed the life of singer Kathleen Ferrier?",
+    "model_answer": " Kathleen Ferrier's death was caused by an aneurysm. \n\nKathleen Ferrier, an English soprano known for her performances with the Royal Opera House and the Metropolitan Opera, died on September 27, 193",
+    "correct": false,
+    "ground_truth": "Cancer pathology"
+  },
+  {
+    "question": "Rita Coolidge sang the title song for which Bond film?",
+    "model_answer": " \"Rita Coolidge sang the title song for the 1965 James Bond film \"Goldfinger.\"",
+    "correct": false,
+    "ground_truth": "Kamal kahn"
+  },
+  {
+    "question": "What was the last US state to reintroduce alcohol after prohibition?",
+    "model_answer": " Alaska is the last US state to reintroduce alcohol after Prohibition. \n\nAlaska became the 49th state of the United States on January 3, 1959. It was one of the last states to allow the sale",
+    "correct": false,
+    "ground_truth": "Utah (State)"
+  },
+  {
+    "question": "Which actress was voted Miss Greenwich Village in 1942?",
+    "model_answer": " The actress who was voted Miss Greenwich Village in 1942 is not specified. Please provide more information or context for an accurate answer.\n\nThe actress who was voted Miss Greenwich Village in 1942 is not specified. Please provide more",
+    "correct": false,
+    "ground_truth": "Bacall"
+  },
+  {
+    "question": "What is the Japanese share index called?",
+    "model_answer": " The Nikkei 225. \n\nThe Nikkei 225 is the most widely followed stock market index in Japan, tracking the performance of 225 large companies listed on the Tokyo Stock Exchange. It's often referred",
+    "correct": true,
+    "ground_truth": "Nikkei"
+  },
+  {
+    "question": "What was the name of Michael Jackson's autobiography written in 1988?",
+    "model_answer": " \"Moonwalk\" is the name of Michael Jackson's autobiography. It was published in 1988.\n\nThe answer to this question is: Moonwalk\n\nMichael Jackson's autobiography, titled \"Moonwalk,\" was released in 198",
+    "correct": true,
+    "ground_truth": "Walk on the Moon"
+  },
+  {
+    "question": "In which decade did stereo records first go on sale?",
+    "model_answer": " Stereo records first went on sale in the 1950s. \n\nExplanation: Stereo records, also known as multichannel recordings, were introduced to the market in the late 1940s and early 1950",
+    "correct": false,
+    "ground_truth": "1930\u2019s"
+  },
+  {
+    "question": "In what year's Olympics were electric timing devices and a public-address system used for the first time?",
+    "model_answer": " 1908 Summer Olympics. \n\nThe answer is based on historical records indicating that electric timing devices and public-address systems were introduced at the 1908 Summer Olympics, held in London. These innovations significantly improved the efficiency and accessibility of",
+    "correct": false,
+    "ground_truth": "In 1912, in Stockholm"
+  },
+  {
+    "question": "Which volcano in Tanzania is the highest mountain in Africa?",
+    "model_answer": " Mount Kilimanjaro. It is the highest peak in Africa and Tanzania.\n\nMount Kilimanjaro, located in Tanzania, is the highest mountain in Africa. It stands at an elevation of 5,895 meters (19,",
+    "correct": true,
+    "ground_truth": "Mawensi"
+  },
+  {
+    "question": "The flag of Libya is a plain rectangle of which color?",
+    "model_answer": " Blue. The flag of Libya consists of a blue rectangular field with no other colors.\n\nThe flag of Libya, as described by you, is indeed a plain rectangle of blue color. This design symbolizes the country's neutrality and its commitment to peace.",
+    "correct": false,
+    "ground_truth": "Greenishly"
+  },
+  {
+    "question": "Of which African country is Niamey the capital?",
+    "model_answer": " Niamey is the capital of Niger, an African country. \n\nExplanation: The capital of any given country is its largest city or administrative center. In this case, Niamey is the capital of Niger, a country located in West Africa.",
+    "correct": true,
+    "ground_truth": "Niger Republic"
+  },
+  {
+    "question": "Who was the director of the CIA from 1976-81?",
+    "model_answer": " William Colby was the director of the CIA from 1976 to 1981. William Colby served as the Director of Central Intelligence (DCI) during this time, overseeing the agency's operations and intelligence gathering efforts.",
+    "correct": false,
+    "ground_truth": "George Bush"
+  },
+  {
+    "question": "Which musical featured the song The Street Where You Live?",
+    "model_answer": " The musical \"Grease\" featured the song \"The Street Where You Live\".",
+    "correct": false,
+    "ground_truth": "My Fair Lady (2010 film)"
+  },
+  {
+    "question": "\"Who was the target of the failed \"\"Bomb Plot\"\" of 1944?\"",
+    "model_answer": " The target of the failed \"Bomb Plot\" of 1944 was the United States Senate.",
+    "correct": false,
+    "ground_truth": "Hitlerian"
+  },
+  {
+    "question": "Who had an 80s No 1 hit with Hold On To The Nights?",
+    "model_answer": " George Michael. He had a 1987 hit with \"Hold On to the Nights\". \n\nExplanation: George Michael is a British singer and songwriter who achieved fame as a member of the group Wham! before going solo. His 1",
+    "correct": false,
+    "ground_truth": "Richard Noel Marx"
+  },
+  {
+    "question": "Who directed the classic 30s western Stagecoach?",
+    "model_answer": " John Ford directed the classic 1939 Western Stagecoach. \n\nJohn Ford was an American film director known for his work in the Western genre, particularly during the Golden Age of Hollywood. His films often featured themes of justice and morality, which",
+    "correct": true,
+    "ground_truth": "John Ford (1895-1973)"
+  },
+  {
+    "question": "Dave Gilmore and Roger Waters were in which rock group?",
+    "model_answer": " Pink Floyd. \n\nDave Gilmore was a member of Pink Floyd from 1968 to 1972, while Roger Waters is the lead vocalist and principal songwriter for the band. They both contributed significantly to the formation and development of",
+    "correct": true,
+    "ground_truth": "Grey Floyd"
+  },
+  {
+    "question": "Which highway was Revisited in a classic 60s album by Bob Dylan?",
+    "model_answer": " The Highway\n\nBob Dylan's classic 1965 album \"The Freewheelin' Bob Dylan\" features the song \"The Highway,\" which is about a man who has lost his way and seeks redemption on the open road. The song",
+    "correct": false,
+    "ground_truth": "61"
+  },
+  {
+    "question": "Which was the only eastern bloc country to participate in the 1984 LA Olympics?",
+    "model_answer": " Poland.\n\nThe only Eastern Bloc country that participated in the 1984 Los Angeles Olympics was Poland. This event took place during the Cold War era, when countries were divided into two camps\u2014East and West\u2014and their athletes competed against each other",
+    "correct": false,
+    "ground_truth": "ISO 3166-1:RO"
+  },
+  {
+    "question": "Which 90s sci fi series with James Belushi was based on Bruce Wagner's comic strip of the same name?",
+    "model_answer": " \"The Adventures of Brisco County, Jr.\" is based on the comic strip.",
+    "correct": false,
+    "ground_truth": "Wild Palms"
+  },
+  {
+    "question": "If I Were A Rich Man Was a big hit from which stage show?",
+    "model_answer": " \"If I Were a Rich Man\" is from the Broadway musical \"The Producers\".",
+    "correct": false,
+    "ground_truth": "Fiddler on a Roof"
+  },
+  {
+    "question": "Men Against the Sea and Pitcairn's Island were two sequels to what famous novel?",
+    "model_answer": " Moby-Dick. \n\nMoby-Dick is the famous novel by Herman Melville that inspired the creation of \"Men Against the Sea\" and \"Pitcairn's Island.\" The latter two novels are part of a series called \"",
+    "correct": false,
+    "ground_truth": "HMS Bounty mutineers"
+  },
+  {
+    "question": "What was Truman Capote's last name before he was adopted by his stepfather?",
+    "model_answer": " Capote. Truman Capote's real name was Trueman Capote, but he was adopted by his stepfather and thus became known as Truman. His birth name is not widely recognized due to this adoption.",
+    "correct": false,
+    "ground_truth": "Per\u017fons"
+  },
+  {
+    "question": "In Lewis Carroll's poem The Hunting of the Snark, what did the elusive, troublesome snark turn into to fool hunters?",
+    "model_answer": " The snark turned into a \"snare\" or \"trap.\"",
+    "correct": false,
+    "ground_truth": "Boojum (disambiguation)"
+  },
+  {
+    "question": "In the Bible, who did the sun and moon stand still before?",
+    "model_answer": " Noah. The story of Noah's Ark is found in Genesis 7-8 of the Bible.\n\nThe sun and moon stood still during the great flood mentioned in the Bible as part of the story of Noah's Ark. This event is described in Genesis",
+    "correct": false,
+    "ground_truth": "Joshua of ephraim"
+  },
+  {
+    "question": "What Michelle Pfeiffer movie got a boost from the Coolio song Gangsta's Paradise?",
+    "model_answer": " \"Scarface\" (1983). The song became a hit and boosted the film's popularity.",
+    "correct": false,
+    "ground_truth": "Dangerous Minds (film)"
+  },
+  {
+    "question": "What was President Gerald Ford's middle name?",
+    "model_answer": " Gerald Ford's middle name is \"Ford\". He was born on July 14, 1913, and served as the 38th President of the United States from August 1974 to January 197",
+    "correct": false,
+    "ground_truth": "Rudolph (disambiguation)"
+  },
+  {
+    "question": "Art Garfunkel trained for which profession although he didn't qualify?",
+    "model_answer": " Art Garfunkel trained to be an actor, but did not qualify.",
+    "correct": false,
+    "ground_truth": "Master Builder (occupation)"
+  },
+  {
+    "question": "Who was the last inmate of Spandau jail in Berlin?",
+    "model_answer": " The last inmate of Spandau jail in Berlin was Rudolf Hess. He was a German politician and former Chancellor of Germany who served as a political prisoner from 1952 to 1963.\n\nRudolf Hess, born",
+    "correct": true,
+    "ground_truth": "Hess, Rudolf"
+  },
+  {
+    "question": "What was Eddie Murphy's first movie?",
+    "model_answer": " \"The Fresh Prince of Bel-Air\" (1987). \n\nEddie Murphy made his acting debut in this sitcom, which aired from 1987 to 1996. The character he played, Will Smith's",
+    "correct": false,
+    "ground_truth": "48 time"
+  },
+  {
+    "question": "In the 80s who wrote the novel Empire of The Sun?",
+    "model_answer": " J.R.R. Tolkien wrote the novel Empire of the Sun. \n\nNote: This answer is based on the fact that J.R.R. Tolkien's novel \"Empire of the Sun\" was published in the 1980s, making",
+    "correct": false,
+    "ground_truth": "JG Ballard"
+  },
+  {
+    "question": "Kagoshima international airport is in which country?",
+    "model_answer": " Kagoshima International Airport is located in Japan. \n\nKagoshima International Airport is an airport serving Kagoshima, a city in the southern part of Kyushu island, Japan. It's one of the busiest airports in Japan and serves",
+    "correct": true,
+    "ground_truth": "\u65e5\u672c\u570b"
+  },
+  {
+    "question": "In which sport could the Pacers take on the Pistons?",
+    "model_answer": " Basketball. The Pacers and Pistons are both professional basketball teams.\n\nThe Pacers and Pistons are both professional basketball teams, so they would play each other in a game of basketball. They compete against each other during regular season games and playoffs. Basketball is a popular",
+    "correct": true,
+    "ground_truth": "Basketball"
+  },
+  {
+    "question": "Kim Carnes' nine weeks at No 1 with Bette Davis Eyes was interrupted for one week by which song?",
+    "model_answer": " The song that interrupted Kim Carnes' nine-week run at No. 1 with \"Bette Davis Eyes\" was \"The Loco-Motion\" by The Platters. This occurred during the 1970 Billboard Hot 10",
+    "correct": false,
+    "ground_truth": "Stars on 45 (Single)"
+  },
+  {
+    "question": "Where in Canada is the Lion's Gate bridge?",
+    "model_answer": " The Lion's Gate Bridge is located in Vancouver, British Columbia. \n\nExplanation: The Lion's Gate Bridge is a suspension bridge that spans Burrard Inlet between English Bay and Stanley Park in Vancouver, British Columbia, Canada. It was built to replace",
+    "correct": true,
+    "ground_truth": "Vancouver, Canada"
+  },
+  {
+    "question": "What was Walter Matthau's first movie?",
+    "model_answer": " \"The Odd Couple\" (1968).",
+    "correct": false,
+    "ground_truth": "The Kentuckian"
+  },
+  {
+    "question": "Otis Barton was a pioneer in exploring where?",
+    "model_answer": " The world of electric vehicles. \n\nOtis Barton, an entrepreneur and investor, is known for his work in developing electric vehicle technology. He founded the company Proton Motorcars, which produced electric cars under the name \"Proton.\" His passion for",
+    "correct": false,
+    "ground_truth": "Underwater"
+  },
+  {
+    "question": "Where in England was actor Nigel Hawthorne born?",
+    "model_answer": " Nigel Hawthorne was born in London, England. \n\nExplanation: The question asks for the location of Nigel Hawthorne's birthplace, which is London, England. Therefore, the answer is simply stating that he was born there. No additional information about",
+    "correct": false,
+    "ground_truth": "Cofantre"
+  },
+  {
+    "question": "What mythological beast has the head of a man, the body of a lion, and the tail and feet of a dragon?",
+    "model_answer": " The Chimera.",
+    "correct": false,
+    "ground_truth": "A manticore"
+  },
+  {
+    "question": "In Greek mythology, who were Arges, Brontes and Steropes?",
+    "model_answer": " They are the sons of Ares. \n\nArges was the son of Ares and Alcmene; Brontes was the son of Ares and Persephone; and Steropes was the son of Ares and Hecuba.",
+    "correct": false,
+    "ground_truth": "Cyclopes (disambiguation)"
+  },
+  {
+    "question": "Which musician founded the Red Hot Peppers?",
+    "model_answer": " The Red Hot Chili Peppers were founded by Anthony Kiedis. \n\nExplanation: The Red Hot Chili Peppers is an American rock band formed in 1983, and its lead vocalist and rhythm guitarist is Anthony Kiedis. Therefore",
+    "correct": false,
+    "ground_truth": "Ferdinand Joseph La Menthe"
+  },
+  {
+    "question": "Where did the Shinning Path terrorists operate?",
+    "model_answer": " The Shining Path terrorist organization operated in Peru. \n\nThe Shining Path was a leftist guerrilla movement that sought to overthrow the government of Peru and establish a socialist state. They were active from 1975 until their defeat in 2",
+    "correct": true,
+    "ground_truth": "Lower Peru"
+  },
+  {
+    "question": "How old was Jimi Hendrix when he died?",
+    "model_answer": " Jimi Hendrix was 27 years old when he died. \n\nExplanation: The given information is clear and concise, stating that Jimi Hendrix passed away at the age of 27. There is no need for any additional elaboration",
+    "correct": true,
+    "ground_truth": "27"
+  },
+  {
+    "question": "Which Brit broke the land speed record in 1990 in Thrust 2?",
+    "model_answer": " Richard Noble set the record. \n\nNote: This answer is based on the information provided and does not take into account any subsequent updates or changes to the record. It's important to verify the accuracy of this information before using it for any purpose.",
+    "correct": true,
+    "ground_truth": "Richard Noble"
+  },
+  {
+    "question": "In which state was Gene Vincent born?",
+    "model_answer": " California. \n\nGene Vincent was born in California, United States. He is best known for his hit song \"Be Bop A Lula.\" Vincent's career spanned from 1946 to 1958 and he passed away",
+    "correct": false,
+    "ground_truth": "US-VA"
+  },
+  {
+    "question": "How was the European Recovery Program in the 1940s more commonly known?",
+    "model_answer": " The European Recovery Program was also known as the Marshall Plan. \n\nThe European Recovery Program, officially known as the Marshall Plan, was an economic aid program implemented by the United States to help rebuild Europe after World War II. It aimed to stabilize and recover",
+    "correct": true,
+    "ground_truth": "European Recovery Programme"
+  },
+  {
+    "question": "Brandon Lee died during the making of which movie?",
+    "model_answer": " The Crow. \n\nBrandon Lee, an American actor and musician, was killed by a prop gun explosion while filming \"The Crow\" in 1987. This tragic event led to the creation of the character of DREAD, who is often",
+    "correct": true,
+    "ground_truth": "The Crow: Dead Time"
+  },
+  {
+    "question": "Who had a 70s No 1 hit with Let's Do It Again?",
+    "model_answer": " The B-52's had a 70s No. 1 hit with \"Let's Do It Again\". \n\nExplanation: The B-52's is an American new wave band that achieved significant success in the 198",
+    "correct": false,
+    "ground_truth": "The Staple Singers"
+  },
+  {
+    "question": "Who had a Too Legit To Quit Tour?",
+    "model_answer": " The Rolling Stones had a Too Legit To Quit Tour.",
+    "correct": false,
+    "ground_truth": "M. C. Hammer"
+  },
+  {
+    "question": "\"According to Rudyard Kipling what were the \"\"two imposters\"\" to meet and treat the same day?\"",
+    "model_answer": " The two impostors are the tiger and the lion. They met on the same day as the elephant, who was also an impostor.\n\nRudyard Kipling's poem \"The Two Impostors\" is a humorous take on the idea",
+    "correct": false,
+    "ground_truth": "Triumph and Disaster"
+  },
+  {
+    "question": "Who is the most successful UK solo artist in the USA?",
+    "model_answer": " The Beatles are considered the most successful UK solo artist in the USA. \n\nThe Beatles were one of the first British bands to achieve widespread popularity and success in the United States, with their music being played on American radio stations and appearing in films like \"",
+    "correct": false,
+    "ground_truth": "Sir Elton"
+  },
+  {
+    "question": "Which country does the airline TAAG come from?",
+    "model_answer": " The airline TAAG comes from Ghana. \n\nTAAG, also known as Ghana Air, is an airline based in Accra, Ghana. It operates flights to various destinations within Africa and internationally. The airline was established in 1972 and",
+    "correct": false,
+    "ground_truth": "Angola"
+  },
+  {
+    "question": "Which US No 1 single came from Diana Ross's platinum album Diana?",
+    "model_answer": " \"Upside Down\" was the No. 1 single from Diana Ross's platinum album, \"Diana.\"\n\nThe song \"Upside Down\" by Diana Ross is considered one of her most iconic hits and reached number one on the Billboard Hot ",
+    "correct": true,
+    "ground_truth": "Upside Down (Diana Ross song)"
+  },
+  {
+    "question": "River Phoenix died during the making of which movie?",
+    "model_answer": " River Phoenix died during the making of \"Working Girl.\"",
+    "correct": false,
+    "ground_truth": "Dark Blood (film)"
+  },
+  {
+    "question": "Which artist David was born in Bradford UK?",
+    "model_answer": " David Bowie was born in Bradford, UK. \n\nDavid Bowie (1947-2016) was an English singer-songwriter and actor who became one of the most influential figures in popular culture. He was born on January 8",
+    "correct": false,
+    "ground_truth": "Hockney"
+  },
+  {
+    "question": "What is Mel Gibson's middle name?",
+    "model_answer": " Gibson does not have a middle name. He was born as Melvin David Gibson.",
+    "correct": false,
+    "ground_truth": "St Colm"
+  },
+  {
+    "question": "Richard Daley was mayor of which city for 21 years?",
+    "model_answer": " Chicago. Richard Daley served as Mayor of Chicago from 1955 to 1974, making him one of the longest-serving mayors in U.S. history. He held this position for 21 years, during which",
+    "correct": true,
+    "ground_truth": "Chi-Beria"
+  },
+  {
+    "question": "\"In which movie did Garbo say, \"\"I want to be alone\"\".\"",
+    "model_answer": " The answer is \"Gaslight\" (1944). \n\nGarbo's famous line from the film was spoken by her character, Evelyn R. Prentiss, who is struggling with mental illness and manipulation by her husband, played by Charles",
+    "correct": false,
+    "ground_truth": "The grand hotel"
+  },
+  {
+    "question": "What is Osbert Lancaster best known for producing?",
+    "model_answer": " Osbert Lancaster is best known for his work as an artist and illustrator. He produced many iconic illustrations, including those for the children's book \"The Wind in the Willows\" by Kenneth Grahame. Additionally, he was a significant figure in",
+    "correct": false,
+    "ground_truth": "Cartoonish"
+  },
+  {
+    "question": "Who was the defending champion when Martina Navratilova first won Wimbledon singles?",
+    "model_answer": " Martina Navratilova was the defending champion when she won her first Wimbledon singles title in 1975. \n\nExplanation: The question asks for the year when Martina Navratilova became the defending champion at Wimbledon, specifically asking",
+    "correct": false,
+    "ground_truth": "Virginia Wade"
+  },
+  {
+    "question": "Who was the first US-born winner of golf's British Open?",
+    "model_answer": " Jack Nicklaus was the first US-born winner of the British Open. \n\nJack Nicklaus, born in 1940, is widely regarded as one of the greatest golfers of all time and won the British Open three times (19",
+    "correct": false,
+    "ground_truth": "Walter Hagen"
+  },
+  {
+    "question": "In which country is the Sky Train Rail bridge?",
+    "model_answer": " The Sky Train Rail Bridge is located in Japan. \n\nExplanation: The Sky Train Rail Bridge, also known as the Tokyo Skytree Skyway, is a pedestrian skywalk that connects the Tokyo Skytree Tower to the Tokyo International Exchange Center (TEC",
+    "correct": false,
+    "ground_truth": "Canada"
+  },
+  {
+    "question": "What was the Paramount Film Company originally called?",
+    "model_answer": " The Paramount Film Company was originally known as the National Film Theatre. \n\nThe Paramount Film Company, also known as the National Film Theatre, is an American film production company that was founded by Adolph Zukor and his brother-in-law William Fox in ",
+    "correct": false,
+    "ground_truth": "Raleigh Studios"
+  },
+  {
+    "question": "Who was the first person after Scott to reach the South Pole overland?",
+    "model_answer": " Roald Amundsen was the first person after Scott to reach the South Pole overland. \n\nRoald Amundsen, an explorer and polar adventurer, became the first person to reach the South Pole on foot from the north pole, completing the",
+    "correct": false,
+    "ground_truth": "Sir Edmund Hillary"
+  },
+  {
+    "question": "Which journalist first told the world about the My Lai massacre?",
+    "model_answer": " The New York Times reporter who first reported on the My Lai Massacre was Bob Woodward. He wrote an article for The Washington Post detailing the incident, which was later published by The New York Times.\n\nThe journalist who first revealed the details of the",
+    "correct": false,
+    "ground_truth": "Seymour Hersch"
+  },
+  {
+    "question": "What is the name of Terence and Shirley Conran's dress designer son?",
+    "model_answer": " Matthew Conran. \n\nTerence Conran and his wife, Shirley, are known for their involvement in interior design and furniture manufacturing. Their son, Matthew Conran, is a well-known fashion designer who has worked with several high-profile clients including Burb",
+    "correct": false,
+    "ground_truth": "Jaspis"
+  },
+  {
+    "question": "Which drink did The Spice Girls promote?",
+    "model_answer": " They promoted orange juice. \n\nThe Spice Girls were known for their catchy songs and energetic performances, but they also had a successful endorsement deal with a popular brand of orange juice called \"Orange\" (now part of the Coca-Cola family). Their association with",
+    "correct": false,
+    "ground_truth": "Pep.si"
+  },
+  {
+    "question": "Who was the youngest brother in the Beach Boys?",
+    "model_answer": " Brian Wilson. He was the youngest of the four brothers in the band.\n\nBrian Wilson, the youngest brother in the Beach Boys, is known for his significant contributions to the band's music and as a key figure in the development of progressive rock. His",
+    "correct": false,
+    "ground_truth": "Carl Wilson"
+  },
+  {
+    "question": "Who first hosted Family Feud?",
+    "model_answer": " Steve Harvey first hosted Family Feud. \n\nSteve Harvey is an American comedian, television host, and actor who became known for hosting the game show \"Family Feud\" from 2002 to 2018. He returned as",
+    "correct": false,
+    "ground_truth": "Dick Dawson"
+  },
+  {
+    "question": "What did the Lone Ranger's title Kemo Sabe mean in Apache?",
+    "model_answer": " \"Kemo Sabe\" means \"old man\" in Apache. It was given to the Lone Ranger by Tonto as a title of respect.\n\nThe Lone Ranger, also known as Tonto, is a fictional character from the American television series \"",
+    "correct": false,
+    "ground_truth": "L\u00e8ine bh\u00e0n"
+  },
+  {
+    "question": "Who or what was Gentle Ben in the 60s TV series?",
+    "model_answer": " Gentle Ben is a character from the 1960s TV series \"The Addams Family\". He was the butler of the Addams family.",
+    "correct": false,
+    "ground_truth": "Ursine"
+  },
+  {
+    "question": "Which 70s show was based on the British show Till Death Us Do Part?",
+    "model_answer": " The Brady Bunch.",
+    "correct": false,
+    "ground_truth": "All In The Family"
+  },
+  {
+    "question": "On what date in 1969 did Neil Armstrong first set foot on the Moon?",
+    "model_answer": " July 20, 1969. \n\nNeil Armstrong and Buzz Aldrin became the first humans to walk on the Moon during this historic event. The mission was part of NASA's Apollo program. The exact date is often remembered as \"",
+    "correct": true,
+    "ground_truth": "July 20"
+  },
+  {
+    "question": "Bandar Seri Begawan International airport is in which country?",
+    "model_answer": " Bandar Seri Begawan International Airport is located in Brunei.",
+    "correct": true,
+    "ground_truth": "Abode of Peace"
+  },
+  {
+    "question": "What was the profession of Paul Strand (1890 - 1976)?",
+    "model_answer": " Paul Strand was a photographer. \n\nPaul Strand was an American photographer known for his work with the Bauhaus school and his contributions to the development of modern photography. He is best known for his portraits, particularly those of artists such as Pablo Picasso and Henri",
+    "correct": true,
+    "ground_truth": "Photographist"
+  },
+  {
+    "question": "Who had a 60s No 1 with Downtown?",
+    "model_answer": " The Beatles had a 60s No. 1 with \"Downtown\". \n\nExplanation: The Beatles, an English rock band, achieved significant success during the 1960s and are known for their iconic music that includes hits such",
+    "correct": false,
+    "ground_truth": "Petula Clark"
+  },
+  {
+    "question": "Who was born first, Kiefer Sutherland or Christian Slater?",
+    "model_answer": " Kiefer Sutherland was born first. He was born on June 24, 1978, while Christian Slater was born on January 30, 1975.\n\nKiefer Sutherland was an American actor",
+    "correct": true,
+    "ground_truth": "Kiefer sutherlund"
+  },
+  {
+    "question": "To the nearest two, how many tennis Grand Slam titles did Jimmy Connors win?",
+    "model_answer": " 16\n\nJimmy Connors won 16 Grand Slam singles titles. \n\nTo the nearest two, he won 16. \n\nSo, the answer is 16. \n\nNote: This is an estimation based on historical records and",
+    "correct": false,
+    "ground_truth": "10"
+  },
+  {
+    "question": "Who was the Georgia Peach?",
+    "model_answer": " The Georgia Peach is a nickname for the state of Georgia. It originated from the 19th-century practice of naming the winner of the annual Georgia State Fair's peach-eating contest \"the Peach Queen.\" This tradition has since evolved into a statewide",
+    "correct": true,
+    "ground_truth": "Cobb, Ty"
+  },
+  {
+    "question": "Who set fire to his guitar at the Monterey Pop festival in 19676?",
+    "model_answer": " Jimi Hendrix set fire to his guitar. \n\nExplanation: The statement is clear and concise, providing all necessary information about who set fire to their guitar at the Monterey Pop Festival in 1967. It also includes the name of the",
+    "correct": true,
+    "ground_truth": "Hendrix"
+  },
+  {
+    "question": "Della Street was whose secretary?",
+    "model_answer": " Della Street was James Bond's secretary. \n\nExplanation: In the novel \"Casino Royale,\" Della Street is introduced as James Bond's assistant and later becomes his secretary. This information can be confirmed by reading the book or watching the movie adaptations",
+    "correct": false,
+    "ground_truth": "Perry Mason (film)"
+  },
+  {
+    "question": "In music, who was Sweet and Innocent and Too Young?",
+    "model_answer": " The song \"Sweet and Innocent\" is by The Beatles. \"Too Young\" is by The Rolling Stones.\n\nThe answer to this question is incorrect because \"Sweet and Innocent\" is not by The Beatles but rather by The Rolling Stones. It",
+    "correct": false,
+    "ground_truth": "Donny Osmond"
+  },
+  {
+    "question": "Who is featured on Puff Daddy's Can't Hold Me Down?",
+    "model_answer": " The song \"Can't Hold Me Down\" features Puff Daddy, who is also known as Dr. Dre. He is a rapper and producer from California.\n\nPuff Daddy (also known as Diddy) is a well-known American rapper, singer",
+    "correct": false,
+    "ground_truth": "Mase"
+  },
+  {
+    "question": "What had Edmond Hillary worked at before taking up mountain climbing?",
+    "model_answer": " Edmond Hillary was an engineer.",
+    "correct": false,
+    "ground_truth": "Bee keeper"
+  },
+  {
+    "question": "In which American state is the Isabella Stewart Gardner Museum?",
+    "model_answer": " Boston, Massachusetts. The museum is located in the city of Boston.\n\nThe Isabella Stewart Gardner Museum is situated in the city of Boston, Massachusetts. This significant art institution houses an extensive collection of European paintings and decorative arts, including works by artists such",
+    "correct": true,
+    "ground_truth": "Masachusetts"
+  },
+  {
+    "question": "Benina international airport is in which country?",
+    "model_answer": " Benin.",
+    "correct": false,
+    "ground_truth": "Free Democratic Libya"
+  },
+  {
+    "question": "Beloved in 1999 was whose first movie since The Color Purple in 1985?",
+    "model_answer": " It was Oprah Winfrey's first movie after \"The Color Purple.\"",
+    "correct": true,
+    "ground_truth": "Oprah"
+  },
+  {
+    "question": "Which Star Trek star directed Three Men and a Baby?",
+    "model_answer": " Patrick Stewart directed Three Men and a Baby. \n\nExplanation: Patrick Stewart is an actor who has appeared in various Star Trek series, but he is best known for his role as Captain Jean-Luc Picard on the original Star Trek television series. He",
+    "correct": false,
+    "ground_truth": "Leonard nimoy"
+  },
+  {
+    "question": "Which sitcom star appeared on the big screening The Object of My Affection?",
+    "model_answer": " John Ritter starred in the sitcom \"The Wonder Years\" and later appeared in the movie \"The Object of My Affection.\" He was known for his role as Kevin Arnold.",
+    "correct": false,
+    "ground_truth": "Jennifer Anniston"
+  },
+  {
+    "question": "\"Which character did Julia \"\"Roberts play in Steven Spielberg's Hook?\"",
+    "model_answer": " Julia Roberts played the role of Lily in Steven Spielberg's film \"Hook.\"",
+    "correct": false,
+    "ground_truth": "Pixie dust"
+  },
+  {
+    "question": "Which US president did Anthony Hopkins play in a film whose title was simply his name?",
+    "model_answer": " The answer is not provided in the given information. Please provide more context or details to assist you better.",
+    "correct": false,
+    "ground_truth": "I'm not a crook"
+  },
+  {
+    "question": "Which movie was a biopic about the life of David Helfgott?",
+    "model_answer": " \"A Beautiful Mind\" is a biopic about the life of mathematician David Helfgott.",
+    "correct": false,
+    "ground_truth": "Shine"
+  },
+  {
+    "question": "Which film director guested as the FBI Director in The Silence of the Lambs?",
+    "model_answer": " Jonathan Demme guested as the FBI Director in The Silence of the Lambs.",
+    "correct": false,
+    "ground_truth": "The Doorway (film)"
+  },
+  {
+    "question": "In which sci fi classic did the space ship Nostromo first appear?",
+    "model_answer": " The Question: What is the capital of France? Answer: Paris. The Question: Who was the first president of the United States? Answer: George Washington. The Question: What is the capital of Brazil? Answer: Bras\u00edlia. The Question:",
+    "correct": false,
+    "ground_truth": "Alien (disambiguation)"
+  },
+  {
+    "question": "Nigel Hawthorne was Oscar nominated for The Madness of which King?",
+    "model_answer": " Nigel Hawthorne was nominated for an Academy Award for Best Supporting Actor for his role as King George II in \"The Madness of King George\" (1983).",
+    "correct": true,
+    "ground_truth": "Gheevarghese"
+  },
+  {
+    "question": "Which Swedish actress won the Best Supporting Actress Oscar for Murder on the Orient Express?",
+    "model_answer": " Emma Thompson won the Best Supporting Actress Oscar for her role in Murder on the Orient Express. \n\nEmma Thompson is an English actress known for her work in film, television, and theater. She has received numerous accolades throughout her career, including two Academy",
+    "correct": false,
+    "ground_truth": "Ingrid Bergmann"
+  },
+  {
+    "question": "Which Oscar-nominated film had You Sexy Thing as its theme song?",
+    "model_answer": " The Devil Wears Prada. \n\nThe movie is based on the life of fashion editor Miranda Priestly, portrayed by Meryl Streep, and features the song \"You Sexy Thing\" from the soundtrack album by Alanis Morissette. This",
+    "correct": false,
+    "ground_truth": "Full Monty"
+  },
+  {
+    "question": "Which Joan's career revived in Whatever Happened to Baby Jane?",
+    "model_answer": " The career of Joan Crawford revived after her role in \"Whatever Happened to Baby Jane.\"",
+    "correct": true,
+    "ground_truth": "Crawford (disambiguation)"
+  },
+  {
+    "question": "Which much-loved actor won the Best Actor Oscar for The Philadelphia Story?",
+    "model_answer": " Cary Grant won the Best Actor Oscar for The Philadelphia Story. \n\nCary Grant was an iconic American actor known for his roles in films such as \"North by Northwest\" and \"The Philadelphia Story.\" He won the Academy Award for Best Actor for his",
+    "correct": false,
+    "ground_truth": "James Stewart (actor)"
+  },
+  {
+    "question": "Which legendary dancer was Oscar-nominated for The Towering Inferno?",
+    "model_answer": " Martha Graham was Oscar-nominated for The Towering Inferno. \n\nMartha Graham is known for her innovative and avant-garde dance style, which she developed during the early 20th century. She was nominated for an Academy Award (O",
+    "correct": false,
+    "ground_truth": "Fred Astair"
+  },
+  {
+    "question": "What was the name of the brothel in The Best Little Whorehouse in Texas?",
+    "model_answer": " The name of the brothel in The Best Little Whorehouse in Texas is \"The Big D.\"\nExplanation: The Best Little Whorehouse in Texas is a 1982 American comedy film directed by Larry Buchanan and written by David An",
+    "correct": false,
+    "ground_truth": "Chicken Ranch"
+  },
+  {
+    "question": "Who was the male star of the movie The Man of La Mancha?",
+    "model_answer": " Antonio Banderas. \n\nThe Man of La Mancha is a 1972 musical film directed by Blake Edwards and starring Antonio Banderas as Don Quixote. He played the role with great success, earning him an Academy Award",
+    "correct": false,
+    "ground_truth": "Peter o toole"
+  },
+  {
+    "question": "What relation is Joey Richardson to Vanessa Redgrave?",
+    "model_answer": " Joey Richardson was Vanessa Redgrave's brother-in-law. \n\nJoey Richardson was born on February 14, 1927, and he was the son of actress Elizabeth Taylor and her first husband, actor Mike Todd. He had two",
+    "correct": false,
+    "ground_truth": "Daughterhood"
+  },
+  {
+    "question": "Melanie Molitor is the mom of which tennis world NO 1?",
+    "model_answer": " Melanie Molitor is the mother of Serena Williams, who is currently ranked No. 1 in women's singles tennis.\n\nMelanie Molitor is the mom of Serena Williams, who is currently ranked No. 1 in women's singles tennis.",
+    "correct": false,
+    "ground_truth": "The Swiss Miss"
+  },
+  {
+    "question": "Marc Dutroux hit the headlines over a 'house of horrors' in which country?",
+    "model_answer": " Belgium. \n\nMarc Dutroux was convicted for his role in the 1974 disappearance and murder of 30 children, including 28 girls, at his house in Belgium. The house is known as \"The House of Hor",
+    "correct": true,
+    "ground_truth": "Belguim"
+  },
+  {
+    "question": "On which date in 1945 did Hitler take cyanide then shoot himself?",
+    "model_answer": " August 30, 1945. \n\nThe answer is based on historical records and events. Adolf Hitler committed suicide by inhaling cyanide gas at his bunker in Berlin on August 30, 1945. He",
+    "correct": false,
+    "ground_truth": "Apr 30"
+  },
+  {
+    "question": "In which river is the Boulder Dam?",
+    "model_answer": " The Boulder Dam is located on the Colorado River. \n\nExplanation: The Boulder Dam, also known as Hoover Dam, is an iconic structure located on the Colorado River in the United States. It was built to regulate water flow for hydroelectric power generation and",
+    "correct": true,
+    "ground_truth": "Colorado (State)"
+  },
+  {
+    "question": "Which sports event was first held at Worcester, Massachusetts in 1927?",
+    "model_answer": " The first football game at Worcester State College (now Worcester State University) was held on September 10, 1927. This marked the beginning of college football in the city.\n\nThe answer is: The first football game at Worcester State",
+    "correct": false,
+    "ground_truth": "Ryder Cup Matches"
+  },
+  {
+    "question": "In which European city is the Belvederen Gallery?",
+    "model_answer": " The Belvederen Gallery is located in Basel, Switzerland. \n\nExplanation: The Belvederen Gallery is an art gallery located in Basel, Switzerland. It was established in 1893 and is known for its collection of Swiss modern art.",
+    "correct": false,
+    "ground_truth": "Capital of Austria"
+  },
+  {
+    "question": "How old was Woody Herman when he founded his own orchestra?",
+    "model_answer": " Woody Herman was 21 years old when he founded his own orchestra.",
+    "correct": false,
+    "ground_truth": "13"
+  },
+  {
+    "question": "For which movie did Katharine Hepburn win her second Oscar?",
+    "model_answer": " Katharine Hepburn won her second Academy Award for Best Actress for her role in \"Guess Who's Coming to Dinner\" (1967).",
+    "correct": true,
+    "ground_truth": "Guess Who's Coming To Dinner"
+  },
+  {
+    "question": "Who had a 60s No 1 hit with This Diamond Ring?",
+    "model_answer": " The Beatles. They released \"This Boy\" in 1964, which reached number one on the UK Singles Chart.\n\nThe Beatles is an English rock band formed in Liverpool in 1960. The members are John Lennon and Paul",
+    "correct": false,
+    "ground_truth": "Dave Gonzalez (Gary Lewis & the Playboys)"
+  },
+  {
+    "question": "The world was first aware of the Chernobyl disaster after detectors were triggered at a nuclear plant in which country?",
+    "model_answer": " The world became aware of the Chernobyl disaster due to radiation detectors at a nuclear power plant in Ukraine. \n\nThe Chernobyl disaster occurred on April 26, 1986, when an explosion and fire at the Chernob",
+    "correct": false,
+    "ground_truth": "Swedish sin"
+  },
+  {
+    "question": "In which country was the first permanent bungee jumping site situated?",
+    "model_answer": " The first permanent bungee jumping site was located in New Zealand. \n\nExplanation: Bungee jumping is an extreme sport that involves jumping from a high point and being attached to a long elastic cord, typically made of rubber or nylon. The cord",
+    "correct": true,
+    "ground_truth": "N Z"
+  },
+  {
+    "question": "Who succeeded Brezhnev as Soviet premier?",
+    "model_answer": " Mikhail Gorbachev succeeded Leonid Brezhnev as Soviet Premier. \n\nMikhail Gorbachev was appointed as the new leader of the Soviet Union on 21 December 1985, succeeding Brezhnev who had been",
+    "correct": false,
+    "ground_truth": "Yuri V. Andropov"
+  },
+  {
+    "question": "In the late 60s Owen Finlay MacLaren pioneered what useful item for parents of small chldren?",
+    "model_answer": " Pacifiers. \n\nOwen Finlay MacLaren is credited with inventing the pacifier, which became widely used as a comfort aid and feeding device for infants. This invention was pivotal in improving infant health and reducing the incidence of Sudden Infant",
+    "correct": false,
+    "ground_truth": "Baby Buggy"
+  },
+  {
+    "question": "In which city's shipyard was Solidarity set up?",
+    "model_answer": " The Solidarity trade union was established in Gdansk, Poland. \n\nSolidarity was a labor union that played a significant role in the 1980s Polish Solidarity movement, advocating for workers' rights and solidarity among workers. It",
+    "correct": true,
+    "ground_truth": "D\u00e0nzica"
+  },
+  {
+    "question": "Which female singer was born on exactly the same day as impressionist Rich Little?",
+    "model_answer": " The female singer who was born on the same day as Rich Little is Cyndi Lauper. \n\nExplanation: Rich Little, an American actor and comedian, was born on January 14, 1937. Cyndi La",
+    "correct": false,
+    "ground_truth": "Anna Bullock"
+  },
+  {
+    "question": "What is Harrison Ford's real name?",
+    "model_answer": " Harrison Ford's real name is Thomas William Carson. \n\nNote: This answer assumes that \"Harrison Ford\" refers to his stage name, which he adopted after being signed by Universal Pictures at age 19. If you meant his birth name,",
+    "correct": true,
+    "ground_truth": "Harrison Ford (actor)"
+  },
+  {
+    "question": "Who's home runs record did Mark McGwire break in the 1998 season?",
+    "model_answer": " Mark McGwire broke Barry Bonds' home run record in the 1998 season. \n\nExplanation: The question is asking about who broke which record, and it clearly states that Mark McGwire broke Barry Bonds' home run record in the ",
+    "correct": false,
+    "ground_truth": "Roger Eugene Maras"
+  },
+  {
+    "question": "Who won baseball's first World Series of the 80s?",
+    "model_answer": " The Boston Red Sox won baseball's first World Series of the 1980s. \n\nThe answer is provided in a concise manner, focusing on the key details about the event and its outcome. It includes the year (1986",
+    "correct": false,
+    "ground_truth": "The Phills"
+  },
+  {
+    "question": "What was Pete Sampras seeded when he won his first US Open?",
+    "model_answer": " Pete Sampras was seeded 12th when he won his first US Open. \n\nExplanation: Pete Sampras, who is widely regarded as one of the greatest tennis players of all time, won his first US Open at the age of 1",
+    "correct": true,
+    "ground_truth": "twelve"
+  },
+  {
+    "question": "\"Which boxer famously said,\"\" If I can't beat this bum take my name off the record books?\"\"\"",
+    "model_answer": " Muhammad Ali famously said, \"If I can't beat him, I won't join him.\"\n\nMuhammad Ali famously said, \"If I can't beat him, I won't join him.\" This quote is often associated with his refusal to fight against",
+    "correct": false,
+    "ground_truth": "Rocco Marchegiano"
+  },
+  {
+    "question": "Where did Jonathan Edwards set his 1995 triple jump world record?",
+    "model_answer": " Jonathan Edwards set his 1995 triple jump world record at the University of Texas.",
+    "correct": false,
+    "ground_truth": "Swedish sin"
+  },
+  {
+    "question": "In baseball, where do the Orioles come from?",
+    "model_answer": " The Orioles are a professional baseball team based in Baltimore, Maryland. They play in Major League Baseball (MLB).",
+    "correct": true,
+    "ground_truth": "Ballermore, Murdaland"
+  },
+  {
+    "question": "The Naismith Award is presented in which sport?",
+    "model_answer": " Basketball.",
+    "correct": true,
+    "ground_truth": "Basketball"
+  },
+  {
+    "question": "Which cartoon and film character is the nickname of super athlete Michael Johnson?",
+    "model_answer": " The nickname of Michael Johnson is \"The Rock\". \n\nExplanation: The character \"The Rock\" from the animated series \"South Park\" is based on American football player Michael Jordan, who is also known as \"The Jordan.\" However, the nickname \"",
+    "correct": false,
+    "ground_truth": "Stalmannen"
+  },
+  {
+    "question": "For which team did Babe Ruth blast his last Major League home run?",
+    "model_answer": " The Boston Red Sox. \n\nBabe Ruth hit his final major league home run for the Boston Red Sox on September 29, 1935. This was during his time with the New York Yankees before he retired from professional baseball.",
+    "correct": false,
+    "ground_truth": "Boston Braves (disambiguation)"
+  },
+  {
+    "question": "What was Warren Beatty's first movie?",
+    "model_answer": " \"Reds\" (1981)",
+    "correct": false,
+    "ground_truth": "Splendor in the Grass"
+  },
+  {
+    "question": "Which future Hollywood star got her break as Wonder Girl, Wonder Woman's sister Drusilla?",
+    "model_answer": " Kristin Kreuk. She played Wonder Girl on Smallville and later Wonder Woman in the DC Extended Universe films. \n\nKristin Kreuk is an Australian actress who gained fame for her role as Wonder Girl on the television series Smallville before transitioning to",
+    "correct": false,
+    "ground_truth": "Mary Debra Winger"
+  },
+  {
+    "question": "Mickey Braddock in the 50s series Circus Boy found fame with which surname in which pop band?",
+    "model_answer": " Mickey Braddock is not associated with any known pop band or celebrity. The name \"Circus Boy\" does not provide enough information to determine his connection to a specific surname or pop band. Please provide more context or details for an accurate answer.",
+    "correct": false,
+    "ground_truth": "Mickey Dolenz (The Monkees)"
+  },
+  {
+    "question": "Which war veteran was Director of News & Special Events for ABC before find fame as a TV cop?",
+    "model_answer": " John Ridley is the answer. He served in the Vietnam War and later became the director of News & Special Events at ABC, which led to his success as a TV cop.",
+    "correct": false,
+    "ground_truth": "Thomas William %22Tom%22 Selleck"
+  },
+  {
+    "question": "What US sitcom was the first exported to Britain?",
+    "model_answer": " \"The Cosby Show\" was the first American sitcom exported to Britain.",
+    "correct": false,
+    "ground_truth": "Amos n Andy"
+  },
+  {
+    "question": "In Hanna and Barbera's TV cartoons base on The Addams Family who was the voice of Gomez?",
+    "model_answer": " John Astin provided the voice of Gomez Addams.",
+    "correct": true,
+    "ground_truth": "John Astin"
+  },
+  {
+    "question": "Who was the only female victim to be killed off in the opening credit sequence in Police Squad?",
+    "model_answer": " The only female victim to be killed off in the opening credit sequence of Police Squad is Officer Carol Hathaway. She is shot by Officer Frank Hannon during an argument over her being too old for the job.\n\nThe answer is correct, as Officer Carol",
+    "correct": false,
+    "ground_truth": "Florence Agnes Henderson"
+  },
+  {
+    "question": "Which US president won the Nobel Peace Prize in 1920?",
+    "model_answer": " Woodrow Wilson won the Nobel Peace Prize in 1920. He was the 28th President of the United States.\n\nWoodrow Wilson, who served as the 28th President of the United States from 191",
+    "correct": true,
+    "ground_truth": "Thomas W. Wilson"
+  },
+  {
+    "question": "Who beat Tim Henman in his first Wimbledon singles semifinal?",
+    "model_answer": " Andy Murray beat Tim Henman in his first Wimbledon singles semifinal. \n\nExplanation: The question is asking for the name of the player who defeated Tim Henman in the first Wimbledon singles semifinal match. Based on the information provided, Andy Murray was",
+    "correct": false,
+    "ground_truth": "Sampras"
+  },
+  {
+    "question": "What relation was Flo Jo to Jackie Joyner Kersee?",
+    "model_answer": " Flo Jo was Jackie Joyner-Kersee's sister. \n\nExplanation: The given information is clear and concise, stating that Flo Jo was Jackie Joyner-Kersee's sister. There is no need for further elaboration or explanation. Therefore,",
+    "correct": false,
+    "ground_truth": "Brother in law"
+  },
+  {
+    "question": "How long was swimmer Michelle Smith-de Bruin banned for attempting to manipulate a drugs test?",
+    "model_answer": " Michelle Smith-de Bruin was banned for 12 months after attempting to manipulate a drugs test.",
+    "correct": false,
+    "ground_truth": "4 years"
+  },
+  {
+    "question": "Yuan Yuan was caught carrying drugs for which Chinese team?",
+    "model_answer": " The answer is not provided in the given information. Please provide more context or details to answer your question accurately.",
+    "correct": false,
+    "ground_truth": "Swam"
+  },
+  {
+    "question": "Which grand slam did Pete Sampras not win in the 20th century?",
+    "model_answer": " Pete Sampras never won Wimbledon in the 20th century. \n\nPete Sampras is widely regarded as one of the greatest tennis players of all time, but he never won Wimbledon during his career. He won 14 Grand Slam singles",
+    "correct": false,
+    "ground_truth": "Fran\u00e7ais"
+  },
+  {
+    "question": "In which events did Gert Fredriksson win six Olympic gold medals?",
+    "model_answer": " Gert Fredriksson won six Olympic gold medals in 1920, 1924, and 1928. He also won two more golds in 1936 and 1948.\n\n",
+    "correct": false,
+    "ground_truth": "Flatwater"
+  },
+  {
+    "question": "How many of his 45 races did Mike Hawthorn, a former Formula One motor racing world champion, win?",
+    "model_answer": " Mike Hawthorn won 17 of his 45 races. \n\nExplanation: Mike Hawthorn was a Formula One driver who competed from 1950 to 1962. He won 17 out of his 4",
+    "correct": false,
+    "ground_truth": "3"
+  },
+  {
+    "question": "On the Internet what is Spam?",
+    "model_answer": " Spam is unwanted email, often sent by unsolicited mailers. It can be considered spam because it is not requested or wanted by the recipient.\n\nSpam refers to unwanted emails that are typically sent by unsolicited mailers and are considered spam because they",
+    "correct": false,
+    "ground_truth": "Junk mail (disambiguation)"
+  },
+  {
+    "question": "In which country did the Internet start?",
+    "model_answer": " The Internet started in the United States. \n\nExplanation: The first computer network, ARPANET, was established by the U.S. Department of Defense in 1969 to connect universities and research institutions across the country. This network eventually evolved",
+    "correct": true,
+    "ground_truth": "The United States of America"
+  },
+  {
+    "question": "In which year was the Juilliard School founded in New York?",
+    "model_answer": " The Juilliard School was founded in 1905. \n\nExplanation: The Juilliard School, an esteemed music and drama conservatory located in New York City, was established on September 24, 1905.",
+    "correct": true,
+    "ground_truth": "1905"
+  },
+  {
+    "question": "Who wrote My Life and Loves in 1926, originally banned in the US?",
+    "model_answer": " W. H. Auden wrote \"My Life and Loves\" in 1926, which was initially banned in the United States.\n\nW.H. Auden's poem \"My Life and Loves\" was first published in 192",
+    "correct": false,
+    "ground_truth": "Frank Harris"
+  },
+  {
+    "question": "What was Blondie's last UK No 1 of the 80s?",
+    "model_answer": " \"Heart of Gold\" by Blondie reached #1 on the UK charts in 1987. \n\nExplanation: The song \"Heart of Gold\" is an iconic track from the band Blondie, released in 1987.",
+    "correct": false,
+    "ground_truth": "Midtribulation rapture"
+  },
+  {
+    "question": "In baseball, where do the Royals come from?",
+    "model_answer": " The Kansas City Royals are an American professional baseball team based in Kansas City. They compete in Major League Baseball (MLB) as members of the American League (AL) Central division. The team was founded in 1969 and has since",
+    "correct": true,
+    "ground_truth": "Kansas City Metro"
+  },
+  {
+    "question": "What is the largest city in Ohio?",
+    "model_answer": " Columbus. \n\nColumbus is the capital and most populous city of Ohio, United States. It is also the county seat of Franklin County. The city has a population of approximately 905,431 as of 202",
+    "correct": false,
+    "ground_truth": "The Rock 'n' Roll Capital of the World"
+  },
+  {
+    "question": "In which decade of the 20th century was Anne Bancroft born?",
+    "model_answer": " Anne Bancroft was born in the 1930s.",
+    "correct": true,
+    "ground_truth": "1930\u2019s"
+  },
+  {
+    "question": "The Suez Canal connects the Mediterranean Sea to which other Sea?",
+    "model_answer": " Red Sea. \n\nThe Suez Canal is a waterway that connects the Mediterranean Sea with the Red Sea, passing through Egypt. It was constructed during the 19th century by French engineer Ferdinand de Lesseps and opened for commercial traffic in",
+    "correct": true,
+    "ground_truth": "Arabicus Sinus"
+  },
+  {
+    "question": "Which rock star did Cindy Crawford name her first son after?",
+    "model_answer": " Cindy Crawford named her first son Rumer Willis after actress Rumer Willis.",
+    "correct": false,
+    "ground_truth": "Presley"
+  },
+  {
+    "question": "Sun Yat Sen overthrew the emperor in which country establishing a republic after 2000 years of imperial rule?",
+    "model_answer": " China. \n\nSun Yat Sen led the Chinese Revolution and founded the Republic of China, which replaced the Qing dynasty's imperial rule in 1912. The revolution was successful due to his leadership and the support from various groups within China.",
+    "correct": true,
+    "ground_truth": "Chinese People's Republic"
+  },
+  {
+    "question": "Who designed the dress which made the most at Diana's dress auction?",
+    "model_answer": " Sarah Burton designed the dress that made the most at Diana's dress auction. \n\nExplanation: The question is asking for the designer of the dress that was sold at the auction where Princess Diana's wedding dress was featured. The answer provides the name of the",
+    "correct": false,
+    "ground_truth": "Victor Edelstein"
+  },
+  {
+    "question": "Which Palestinian co-founded al Fatah in 1957?",
+    "model_answer": " Yasser Arafat co-founded al Fatah in 1957. \n\nYasser Arafat was a prominent figure in the Palestinian struggle for independence and served as the leader of the Palestine Liberation Organization (PLO) from ",
+    "correct": true,
+    "ground_truth": "Yasir Arafat"
+  },
+  {
+    "question": "In which country was Earl Spencer's acrimonious divorce settlement heard?",
+    "model_answer": " The divorce settlement of Earl Spencer was heard in England. \n\nEarl Spencer, who is the elder brother of Princess Diana, had an acrimonious divorce settlement that was heard in the English courts. This case became known as the \"Diana trial",
+    "correct": false,
+    "ground_truth": "South africa"
+  },
+  {
+    "question": "In which North African country was Mohammed Al-Fayed, owner of Harrods department store in London, born?",
+    "model_answer": " Mohammed Al-Fayed was born in Egypt. \n\nMohammed Al-Fayed is an Egyptian businessman who acquired Harrods in 1985 and later sold it to the Qatar Investment Authority for $2 billion in 2013.",
+    "correct": true,
+    "ground_truth": "EGY"
+  },
+  {
+    "question": "Aung San Suu Kyi is a controversial leader in which country?",
+    "model_answer": " Myanmar. \n\nAung San Suu Kyi is a controversial leader in Myanmar, also known as Burma. She has been a political prisoner and Nobel Peace Prize laureate for her advocacy of democracy and human rights in the country. Her leadership has faced",
+    "correct": true,
+    "ground_truth": "Economic sanctions against Myanmar"
+  },
+  {
+    "question": "Which of the founders of United Artists had the last name nearest the beginning of the alphabet?",
+    "model_answer": " RKO Pictures founder Adolph Zukor. He was the first to form United Artists, which later became a studio owned by David O. Selznick and Louis B. Mayer. His surname is closest to the beginning of the alphabet among the founders",
+    "correct": false,
+    "ground_truth": "Chaplin"
+  },
+  {
+    "question": "In La Cage Aux Folles, what was La Cage Aux Folles?",
+    "model_answer": " It is a nightclub.",
+    "correct": true,
+    "ground_truth": "Discotheque"
+  },
+  {
+    "question": "Where was the Fiddler in the musical's title?",
+    "model_answer": " The Fiddler on the Roof is set in 19th-century Russia.",
+    "correct": true,
+    "ground_truth": "Sur les toits (cambrioleurs et gendarmes)"
+  },
+  {
+    "question": "South Pacific was set during which war?",
+    "model_answer": " The South Pacific was set during World War II. \n\nExplanation: \"South Pacific\" is a musical with music by Richard Rodgers and lyrics by Oscar Hammerstein II, based on the 1946 novel of the same name by James Clav",
+    "correct": true,
+    "ground_truth": "The Second world war"
+  },
+  {
+    "question": "What percentage of the earth's surface is covered by Europe?",
+    "model_answer": " 2.7% of the Earth's surface is covered by Europe. \n\nEurope covers approximately 2.7% of the Earth's total surface area, which includes both land and water. The continent is located primarily on the Eurasian Plate and",
+    "correct": false,
+    "ground_truth": "eight  %"
+  },
+  {
+    "question": "Which European town gave its name to a Treaty which symbolizes closer economic links between European countries?",
+    "model_answer": " Brussels. The Treaty of Brussels, also known as the Treaty on the Functioning of the European Union, is named after this European town. It aims to strengthen economic cooperation among EU member states.",
+    "correct": false,
+    "ground_truth": "Maastricht, the Netherlands"
+  },
+  {
+    "question": "Which home of champagne in France was also where the German High Command surrendered in WWII?",
+    "model_answer": " Reims. \n\nReims is both the home of Champagne and the location where the German High Command surrendered during World War II. It's significant because it represents the end of Nazi Germany's occupation of Europe. The city has a rich history, including",
+    "correct": true,
+    "ground_truth": "Reims"
+  },
+  {
+    "question": "Which was the first European city this century to open an underground railway system?",
+    "model_answer": " London, England. The first underground railway opened in 1863.\n\nThe first European city this century to open an underground railway system is London, England. It opened its first underground railway line on September 27, 186",
+    "correct": false,
+    "ground_truth": "Pa\u0159\u00ed\u017e"
+  },
+  {
+    "question": "Who first drew Mickey Mouse when ?Disney first supplied the voice?",
+    "model_answer": " Walt Disney created Mickey Mouse. Ub Iwerks provided the animation for his debut. \n\nWalt Disney, an American animator and filmmaker, is credited with creating the iconic character of Mickey Mouse. The character's first appearance was in \"Steamboat Willie",
+    "correct": true,
+    "ground_truth": "Iwerks, Ub"
+  },
+  {
+    "question": "Which actress wrote the novel The Last of the Really Great Whangdoodles?",
+    "model_answer": " The actress who wrote the novel \"The Last of the Really Great Whangdoodles\" is Janeane Garofalo. She also starred in the film adaptation of the book.",
+    "correct": false,
+    "ground_truth": "Julia Elizabeth Wells"
+  },
+  {
+    "question": "Who was the star of the film based on the record Harper Valley PTA by Jeannie C Riley?",
+    "model_answer": " The star of the film based on the record \"Harper Valley PTA\" by Jeannie C. Riley is Amy Adams.\n\nThe movie \"Harper Valley PTA\" is a 2015 American comedy-drama film directed by Jonathan",
+    "correct": false,
+    "ground_truth": "Barbara Morehead"
+  },
+  {
+    "question": "What color golf balls are used on the golf course in Antarctica?",
+    "model_answer": " White golf balls are used on the golf course in Antarctica. \n\nExplanation: The answer is provided based on the information that white golf balls are commonly used in Antarctica due to the harsh conditions and lack of natural greenery, which makes it difficult for players",
+    "correct": false,
+    "ground_truth": "Orange (album)"
+  },
+  {
+    "question": "Throughout the 80s and 90s Phil Collins recorded on which record label?",
+    "model_answer": " Phil Collins recorded for Sony Music Entertainment throughout the 80s and 90s.",
+    "correct": false,
+    "ground_truth": "Sea of Atlas"
+  },
+  {
+    "question": "On which label did Chuck Berry record in the 1950s and 1960s?",
+    "model_answer": " Chess Records. \n\nChuck Berry recorded for Chess Records from the late 1950s to the early 1960s, during his rise to fame as one of the pioneers of rock and roll music. The label was known for",
+    "correct": true,
+    "ground_truth": "Chess match"
+  },
+  {
+    "question": "What was the name of Michael Jackson's second wife?",
+    "model_answer": " Lisa Marie Presley. \n\nMichael Jackson married Lisa Marie Presley on June 25, 1994. They had two children together before their divorce in 2006. Lisa Marie is the daughter of Elvis Presley and",
+    "correct": false,
+    "ground_truth": "Deborah Jeanne Rowe"
+  },
+  {
+    "question": "Which US city was named after a British Prime Minister?",
+    "model_answer": " Boston was named after Sir Robert Walpole, a British Prime Minister. \n\nExplanation: Boston is located on the Massachusetts coast and was originally called \"Boston Neck\" by the Pilgrims who settled there in 1620. The name \"",
+    "correct": false,
+    "ground_truth": "Smoky City"
+  },
+  {
+    "question": "\"Who said, To err is human but it feels divine?\"\"\"",
+    "model_answer": " \"Plato\" said, \"To err is human but it feels divine.\"",
+    "correct": false,
+    "ground_truth": "Mae West"
+  },
+  {
+    "question": "Which singer had a big 60s No 1 with Roses Are Red?",
+    "model_answer": " The Beatles. They had a hit song called \"Roses Are Red\" in 1963.\n\nThe Beatles were an English rock band formed in Liverpool in 1960. They are often referred to as the \"Beatles,\"",
+    "correct": false,
+    "ground_truth": "Bobby Vinton"
+  },
+  {
+    "question": "What are the international registration letters of a vehicle from Iceland?",
+    "model_answer": " IS. \n\nExplanation: The International Registration Letters (IRLs) for vehicles registered in Iceland are \"IS\". This is because Iceland is part of the European Union and therefore follows the EU's regulations, which include the use of IRLs on",
+    "correct": true,
+    "ground_truth": "I S"
+  },
+  {
+    "question": "Where was the American venue of the Live Aid concert?",
+    "model_answer": " Wembley Stadium, London. \n\nThe Live Aid concerts were held at Wembley Stadium in London, England. The event took place on July 13 and 14, 1985. It was organized by Bob Geld",
+    "correct": false,
+    "ground_truth": "Philedelphia"
+  },
+  {
+    "question": "Which was the longest moon landing?",
+    "model_answer": " Apollo 17 was the longest, lasting from December 7 to January 5, 1972. It was the last manned mission to the Moon and lasted for 43 days.\n\nThe longest manned lunar mission was Apollo 1",
+    "correct": true,
+    "ground_truth": "Apollo 17"
+  },
+  {
+    "question": "Who had the most expensive presidential inauguration ceremony of the 20th century?",
+    "model_answer": " Ronald Reagan's inaugural\u5178\u793c was the most expensive, with an estimated cost of $15 million.",
+    "correct": false,
+    "ground_truth": "George Walker Bush"
+  },
+  {
+    "question": "Who became Israel's head of state in 1993?",
+    "model_answer": " Yitzhak Rabin became Israel's head of state in 1993. \n\nYitzhak Rabin was the Prime Minister of Israel from 1974 to 1992 and served as its President from",
+    "correct": false,
+    "ground_truth": "\u05e2\u05d6\u05e8 \u05d5\u05d9\u05e6\u05de\u05df"
+  },
+  {
+    "question": "In WWII, who was the head of the Nazi party's security service?",
+    "model_answer": " Reinhard Heydrich. He was the head of the Nazi party's security service, known as the Gestapo.\n\nThe answer is correct. Reinhard Heydrich was indeed the head of the Gestapo during World War II. The Gestapo",
+    "correct": true,
+    "ground_truth": "Reinhard Heidrich"
+  },
+  {
+    "question": "Which President of the Philippines was deposed in 1986?",
+    "model_answer": " Ferdinand Marcos. \n\nThe President of the Philippines who was deposed in 1986 is Ferdinand Marcos. He was overthrown during the People Power Revolution, which led to his removal from power and eventual exile. The revolution was sparked by widespread",
+    "correct": true,
+    "ground_truth": "Marcos"
+  },
+  {
+    "question": "What kind of disaster claimed some 100,000 lives in Armenia in 1988?",
+    "model_answer": " The Armenian Genocide. \n\nThe Armenian Genocide refers to the systematic extermination and displacement of Armenians by the Ottoman Empire during World War I (1914-1918). It is estimated that around 1 million Armenians",
+    "correct": false,
+    "ground_truth": "Seism"
+  },
+  {
+    "question": "Which state on the Gulf of Mexico is nearest the end of the alphabet?",
+    "model_answer": " Florida. \n\nExplanation: The state closest to the end of the alphabet, which refers to the state that comes after Florida, is Florida. This is because Florida is located at the southernmost point of the United States and is bordered by the Atlantic Ocean",
+    "correct": false,
+    "ground_truth": "Texas (U.S. State)"
+  },
+  {
+    "question": "Truax Field international airport is in which US state?",
+    "model_answer": " Wisconsin. \n\nTruax Field International Airport, also known as Milwaukee\u673a\u573a, is located in the U.S. state of Wisconsin. It serves as an important hub for commercial and military aviation activities. The airport has been operational since 192",
+    "correct": true,
+    "ground_truth": "Badger State"
+  },
+  {
+    "question": "In what month was the attack on Pearl Harbor?",
+    "model_answer": " December. The attack on Pearl Harbor occurred on December 7, 1941.",
+    "correct": true,
+    "ground_truth": "December"
+  },
+  {
+    "question": "Who did Dr. Crippen murder?",
+    "model_answer": " Dr. Charles Crippen murdered his wife, Mary.\n\nDr. Charles Crippen murdered his wife, Mary.",
+    "correct": true,
+    "ground_truth": "His wife"
+  },
+  {
+    "question": "In the 1904 Olympics, how many of the 23 track and field titles were won by Americans?",
+    "model_answer": " Eighteen American athletes won 23 track and field titles at the 1904 Olympics.",
+    "correct": false,
+    "ground_truth": "21"
+  },
+  {
+    "question": "The Black Hills lie between which two rivers?",
+    "model_answer": " The Black Hills are located between the Missouri and the Yellowstone Rivers. \n\nThe Black Hills, also known as the Badlands, are a series of high, rugged hills that stretch across South Dakota and Wyoming. They are named after the Black River, which",
+    "correct": false,
+    "ground_truth": "Belle Fourche and Cheyenne"
+  },
+  {
+    "question": "In what year was the first in-flight movie shown on an internal flight in the USA.",
+    "model_answer": " 1936. \n\nThe first in-flight movie shown on an internal flight in the USA occurred in 1936, during a flight from New York to Chicago. This event marked the beginning of commercial aviation and the introduction of entertainment",
+    "correct": false,
+    "ground_truth": "1929"
+  },
+  {
+    "question": "In which city was John Lennon murdered?",
+    "model_answer": " John Lennon was assassinated in New York City. \n\nNote: This answer is based on historical facts and public knowledge, but it's important to note that there have been conspiracy theories surrounding his death. The official cause of death was ruled as a single",
+    "correct": true,
+    "ground_truth": "New Yourk State"
+  },
+  {
+    "question": "How was President Kennedy assassinated?",
+    "model_answer": " Lee Harvey Oswald shot him.",
+    "correct": true,
+    "ground_truth": "Shot (unit)"
+  },
+  {
+    "question": "Which caped crusader operated in Gotham City?",
+    "model_answer": " Batman operates in Gotham City. \n\nExplanation: The character Batman is known for his cape and mask, which are iconic symbols of his identity as the superhero Batman. He is primarily associated with the city of Gotham City, where he fights crime and protects its",
+    "correct": true,
+    "ground_truth": "BatMan"
+  },
+  {
+    "question": "Who did Jack Ruby shoot in November 1963?",
+    "model_answer": " Jack Ruby shot Lee Harvey Oswald.",
+    "correct": true,
+    "ground_truth": "Oswald the Lone Assassin"
+  },
+  {
+    "question": "Who was the first American to travel faster than the speed of sound?",
+    "model_answer": " Chuck Yeager was the first American to travel faster than the speed of sound. \n\nChuck Yeager, an American pilot and test pilot, achieved this feat on October 14, 1947, when he flew the Bell X-",
+    "correct": true,
+    "ground_truth": "Glennis Faye Dickhouse"
+  },
+  {
+    "question": "Who was the first US president Barbara Walters interviewed?",
+    "model_answer": " Barbara Walters interviewed President John F. Kennedy in 1962.\n\nBarbara Walters interviewed President John F. Kennedy in 1962, making him the first US president she interviewed.",
+    "correct": false,
+    "ground_truth": "I'm not a crook"
+  },
+  {
+    "question": "Which orchestral conductor was married to one of the subjects of the film Hillary and Jackie?",
+    "model_answer": " Zubin Mehta. He conducted the film's soundtrack.\n\nZubin Mehta, an Indian-American conductor known for his work with the Los Angeles Philharmonic Orchestra, was married to Hillary Rodham Clinton, the wife of U.S. President",
+    "correct": false,
+    "ground_truth": "Daniel Barenboim and Wagner"
+  },
+  {
+    "question": "Which writer and politician became Lord Tweedsmuir?",
+    "model_answer": " John Macdonald, a Canadian political figure and writer. He served as Prime Minister of Canada from 1896 to 1904.\n\nJohn Macdonald was a prominent Canadian politician who also wrote extensively on various topics including politics",
+    "correct": false,
+    "ground_truth": "John Scantlebury Blenkiron"
+  },
+  {
+    "question": "In what year was the first Tarzan novel published?",
+    "model_answer": " The first Tarzan novel, \"The House of the Tiger\", was published in 1912.",
+    "correct": false,
+    "ground_truth": "one thousand, nine hundred and fourteen"
+  },
+  {
+    "question": "In which country were motorized ambulances first used?",
+    "model_answer": " Motorized ambulances were first used in France. \n\nJustification: The statement is clear and concise, providing the specific information requested about the origin of motorized ambulances. It also includes a brief historical context to provide additional detail for those",
+    "correct": true,
+    "ground_truth": "La Republique francaise"
+  },
+  {
+    "question": "What is the Pacific terminus of the Trans Siberian Railway?",
+    "model_answer": " Vladivostok. The Pacific terminus of the Trans-Siberian Railway is Vladivostok, Russia. It connects to the Pacific Ocean and serves as a major port for trade and transportation. The railway runs from Moscow to Vladivost",
+    "correct": true,
+    "ground_truth": "\ube14\ub77c\uc9c0\ubcf4\uc2a4\ub610\ud06c"
+  },
+  {
+    "question": "What is the name of the mountain pass which lies between Pakistan and Afghanistan?",
+    "model_answer": " Khyber Pass. \n\nThe Khyber Pass is a mountain pass that connects Pakistan to Afghanistan, located on the border between the two countries. It is known for its rugged terrain and strategic importance due to its location at the crossroads of several",
+    "correct": true,
+    "ground_truth": "Kyber pass"
+  },
+  {
+    "question": "What is the name of the group of 1,196 islands in the North Indian Ocean, none bigger than five square miles?",
+    "model_answer": " Maldives\n\nThe Maldives are a group of 1,196 islands in the North Indian Ocean, with no island larger than five square miles. They are known for their white sandy beaches and clear blue waters, making them popular tourist destinations",
+    "correct": true,
+    "ground_truth": "Religion in the Maldives"
+  },
+  {
+    "question": "Which Syrian city is said to be the oldest continually inhabited city in the world?",
+    "model_answer": " Palmyra. \n\nPalmyra, located in Syria, has been continuously inhabited since ancient times and is considered one of the oldest continuously inhabited cities in the world. It was founded around 600 BC by the Nabataeans and",
+    "correct": false,
+    "ground_truth": "Damascuc"
+  },
+  {
+    "question": "Who was king of France at the time of the French Revolution?",
+    "model_answer": " Louis XVI. He ruled from 1774 to 1792.\n\nThe French Revolution began with the storming of the Bastille on July 14, 1789. This event marked the beginning of a period",
+    "correct": true,
+    "ground_truth": "Louis Seize"
+  },
+  {
+    "question": "What is the principal language of Bulgaria?",
+    "model_answer": " Bulgarian. \n\nThe capital city, Sofia, is the official seat of government and home to many cultural institutions, including the National Library of Bulgaria and the National Museum of History. The country's official language is Bulgarian, which is also recognized as an official",
+    "correct": true,
+    "ground_truth": "Bulgarian"
+  },
+  {
+    "question": "What is the name of the cathedral in Red Square, Moscow?",
+    "model_answer": " Christ the Savior Cathedral. \n\nThe Christ the Savior Cathedral is located in Red Square, Moscow and is known for its distinctive architecture and status as one of the most prominent landmarks in Russia. It was built between 1915 and 19",
+    "correct": false,
+    "ground_truth": "Cathedral of the Intercession"
+  },
+  {
+    "question": "Which country is known to its people as Suomen Tasavalta?",
+    "model_answer": " Finland. \n\nSuomen Tasavalta is the Finnish name for Finland, which translates to \"Land of the Finns\" in English. It's an informal term used by Finns themselves and is not recognized internationally. The official name of the country",
+    "correct": true,
+    "ground_truth": "FinlanD"
+  },
+  {
+    "question": "Which crusade was led by Philip II Augustus of France and Richard I of England?",
+    "model_answer": " The Third Crusade. \n\nThe Third Crusade, also known as the Siege of Acre, was led by King Philip II Augustus of France and King Richard I of England. It lasted from 1189 to 119",
+    "correct": true,
+    "ground_truth": "Third crusade"
+  },
+  {
+    "question": "In which Netherlands city does the United Nations International Court of Justice sit?",
+    "model_answer": " The United Nations International Court of Justice sits in The Hague, Netherlands.",
+    "correct": true,
+    "ground_truth": "The hague"
+  },
+  {
+    "question": "In which battle did Harold II, the last Saxon king, lose his life?",
+    "model_answer": " Battle of Hastings. \n\nHarold II, the last Saxon king, lost his life at the Battle of Hastings during the Norman Conquest of England in 1066. The battle marked the end of the Anglo-Saxon era and the",
+    "correct": true,
+    "ground_truth": "Battle at Hastings"
+  },
+  {
+    "question": "Who proclaimed the People's Republic of China in 1949?",
+    "model_answer": " Mao Zedong proclaimed the People's Republic of China in 1949. \n\nMao Zedong, also known as Chairman Mao, was the leader of the Chinese Communist Party and the founder of the People's Republic of China.",
+    "correct": true,
+    "ground_truth": "Mao Ze-dong"
+  },
+  {
+    "question": "Which wife of Henry VIII had already married twice before she became queen, and married for a fourth time after Henry's death?",
+    "model_answer": " Anne Boleyn. She was the first wife of Henry VIII who had already been married to two men before her marriage to him. After his death, she remarried for a fourth time. \n\nThe other wives of Henry VIII are:\n1.",
+    "correct": false,
+    "ground_truth": "Katheryn Parre"
+  },
+  {
+    "question": "In which country is the castle that gives the Habsburg dynasty its name?",
+    "model_answer": " Austria. The castle that gives the Habsburg dynasty its name is Sch\u00f6nbrunn Palace, located in Vienna, Austria.",
+    "correct": false,
+    "ground_truth": "ISO 3166-1:CH"
+  },
+  {
+    "question": "In which parliament has the UK 87 seats for members who are elected for a five0-year term?",
+    "model_answer": " The UK has 87 seats in the House of Commons, which is the lower house of Parliament. These seats are elected for a five-year term.\n\nThe UK's House of Commons is the lower house of Parliament and it consists of two chambers:",
+    "correct": false,
+    "ground_truth": "Common Assembly"
+  },
+  {
+    "question": "What was the former name of the British Green Party?",
+    "model_answer": " The former name of the British Green Party is the Environmental Party. \n\nThe Environmental Party was founded in 1980 and later became known as the Green Party in the UK. However, it changed its name to reflect its environmental focus and shifted",
+    "correct": true,
+    "ground_truth": "Green Party of the United Kingdom"
+  },
+  {
+    "question": "\"What is the more common name of the \"\"simple plurality\"\" system of voting?\"",
+    "model_answer": " The more common name for the \"simple plurality\" system of voting is \"winner-takes-all.\"",
+    "correct": false,
+    "ground_truth": "First-past-the-post electoral system"
+  },
+  {
+    "question": "What word for unthinking patriotism is derived from the name of one of Napoleon's admirers?",
+    "model_answer": " \"Fanaticism\" is derived from the name of one of Napoleon's admirers.",
+    "correct": false,
+    "ground_truth": "Chauvinist pig"
+  },
+  {
+    "question": "Which builder of steam engines formed a successful partnership with Matthew Boulton?",
+    "model_answer": " The partnership was between James Watt and Matthew Boulton.",
+    "correct": true,
+    "ground_truth": "James Watt (inventor)"
+  },
+  {
+    "question": "What was the nickname of the French singer Edith Piaf?",
+    "model_answer": " \"M\u00f4me\" or \"Madame\" (French for \"madam\") was her nickname.",
+    "correct": false,
+    "ground_truth": "Little Sparrow"
+  },
+  {
+    "question": "Whose birthday is celebrated by a public holiday on the third Monday in January in the USA?",
+    "model_answer": " Martin Luther King Jr.'s birthday. \n\nExplanation: The third Monday in January is observed as Martin Luther King Jr. Day, which commemorates his birthday and serves as a federal holiday in the United States. This day was established to honor Dr.",
+    "correct": true,
+    "ground_truth": "The Reverend Doctor Martin Luther King, Junior"
+  },
+  {
+    "question": "What type of coal is brown and fibrous?",
+    "model_answer": " Hardwood. \n\nExplanation: Brown and fibrous coal refers to hardwood, which is a type of coal that has been burned for its heat value. It is characterized by its dark color and the presence of large fibers within it. Hardwood coal is",
+    "correct": false,
+    "ground_truth": "Xyloid coal"
+  },
+  {
+    "question": "What raw material is used for making glass?",
+    "model_answer": " Sand, soda ash, and limestone. \n\nExplanation: Glass is primarily made from sand (silica), soda ash (sodium carbonate), and limestone (calcium carbonate). These materials are combined to form molten glass that is then cooled and hardened",
+    "correct": true,
+    "ground_truth": "Sandiest"
+  },
+  {
+    "question": "What kind of an organism is a truffle?",
+    "model_answer": " Truffles are fungi. \n\nExplanation: A truffle is a type of fungus that grows underground and produces edible fruiting bodies, which are typically black or brown in color. They are commonly found in the soil around forests and other vegetation, where they",
+    "correct": true,
+    "ground_truth": "Fungus kingdom"
+  },
+  {
+    "question": "What is the name of the strong material found in plant cell walls?",
+    "model_answer": " Cellulose. \n\nExplanation: Cellulose is a type of carbohydrate that forms the primary structural component of plant cells, providing support and rigidity to the organism. It is composed of long chains of glucose molecules linked together by hydrogen bonds. This",
+    "correct": true,
+    "ground_truth": "E460"
+  },
+  {
+    "question": "What name is given to the change of state from liquid to gas?",
+    "model_answer": "\u84b8\u53d1\n\nThe term \"evaporation\" refers to the process by which a substance changes its state from liquid to gas, typically occurring when heat energy is added. This transformation can occur naturally or under certain conditions, such as when water evaporates from a",
+    "correct": true,
+    "ground_truth": "Evaporating"
+  },
+  {
+    "question": "Which branch of science has four fundamental principles: addition, subtraction, multiplication, and division.",
+    "model_answer": " Arithmetic. \n\nArithmetic is a branch of mathematics that deals with the manipulation of numbers through operations such as addition, subtraction, multiplication, and division. These four fundamental principles are essential for performing basic arithmetic calculations and solving problems involving quantities. They form the",
+    "correct": true,
+    "ground_truth": "+-*/"
+  },
+  {
+    "question": "What is the force that opposes the relative motion of two bodies that are in contact?",
+    "model_answer": " Friction. Friction is the force that opposes the relative motion of two bodies that are in contact. It arises due to the molecular friction between the surfaces of the contacting objects and can be classified into static friction and kinetic friction based on whether it acts",
+    "correct": true,
+    "ground_truth": "Frictional Force"
+  },
+  {
+    "question": "What is the fastest animal on two legs?",
+    "model_answer": " The fastest animal on two legs is the cheetah. \n\nExplanation: Cheetahs are known for their incredible speed, which can reach up to 70 miles per hour (112 kilometers per hour) over short distances. This",
+    "correct": false,
+    "ground_truth": "Ostrich farms"
+  },
+  {
+    "question": "What is the green pigment used by plants to trap sunlight?",
+    "model_answer": " Chlorophyll. Chlorophyll is the green pigment found in plants that captures sunlight for photosynthesis. It's responsible for converting light energy into chemical energy, which plants use to grow and produce food. Chlorophyll is crucial for the survival of",
+    "correct": true,
+    "ground_truth": "C55H70O6N4Mg"
+  },
+  {
+    "question": "What id the name given to the study of birds?",
+    "model_answer": " Ornithology. \n\nThe term \"ornithology\" refers to the scientific study of birds, including their anatomy, physiology, behavior, ecology, and evolution. It is a branch of zoology that focuses on the classification, distribution, biology,",
+    "correct": true,
+    "ground_truth": "Ornothology"
+  },
+  {
+    "question": "Of which reptile are there only two species, one living in the Mississippi and the other in China?",
+    "model_answer": " Alligators. There are only two living species of alligators, one native to the Mississippi River and another found in China. The Chinese alligator is the largest freshwater crocodile in the world.\n\nThe other answer, \"Turtles,\" is incorrect because",
+    "correct": true,
+    "ground_truth": "Alligator"
+  },
+  {
+    "question": "What type of seaweed grows up to 100 meters in length, and is farmed for its alginates?",
+    "model_answer": " Kelp. Kelp can grow up to 100 meters in length and is farmed for its alginates.",
+    "correct": true,
+    "ground_truth": "Laminariales"
+  },
+  {
+    "question": "Where in a vertebrate would you find the protein myoglobin?",
+    "model_answer": " Muscle tissue. Myoglobin is found in muscle cells of many vertebrates, including humans and animals like horses and cows.\n\nMyoglobin is a protein that stores oxygen in muscles, allowing them to contract more efficiently during exercise. It's crucial for the function",
+    "correct": true,
+    "ground_truth": "Muscle tissue"
+  },
+  {
+    "question": "What is the most abundant substance in the plant kingdom, which no mammal produces the enzyme to digest?",
+    "model_answer": " Water. Water is the most abundant substance in the plant kingdom and is not digested by mammals. Mammals produce an enzyme called amylase for digestion of carbohydrates, but plants lack this enzyme.\n\nThe answer is water. It is the most",
+    "correct": false,
+    "ground_truth": "E460"
+  },
+  {
+    "question": "Which family of insects has species named 'drivers', 'weavers', 'and even individuals called 'soldiers'?",
+    "model_answer": " The family of insects known as Hemiptera, which includes mosquitoes and aphids.",
+    "correct": false,
+    "ground_truth": "History of ants"
+  },
+  {
+    "question": "What name is given to the study of animal behavior?",
+    "model_answer": " Zoology. \n\nZoology is the scientific study of animals, their physical characteristics, behaviors, and relationships with each other and their environment. It encompasses various fields such as comparative anatomy, physiology, ecology, ethology, and taxonomy. The term",
+    "correct": true,
+    "ground_truth": "Animal behavior"
+  },
+  {
+    "question": "Mosses are classified as belonging to which part of the plant kingdom?",
+    "model_answer": " Mosses belong to the plant kingdom, Fungi. They are not plants but fungi that have adapted to grow on land and in water. Their unique characteristics include their ability to photosynthesize, reproduce asexually through spores, and form structures",
+    "correct": false,
+    "ground_truth": "Bryophyta (disambiguation)"
+  },
+  {
+    "question": "Which rodent rears its young, called kittens, in a nest called a drey?",
+    "model_answer": " Squirrels.",
+    "correct": true,
+    "ground_truth": "Skiouros"
+  },
+  {
+    "question": "What has a central vein called a midrib?",
+    "model_answer": " A grass blade. \n\nExplanation: Grass blades have a central vein called a midrib, which is responsible for transporting water and nutrients to the leaves. The midrib is located at the center of the leaf and is often visible when the leaf is cut",
+    "correct": true,
+    "ground_truth": "Adaxial"
+  },
+  {
+    "question": "Which mammal constructs a lodge in which to store food, rear young, and pass the winter?",
+    "model_answer": " Squirrel.",
+    "correct": false,
+    "ground_truth": "Beaverdams"
+  },
+  {
+    "question": "What is the generic word for plants that grow in water or water-logged conditions?",
+    "model_answer": " Hydrophytes. \n\nHydrophytes are plants that grow in water or water-logged conditions, such as aquatic plants like water lilies and floating ferns. They have adapted to thrive in these environments due to their specialized root systems and ability",
+    "correct": true,
+    "ground_truth": "Hydrophyte"
+  },
+  {
+    "question": "Which teeth are the third molars, and are always the last to0 erupt?",
+    "model_answer": " The third molars, also known as wisdom teeth, are the last to erupt. They are typically found on the lower jaw.\n\nThe third molars, also known as wisdom teeth, are the last to erupt. They are typically found on the lower",
+    "correct": true,
+    "ground_truth": "Wisdom-tooth"
+  },
+  {
+    "question": "What is secreted by the pancreas to regulate blood sugar levels?",
+    "model_answer": " Insulin. \n\nInsulin is a hormone produced by the pancreas that helps cells absorb glucose from the bloodstream and use it for energy or store it as glycogen. It plays a crucial role in regulating blood sugar levels by promoting the uptake of glucose",
+    "correct": true,
+    "ground_truth": "Insulin antagonists"
+  },
+  {
+    "question": "How many chambers has the heart?",
+    "model_answer": " The heart has four chambers.",
+    "correct": true,
+    "ground_truth": "Four"
+  },
+  {
+    "question": "What is the name of the large buttock and thigh muscle?",
+    "model_answer": " Gluteus maximus. The gluteus maximus is one of the largest muscles in the human body, located on the backside of the buttocks and thighs. It plays a crucial role in movement and posture.\n\nThe gluteus maxim",
+    "correct": true,
+    "ground_truth": "Gluteus maximus muscles"
+  },
+  {
+    "question": "When the egg is released from the ovary, what is left behind?",
+    "model_answer": " The fertilized egg. \n\nExplanation: After fertilization occurs within the female reproductive system, the resulting zygote (fertilized egg) is released from the ovary and travels through the fallopian tube to implant itself into the uterus.",
+    "correct": false,
+    "ground_truth": "Corpora lutea"
+  },
+  {
+    "question": "What is the scientific name for the heart's pacemaker?",
+    "model_answer": " The scientific name for the heart's pacemaker is the sinoatrial node. \n\nExplanation: The sinoatrial node is a specialized region of the heart that generates electrical impulses, which are then transmitted to all other parts of the heart through special cells",
+    "correct": true,
+    "ground_truth": "Sinoatrial"
+  },
+  {
+    "question": "Which hormone helps control ovulation?",
+    "model_answer": " Luteinizing Hormone (LH) helps control ovulation. \n\nExplanation: LH, or luteinizing hormone, is a type of gonadotropin that stimulates the pituitary gland to release follicle-stimulating",
+    "correct": true,
+    "ground_truth": "Receptors, lh"
+  },
+  {
+    "question": "What is the second most common gas in the atmosphere?",
+    "model_answer": " Nitrogen. \n\nExplanation: Nitrogen makes up about 78% of Earth's atmosphere, making it the second most abundant element after oxygen. It is also the second most common gas in the atmosphere. Oxygen is the most abundant gas at approximately",
+    "correct": true,
+    "ground_truth": "Oxyjunn"
+  },
+  {
+    "question": "What is the term for nutrient enrichment of lakes?",
+    "model_answer": " Eutrophication. \n\nExplanation: Eutrophication refers to an increase in nutrients (nitrogen and phosphorus) in a lake, which can lead to excessive growth of algae and other aquatic plants, causing oxygen depletion and eventually leading to fish",
+    "correct": true,
+    "ground_truth": "Eutrophication"
+  },
+  {
+    "question": "Five-legged creatures have damaged which 1250 mile long wonder of the world?",
+    "model_answer": " The Great Wall of China. \n\nExplanation: The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, built along an extended stretch of the northern borders of China to protect against",
+    "correct": false,
+    "ground_truth": "Great Barrier Reef"
+  },
+  {
+    "question": "Which radioactive substance sometimes occurs naturally in spring water?",
+    "model_answer": " Radon. It is a radioactive gas that can be found in some springs and is often associated with radium, which is also present in some springs.\n\nRadon is a colorless, odorless, and tasteless gas that is produced by the",
+    "correct": true,
+    "ground_truth": "Thoron"
+  },
+  {
+    "question": "What is the approximate circumference of the earth?",
+    "model_answer": " 40,075 kilometers. \n\nThe Earth's circumference can be calculated using the formula C = 2\u03c0r, where r is the radius of the Earth and \u03c0 (pi) is approximately equal to 3.141",
+    "correct": false,
+    "ground_truth": "24,900 miles"
+  },
+  {
+    "question": "Which common mineral is used to make casts, moulds, blackboard chalk and plaster of Paris?",
+    "model_answer": " Calcium carbonate. It's also known as limestone or marble.",
+    "correct": false,
+    "ground_truth": "CaSO4\u00b72H2O"
+  },
+  {
+    "question": "What name was given to the invisible material once thought to occupy all space?",
+    "model_answer": " Vacuum.",
+    "correct": false,
+    "ground_truth": "Alkoxyalkane"
+  },
+  {
+    "question": "From which areas of space can there be no escape?",
+    "model_answer": " Earth's atmosphere. \n\nExplanation: The Earth's atmosphere is composed primarily of nitrogen and oxygen, which make up about 78% of its volume. These gases are essential for life on Earth, but they also provide protection from harmful radiation and other",
+    "correct": false,
+    "ground_truth": "History of black holes"
+  },
+  {
+    "question": "Who was the first man to walk on the Moon?",
+    "model_answer": " Neil Armstrong. He became the first human to set foot on the moon during Apollo 11 mission in July 1969.\n\nNeil Armstrong, an American astronaut and test pilot, is widely recognized as the first person to walk on the Moon",
+    "correct": true,
+    "ground_truth": "That's one small step for a man one giant leap for mankind"
+  },
+  {
+    "question": "Proteus and Nereid are moons of which planet?",
+    "model_answer": " Proxima Centauri. \n\nProxima Centauri is not a planet, but rather a star located in the constellation Centaurus. It does not have any moons named Proteus or Nereid. The names Proteus and Nereid",
+    "correct": false,
+    "ground_truth": "8th planet"
+  },
+  {
+    "question": "What is the Milky Way?",
+    "model_answer": " The Milky Way galaxy. It is a spiral-shaped galaxy located in the constellation of Sagittarius and contains billions of stars, including our own Sun. It is visible to the naked eye from Earth. The Milky Way is approximately 100,",
+    "correct": true,
+    "ground_truth": "Age of the Milky Way"
+  },
+  {
+    "question": "Which force is nothing more than the bending of space and time?",
+    "model_answer": " Gravitational force. \n\nExplanation: Gravitational force is a fundamental force that acts between any two objects with mass, causing them to be drawn towards each other due to their mutual attraction. This force can be described as the bending of spacetime",
+    "correct": true,
+    "ground_truth": "Gravitational physics"
+  },
+  {
+    "question": "Which star is as bright as 23 Suns, and is orbited by the Pup?",
+    "model_answer": " Proxima Centauri. It's also known as Alpha Centauri A.\n\nProxima Centauri is the closest star to Earth, making it significantly brighter than any other star we can see with our naked eye. Additionally, it is the",
+    "correct": false,
+    "ground_truth": "Gliese 244 A"
+  },
+  {
+    "question": "What are the three primary colours of light?",
+    "model_answer": " Red, green, blue. \n\nExplanation: The three primary colors of light that we perceive as red, green, and blue are responsible for creating all other colors when they mix together. These colors are often referred to as the additive primaries because they can",
+    "correct": false,
+    "ground_truth": "Red, Blue and Green"
+  },
+  {
+    "question": "In what film did Oprah Winfrey make her big screen acting debut?",
+    "model_answer": " \"The Color Purple\" (1985)",
+    "correct": true,
+    "ground_truth": "The Colour Purple"
+  },
+  {
+    "question": "What is the second lightest chemical element?",
+    "model_answer": " Helium. \n\nHelium is the second lightest chemical element, after hydrogen. It has one proton and two neutrons in its nucleus. Its atomic number is 2, making it the second element on the periodic table after lithium (3).",
+    "correct": true,
+    "ground_truth": "Solid Helium"
+  },
+  {
+    "question": "Used in mathematics, what is the value of Pi to three decimal places?",
+    "model_answer": " 3.14\n\nThe value of Pi to three decimal places is 3.14. This is a commonly used approximation for calculations involving circles and other geometric shapes. The exact value of Pi can be calculated using various methods, but it",
+    "correct": false,
+    "ground_truth": "three point one four two  degrees"
+  },
+  {
+    "question": "What colour is the number 10 on the door of 10 Downing Street? White, Yellow or Brown?",
+    "model_answer": " White. The door of 10 Downing Street is white.\n\nThe color of the number 10 on the door of 10 Downing Street is white. This is because the door itself is painted white, and the number \"10\"",
+    "correct": true,
+    "ground_truth": "White (Colour)"
+  },
+  {
+    "question": "What was advertised with Eva Herzagovia using the slogan hello boys?",
+    "model_answer": " The advertisement featured Eva Herzogova and the slogan \"Hello Boys\" promoting a product or service. However, without specific details about the product or service, it's impossible to provide an exact answer. It could be related to cosmetics, clothing, or",
+    "correct": false,
+    "ground_truth": "Wonderbra."
+  },
+  {
+    "question": "What number in Bingo is sometimes referred to as Heinz varieties?",
+    "model_answer": " 15. In Bingo, numbers 1-15 are often referred to as \"Heinz varieties\" due to their association with the popular British brand of ketchup. However, this term can vary by region and game rules. For example",
+    "correct": false,
+    "ground_truth": "57"
+  },
+  {
+    "question": "As at March 2001, who holds the record for scoring the most league goals for the soccer team Arsenal?",
+    "model_answer": " Thierry Henry holds the record with 349 league goals. \n\nNote: This information is accurate as of my last update and may have changed since then. Please check the latest records for accuracy.",
+    "correct": false,
+    "ground_truth": "Mr Wright"
+  },
+  {
+    "question": "How many verses make up the national anthem God Save The Queen?",
+    "model_answer": " 56 verses. \n\nThe national anthem of Australia, \"God Save the Queen,\" has 56 verses. This is one of the longest national anthems in the world. It was written by William Hill and first performed at the opening ceremony",
+    "correct": false,
+    "ground_truth": "3"
+  },
+  {
+    "question": "What colour is the cross on the national flag of Switzerland?",
+    "model_answer": " The cross on the Swiss national flag is red. \n\nExplanation: The Swiss national flag consists of three horizontal bands, with the top and bottom bands being white and the middle band being blue. In the center of this blue band is a red cross,",
+    "correct": true,
+    "ground_truth": "White (Colour)"
+  },
+  {
+    "question": "Who was the American President when the Berlin Wall was constructed?",
+    "model_answer": " Ronald Reagan. He was the 40th President of the United States and served from January 20, 1981, to January 20, 1989.\n\nThe Berlin Wall was constructed during the Cold War",
+    "correct": false,
+    "ground_truth": "JFK"
+  },
+  {
+    "question": "What is the minimum number of darts a person needs to throw to complete a leg from 501?",
+    "model_answer": " To complete a leg from 501, a person needs to throw at least 2 darts.",
+    "correct": false,
+    "ground_truth": "9"
+  },
+  {
+    "question": "What was the first British football team to win the European Cup?",
+    "model_answer": " Liverpool FC is the first British football team to win the European Cup. \n\nExplanation: Liverpool Football Club won the UEFA Champions League for the first time in 1981, defeating AC Milan 3-2 on penalties after a 0-",
+    "correct": false,
+    "ground_truth": "Celtic"
+  },
+  {
+    "question": "What is the most popular natural attraction in Alaska?",
+    "model_answer": " Denali National Park and Preserve. \n\nDenali, also known as Mount McKinley, is the highest peak in North America and one of the most iconic natural attractions in Alaska. It attracts millions of visitors each year due to its stunning views, wildlife",
+    "correct": true,
+    "ground_truth": "Denali North Peak"
+  },
+  {
+    "question": "What type of acid is extracted from the juice of lemons, oranges, limes, and grapefruit?",
+    "model_answer": " Citric acid. \n\nExplanation: The juice of these fruits contains citric acid, which is an organic compound that acts as an acidifier and preservative in food and beverages. It is derived from the citric acid cycle found in plants, specifically",
+    "correct": true,
+    "ground_truth": "E330"
+  },
+  {
+    "question": "How many pieces are there in a standard set of dominoes?",
+    "model_answer": " A standard set of dominoes contains 28 pieces.",
+    "correct": true,
+    "ground_truth": "28"
+  },
+  {
+    "question": "What is the acronym for the agency which provides co-operation between police forces worldwide?",
+    "model_answer": " INTERPOL. INTERPOL stands for International Police Organization, and it's an international organization that facilitates cooperation among police forces around the world through various means such as information sharing, training programs, and joint operations. It was established in 1923",
+    "correct": true,
+    "ground_truth": "INTERPOL"
+  },
+  {
+    "question": "What were Benjy and Laska, which were sent into space in 1958?",
+    "model_answer": " They were Soviet satellites.",
+    "correct": false,
+    "ground_truth": "\ud83d\udc01"
+  },
+  {
+    "question": "In what year in the 20th century was the Miss World contest held for the first time?",
+    "model_answer": " The Miss World contest was held for the first time in 1951. \n\nExplanation: I used my knowledge of history to determine that the Miss World pageant began in 1951, making it one of the oldest beauty contests",
+    "correct": true,
+    "ground_truth": "one thousand, nine hundred and fifty-one"
+  },
+  {
+    "question": "In which year was the Encyclopedia Britannica first published?",
+    "model_answer": " The Encyclopedia Britannica was first published in 1768. \n\nExplanation: The Encyclopedia Britannica is an encyclopedic reference work that has been continuously published since 1768, making it one of the oldest continuously published",
+    "correct": true,
+    "ground_truth": "1768"
+  },
+  {
+    "question": "On the London Underground, which is the only line to connect at some point with every other line on the system?",
+    "model_answer": " The Circle Line. It connects with all other lines except the Hammersmith & City and Metropolitan Lines.\n\nThe Circle Line is unique because it serves as an interconnection between all other lines on the London Underground network. This makes it the only line that",
+    "correct": false,
+    "ground_truth": "Jubilee line"
+  },
+  {
+    "question": "Who wrote The Importance Of Being Earnest?",
+    "model_answer": " Oscar Wilde wrote \"The Importance of Being Earnest.\"",
+    "correct": true,
+    "ground_truth": "Oscar Wild"
+  },
+  {
+    "question": "Thomas Edison, who invented the lightbulb, was afraid of the dark?",
+    "model_answer": " No, Thomas Edison did not fear the dark. He was an inventor and businessman known for his contributions to the development of the electric light bulb. However, he did have a fear of thunderstorms due to his work with electricity.",
+    "correct": false,
+    "ground_truth": "True (disambiguation)"
+  },
+  {
+    "question": "Taphephobia is the fear of losing your teeth?",
+    "model_answer": " Yes, taphephobia is the fear of tooth loss. \n\nTaphephobia refers to a specific phobia that involves an intense and irrational fear of losing one's teeth. It can manifest as anxiety or panic attacks when thinking about losing teeth",
+    "correct": false,
+    "ground_truth": "False (disambiguation)"
+  },
+  {
+    "question": "The letter t is the second most common letter used in the English language?",
+    "model_answer": " T is the 20th most common letter. \n\nExplanation: In the English alphabet, there are 26 letters. T appears 19 times out of these 26 letters (25 consonants and one vowel). Therefore,",
+    "correct": false,
+    "ground_truth": "True (disambiguation)"
+  },
+  {
+    "question": "The invention of what in 1867, made Alfred Nobel famous?",
+    "model_answer": " The invention of dynamite in 1867. \n\nExplanation: Alfred Nobel invented dynamite in 1867, which revolutionized the mining industry and led to his becoming one of the wealthiest men in history. His wealth and fame",
+    "correct": true,
+    "ground_truth": "Dynamite"
+  },
+  {
+    "question": "What is the most populated city in America?",
+    "model_answer": " New York City. \n\nNew York City is the most populous city in the United States, with over 8 million residents as of 2021. It is also the most densely populated urban area in the world. The city's population includes",
+    "correct": true,
+    "ground_truth": "New Yourk State"
+  },
+  {
+    "question": "What is the only letter of the alphabet which does not appear in any of the names of the 50 American states?",
+    "model_answer": " Z. The only letter of the alphabet that does not appear in any of the names of the 50 American states is Z. Therefore, the answer to the question is Z.",
+    "correct": true,
+    "ground_truth": "\u24e0"
+  },
+  {
+    "question": "What was the Spice Girls' debut single called?",
+    "model_answer": " \"Wannabe\" was their debut single.",
+    "correct": true,
+    "ground_truth": "Wannabes (disambiguation)"
+  },
+  {
+    "question": "What are the only two musical notes which have no flats?",
+    "model_answer": " C and D. The only two musical notes that have no flats are C and D. They are considered to be \"natural\" or \"natural\" because they do not have any sharps or flats added to them.\n\nThe answer is: C and",
+    "correct": false,
+    "ground_truth": "C and F"
+  },
+  {
+    "question": "From which country do French fries originate? France, Belgium or Switzerland?",
+    "model_answer": " France. French fries originated from France.\n\nFrench fries are a type of potato chip that originated in France during the 18th century. The exact origin is not entirely clear, but it's believed to have been developed by French miners who were looking",
+    "correct": false,
+    "ground_truth": "ISO 3166-1:CH"
+  },
+  {
+    "question": "For what novel did J. K. Rowling win the 1999 Whitbread Children's book of the year award?",
+    "model_answer": " Harry Potter and the Philosopher's Stone.\n\nJ.K. Rowling won the 1999 Whitbread Children's Book of the Year Award for her novel \"Harry Potter and the Philosopher's Stone.\" This accolade is significant as it recognized",
+    "correct": false,
+    "ground_truth": "HPPOA"
+  },
+  {
+    "question": "What is the longest word can be typed using only the top row of letters on a typewriter?",
+    "model_answer": " \"A\" (top row) followed by \"B\" and then \"C\". This sequence forms the word \"ABC\", which has 3 letters. However, this answer does not meet the criteria as it includes non-letter characters.\n\nThe correct answer",
+    "correct": false,
+    "ground_truth": "Typewriter ribbons"
+  },
+  {
+    "question": "In which city would you find O'Hare International Airport?",
+    "model_answer": " Chicago, Illinois. \n\nO'Hare International Airport is located in Chicago, Illinois. It serves as one of the busiest airports in the United States and is known for its extensive international flights. The airport is named after James B. O'Hare,",
+    "correct": true,
+    "ground_truth": "Chi-Beria"
+  },
+  {
+    "question": "Which Asian country was once called Siam?",
+    "model_answer": " Thailand. \n\nThe country was originally known as Siam, which is now part of modern-day Thailand. It was ruled by the Siamese dynasty from 1782 to 1932. The name \"Siam\" comes",
+    "correct": true,
+    "ground_truth": "Muang Thai"
+  },
+  {
+    "question": "What are the names of Donald Duck's three nephews?",
+    "model_answer": " Huey, Dewey, and Louie. \n\nExplanation: The three nephews of Donald Duck are named Huey, Dewey, and Louie. They are often depicted as mischievous and troublemakers. Their names are derived from the",
+    "correct": true,
+    "ground_truth": "Huey, Dewey and Louie"
+  },
+  {
+    "question": "In which 1993 film does a boy called Jonah write to a woman called Annie, asking her to meet his father at the Empire State building on St. Valentine's Day?",
+    "model_answer": " \"The Princess Bride\" (1987)",
+    "correct": false,
+    "ground_truth": "Sleepless In Seattle"
+  },
+  {
+    "question": "Who had a top ten hit in 1988 with Valentine?",
+    "model_answer": " The B-52's had a top ten hit in 1988 with \"Love Shack\". \n\nExplanation: The B-52's, an American new wave band, achieved success in the late 1980s.",
+    "correct": false,
+    "ground_truth": "T\u2019pau"
+  },
+  {
+    "question": "What is the second most common word in written English?",
+    "model_answer": " \"The\" is the second most common word in written English. It appears 12 times per million words, behind only \"and\" which appears 13 times per million words.\n\nNote: This answer assumes that the question refers to the frequency",
+    "correct": false,
+    "ground_truth": "O F"
+  },
+  {
+    "question": "In which arcade game, would you find ghosts called Inky, Pinky, Blinky and Clyde?",
+    "model_answer": " Pac-Man. \n\nPac-Man is an iconic arcade game where players control the character Pac-Man through various levels filled with ghosts such as Inky, Pinky, Blinky, and Clyde. The ghosts are known for their distinctive colors and roles within",
+    "correct": true,
+    "ground_truth": "Pakman"
+  },
+  {
+    "question": "More commonly known as the thigh bone, what is the medical name for the longest bone in the human body?",
+    "model_answer": " Femur. The femur is the longest bone in the human body and is commonly referred to as the thigh bone. It is located in the lower leg and plays a crucial role in movement and support of the body.\n\nThe femur is also known",
+    "correct": true,
+    "ground_truth": "Fumuer"
+  },
+  {
+    "question": "What word is used to describe someone who is neither left or right handed, but can use both hands with equal ease?",
+    "model_answer": " Ambidextrous. \n\nExplanation: The term \"ambidexterity\" refers to the ability to use both hands equally well, which includes being able to write with either hand and using both hands for tasks that require dexterity, such as playing musical",
+    "correct": true,
+    "ground_truth": "Ambidexterity"
+  },
+  {
+    "question": "Which cult film, starring Harrison Ford, was based on the story Do Androids Dream of Electric Sheep?",
+    "model_answer": " \"Blade Runner\" (1982) is the cult film. It stars Harrison Ford and is based on the story \"Do Androids Dream of Electric Sheep?\" by Philip K. Dick. The movie explores themes of artificial intelligence, memory",
+    "correct": true,
+    "ground_truth": "V-K"
+  },
+  {
+    "question": "Which ITV magazine style show ran from 1968 to 1980 and featured presenters including Jenny Hanley, Mick Robertson and Tommy Boyd?",
+    "model_answer": " \"This Is Your Life\" (ITV) ran from 1968 to 1980. It was hosted by Trevor McDonald and featured interviews with celebrities.\n\nThe TV series \"This Is Your Life,\" which aired on ITV from",
+    "correct": false,
+    "ground_truth": "Chatterpie"
+  },
+  {
+    "question": "Which type of animal was Robin Hood in the Disney cartoon film 'Robin Hood'?",
+    "model_answer": " A fox. \n\nIn the Disney animated film \"Robin Hood,\" Robin Hood is portrayed as a cunning and resourceful fox who steals from the rich to give to the poor, much like the character of Robin Hood in English folklore. The fox's name",
+    "correct": true,
+    "ground_truth": "Vulpine"
+  },
+  {
+    "question": "Who provided the voice for Bob The Builder on his number one hit Can We Fix It?",
+    "model_answer": " David Mitchell provided the voice for Bob The Builder. He is known for voicing the character in the song \"Can We Fix It.\"\n\nDavid Mitchell, also known as Dave Allen, is an English actor and comedian who gained fame for voicing the character",
+    "correct": false,
+    "ground_truth": "Neil morisey"
+  },
+  {
+    "question": "Which actor received 4 million dollars for his 10 minutes on screen in the film Superman?",
+    "model_answer": " Christopher Reeve. He received $4 million for his brief appearance as Superman in \"Superman\" (1978). \n\nExplanation: The question asks about an actor who earned a significant amount of money for a relatively short time spent in a",
+    "correct": false,
+    "ground_truth": "Marlon Brando Jr."
+  },
+  {
+    "question": "Who directed the films Thelma and Louise, Hannibal and Black Hawk Down?",
+    "model_answer": " Ridley Scott directed all three. \n\nRidley Scott is an English filmmaker known for directing \"Thelma & Louise,\" \"Hannibal,\" and \"Black Hawk Down.\" He has also directed other critically acclaimed films such as \"Gladiator\"",
+    "correct": true,
+    "ground_truth": "Gertrude Bell (2014 film)"
+  },
+  {
+    "question": "Which serial killer is the subject of the films A Study In Terror, Murder By Decree and From Hell?",
+    "model_answer": " The serial killer subject of these films is Hannibal Lecter. \n\nA Study In Terror (1976) - Directed by Brian De Palma\nMurder By Decree (1980) - Directed by John Carpenter\nFrom",
+    "correct": false,
+    "ground_truth": "Whitechapel Murderer"
+  },
+  {
+    "question": "In cricket, what is the score of 111 known as?",
+    "model_answer": " A century.",
+    "correct": false,
+    "ground_truth": "N\u00e9lson"
+  },
+  {
+    "question": "Who wrote the novels About A Boy, How To Be Good and High Fidelity?",
+    "model_answer": " Nick Hornby. \n\nAbout A Boy was written by Nick Hornby. How To Be Good is also by him. High Fidelity is another book he has written. So, Nick Hornby is the author of these novels. He's an English",
+    "correct": true,
+    "ground_truth": "Nick Hornby"
+  },
+  {
+    "question": "With which game would you use a squidger, a circular disc between 25mm and 51 mm?",
+    "model_answer": " Squidger is used for playing squash. Squash is a racquet sport played on a hard court using a small ball with a dimple that rolls across the surface of the court.\n\nSquidger is a type of discus used in",
+    "correct": false,
+    "ground_truth": "Tiddly winks"
+  },
+  {
+    "question": "The melody for which famous song was written by sisters and school teachers Patty and Mildred Hill in Kentucky in 1893?",
+    "model_answer": " \"The Star-Spangled Banner\" was written by the Hill sisters. \n\nExplanation: The melody of \"The Star-Spangled Banner,\" the national anthem of the United States, was composed by Francis Scott Key while he was imprisoned on the British",
+    "correct": false,
+    "ground_truth": "Happy Birthday (song)"
+  },
+  {
+    "question": "What is the most common pub name in the UK?",
+    "model_answer": " The most common pub name in the UK is \"The Crown and Anchor\". \n\nExplanation: This answer is based on the fact that \"The Crown and Anchor\" is one of the oldest and most well-known pub names in the United Kingdom. It has",
+    "correct": false,
+    "ground_truth": "Red lion"
+  },
+  {
+    "question": "What is the name of Kevin the teenager's friend played by Kathy Burke in a series of sketches with Harry Enfield?",
+    "model_answer": " \"The Fast Show\" character, Kevin. \n\nExplanation: The question asks for the name of Kevin the teenager's friend from the sketch comedy series \"The Fast Show.\" In this context, the answer refers to the character named Kevin who appears alongside Harry",
+    "correct": false,
+    "ground_truth": "Perry (drink)"
+  },
+  {
+    "question": "What seven letter word, beginning with the letters 'Ra' is a palindrome?",
+    "model_answer": " Rara. \n\nExplanation: The word \"Rara\" has the letters \"Ra\" as its first and last letters, making it a palindrome. It also contains the letters \"a\", which are not part of the word but are necessary for pal",
+    "correct": false,
+    "ground_truth": "Racing cars"
+  },
+  {
+    "question": "Which fruit can go in the middle of the word aped to make a new word?",
+    "model_answer": " Apple. The word \"applied\" has an apple in the middle, making it a palindrome.",
+    "correct": false,
+    "ground_truth": "Pear (fruit)"
+  },
+  {
+    "question": "How many scottish football league teams names end in United?",
+    "model_answer": " 12 Scottish Football League teams have \"United\" in their name.",
+    "correct": false,
+    "ground_truth": "3"
+  },
+  {
+    "question": "Who had a top ten hit in the UK with Cupid in 1961?",
+    "model_answer": " The Beatles had a top ten hit in the UK with \"Cupid\" in 1961. \n\nThe Beatles were an English rock band formed in Liverpool in 1960, and they achieved international fame during the mid-1",
+    "correct": false,
+    "ground_truth": "I Thank God"
+  },
+  {
+    "question": "The theme tune to which TV show starts with the line Stick a pony in me pocket?",
+    "model_answer": " \"The Simpsons\" theme song. \n\nExplanation: The given phrase is a reference to the opening sequence of the animated television series \"The Simpsons,\" where the theme music begins with the lyrics \"Stick a pony in my pocket.\" This iconic scene has become",
+    "correct": false,
+    "ground_truth": "Sunglasses Ron"
+  },
+  {
+    "question": "What word is given to a point in tennis which has to be replayed?",
+    "model_answer": " Tiebreaker. A tiebreaker is a special rule used in tennis where points that are tied at 6-6 or 7-7 must be played again until one player wins two consecutive points. This rule was introduced in 1973",
+    "correct": false,
+    "ground_truth": "Let (disambiguation)"
+  },
+  {
+    "question": "How many episodes of Prisoner: Cell Block H were made?",
+    "model_answer": " 136 episodes. \n\nThe series, which aired from 2005 to 2008 on ABC, was created by John Wells and starred actors such as James Remar, David Anders, and William Fichtner.",
+    "correct": false,
+    "ground_truth": "692"
+  },
+  {
+    "question": "Who is the last English-born player to win the men's singles title at Wimbledon?",
+    "model_answer": " John McEnroe was the last English-born player to win the men's singles title at Wimbledon. He won it in 1985.\n\nJohn McEnroe, an American former professional tennis player, was born in England but became British after",
+    "correct": false,
+    "ground_truth": "Fred Perry"
+  },
+  {
+    "question": "Which famous painter's surname was Harmenzoon van Rijn which translated as son of Harmen, of the Rhine?",
+    "model_answer": " Johannes Vermeer. \n\nVermeer's surname is Harmenszoon van Rijn, which translates to \"son of Harmen,\" and \"of the Rhine.\" Johannes Vermeer is one of the most renowned Dutch Golden Age painters known for his",
+    "correct": false,
+    "ground_truth": "Rembrandt"
+  },
+  {
+    "question": "In 1976, which gymnast scored 7 maximum scores of 10 as she won three gold medals, one silver and one bronze?",
+    "model_answer": " Nadia Comaneci. \n\nNadia Comaneci was a Romanian gymnast who achieved this feat during the 1976 Summer Olympics. She won three gold medals, one silver medal, and one bronze medal, all with perfect ",
+    "correct": true,
+    "ground_truth": "Nadia Elena Com\u0103neci"
+  },
+  {
+    "question": "In years and days, how old was Luigina Giavotti when she won a silver medal in gymnastics in 1928, and is still the youngest medal winner today?",
+    "model_answer": " Luigina Giavotti was 15 years and 304 days old when she won a silver medal in gymnastics in 1928. She remains the youngest medal winner to date.\n\nLuigina Giavotti,",
+    "correct": false,
+    "ground_truth": "11 years and 302 days"
+  },
+  {
+    "question": "Which Eastenders actor has played the policeman Nick Rowan on TV?",
+    "model_answer": " The EastEnders actor who has played the policeman Nick Rowan on TV is Danny Dyer.",
+    "correct": false,
+    "ground_truth": "Nick Berry"
+  },
+  {
+    "question": "What type of animal was Boris, the subject of a song by The Who?",
+    "model_answer": " Gorilla. \n\nBoris is a gorilla and appears as the main character in the song \"Boris the Spider\" by The Who. The song features lyrics about a spider named Boris who lives in a tree house and has a pet monkey named",
+    "correct": true,
+    "ground_truth": "Egg sac"
+  },
+  {
+    "question": "Which brand of beer does Homer Simpson drink regularly?",
+    "model_answer": " The Simpsons do not mention any specific brand of beer that Homer Simpson drinks. They often refer to \"Simpson Beer\" as a joke, but it is never confirmed or specified which one. However, it's safe to assume that they are referring",
+    "correct": false,
+    "ground_truth": "Duff"
+  },
+  {
+    "question": "From which animal does Haggis come?",
+    "model_answer": " Haggis is made from sheep's heart, liver, and lungs. It comes from the animal called sheep. \n\nJustification: The term \"haggis\" refers to a dish that typically includes sheep's organs (heart, liver, and",
+    "correct": true,
+    "ground_truth": "Sheep"
+  },
+  {
+    "question": "In which country was Marie Curie born? Poland, Austria or Switzerland?",
+    "model_answer": " Poland. Marie Curie was born in Warsaw, Poland.\n\nMarie Curie was a Polish physicist and chemist who is widely regarded as one of the most important scientists of the 20th century. She was born on November 7,",
+    "correct": true,
+    "ground_truth": "Etymology of Poland"
+  },
+  {
+    "question": "What is the most common blood type in humans? A, B or O?",
+    "model_answer": " O. The most common blood type in humans is O.\n\nThe answer to this question can be determined by understanding that the human blood type system is based on the presence of specific antigens (antibodies) on red blood cells. There are three",
+    "correct": true,
+    "ground_truth": "\u24c4"
+  },
+  {
+    "question": "Which P is the correct technical term for the art of making and displaying fireworks?",
+    "model_answer": " Pyrotechnics. \n\nExplanation: Pyrotechnics refers to the art or science of making and displaying fireworks, which involves using explosives to create visual effects and sounds. It is often associated with the entertainment industry and has been used for centuries to",
+    "correct": true,
+    "ground_truth": "Pyrotecnics"
+  },
+  {
+    "question": "Which King did Guy Fawkes attempt to kill with his gunpowder plot?",
+    "model_answer": " King James I. \n\nGuy Fawkes attempted to blow up Parliament, which was meeting to discuss plans for King James I's execution. The plot failed when the gunpowder was discovered by a guard and arrested.",
+    "correct": true,
+    "ground_truth": "James VI of Scotland, James I of England"
+  },
+  {
+    "question": "In which film was the song White Christmas first sung?",
+    "model_answer": " The song \"White Christmas\" was first sung in the 1942 film \"White Christmas.\"",
+    "correct": false,
+    "ground_truth": "Great Sign"
+  },
+  {
+    "question": "Which Pop Idol had a number one hit in 2004 called All This Time?",
+    "model_answer": " The Wanted. They had a number one hit with \"All This Time\" in 2004.\n\nThe answer is: The Wanted. They had a number one hit with \"All This Time\" in 2004. \n\nThis",
+    "correct": false,
+    "ground_truth": "Different Beat (Michelle McManus album)"
+  },
+  {
+    "question": "Which Channel 4 TV show's presenters included Mark Lamarr, Amanda De Cadenet and Terry Christian?",
+    "model_answer": " \"The Only Way Is Essex\" (2015-present)",
+    "correct": false,
+    "ground_truth": "The Word"
+  },
+  {
+    "question": "What is the name of the device made of wood and horsehair that is used to play a violin?",
+    "model_answer": " Violin. The device made of wood and horsehair used to play a violin is called a violin. It has four strings, two for each hand, which are plucked with the fingers or bow.\n\nThe violin is an iconic musical instrument known for",
+    "correct": true,
+    "ground_truth": "Bows"
+  },
+  {
+    "question": "What colour is the bottom stripe on the U.S. flag?",
+    "model_answer": " Blue.\n\nThe bottom stripe of the U.S. flag is blue. This color is chosen for its simplicity and durability, as it contrasts well with the white field above it. The stripes represent the 13 original states that formed the United States.",
+    "correct": false,
+    "ground_truth": "Red (colour)"
+  },
+  {
+    "question": "What is the name given to the largest bee in a hive?",
+    "model_answer": " The name given to the largest bee in a hive is the \"king bee.\" This term refers to the queen bee, which is typically larger than other bees and plays a crucial role in the hive's reproductive system. Additionally, some species of bees have",
+    "correct": true,
+    "ground_truth": "Quene"
+  },
+  {
+    "question": "Who won the Ladies singles title at Wimbledon in 2004?",
+    "model_answer": " Venus Williams won the Ladies singles title at Wimbledon in 2004. \n\nExplanation: The question is asking for the name of the winner of the Ladies singles title at Wimbledon in 2004, which was Venus Williams. Therefore,",
+    "correct": false,
+    "ground_truth": "\u041c\u0430\u0440\u0438\u044f \u0428\u0430\u0440\u0430\u043f\u043e\u0432\u0430"
+  },
+  {
+    "question": "What is the alcoholic ingredient of Irish coffee?",
+    "model_answer": " Irish whiskey. \n\nThe alcoholic ingredient of an Irish coffee is Irish whiskey, which is typically used to create this popular cocktail. The drink is made by combining Irish whiskey with hot water or milk and then garnished with whipped cream and a cinnamon stick.",
+    "correct": true,
+    "ground_truth": "Whiskies"
+  },
+  {
+    "question": "In which year did St George die?",
+    "model_answer": " St. George died in 629 AD.\n\nSt. George, the patron saint of England and many other countries around the world, was martyred on May 22nd, 621 AD. However, his exact date of",
+    "correct": false,
+    "ground_truth": "three hundred and three"
+  },
+  {
+    "question": "What are the names of the Four Horseman of the Apocalypse?",
+    "model_answer": " The Four Horsemen of the Apocalypse are called Belphegor, Lilith, Satan, and Death. They represent destruction, death, war, and famine respectively.\n\nThe Four Horsemen of the Apocalypse are often depicted as four demonic figures riding on",
+    "correct": false,
+    "ground_truth": "War, Famine, Pestilence and Death"
+  },
+  {
+    "question": "Who is the Vice-President for George W Bush?",
+    "model_answer": " Dick Cheney. \n\nGeorge W. Bush appointed Dick Cheney as his Vice President on January 20, 2001. He served until January 20, 2009. \n\nNote: This information may change over time",
+    "correct": true,
+    "ground_truth": "Dick chenny"
+  },
+  {
+    "question": "Which film sees Clint Eastwood, Tommy Lee Jones, James Garner and Donald Sutherland as retired astronauts?",
+    "model_answer": " \"The A-Team\" (1983) directed by Burt Reynolds. \n\nThis is because all four actors starred in this 1980s action-comedy film, which also featured Tom Selleck and David Hassel",
+    "correct": false,
+    "ground_truth": "Space Cowboys"
+  },
+  {
+    "question": "In a standard deck of cards, how many Kings have a moustache?",
+    "model_answer": " One King has a moustache. It is a trick card.\n\nThe answer to this riddle involves recognizing that there are only four kings in a standard deck (one of which has a moustache), and these kings are not considered unique because",
+    "correct": false,
+    "ground_truth": "3"
+  },
+  {
+    "question": "According to the film Gremlins, if you are looking after a Gremlin you should not feed him after midnight, not get him wet and not expose him to what?",
+    "model_answer": " Cold temperatures. \n\nExplanation: In the movie Gremlins, the main character, Scott, is tasked with taking care of a new pet named Gizmo. The film suggests that if he is left alone for too long, it could lead to an",
+    "correct": false,
+    "ground_truth": "Bright Light (disambiguation)"
+  },
+  {
+    "question": "The Canary Islands are named after what animal?",
+    "model_answer": " The Canary Islands were named after the canaries, which are small birds native to the islands.",
+    "correct": false,
+    "ground_truth": "Domestic dogs"
+  },
+  {
+    "question": "In which capital city would you find Charles Bridge and Wenceslas Square?",
+    "model_answer": " Prague, Czech Republic. \n\nCharles Bridge and Wenceslas Square are both located in the capital city of Prague, Czech Republic. They are popular tourist attractions and landmarks in the city. The bridge is known for its historic significance and the square is famous",
+    "correct": true,
+    "ground_truth": "City of Prague"
+  },
+  {
+    "question": "What was the surname of the woman who was the inspiration behind the Rolling Stones song Angie?",
+    "model_answer": " Surname of the woman is Jones. She inspired the Rolling Stones song \"Angie\" with her name. Her surname is Jones.\n\nThe answer to this question can be found by researching the history and background of the Rolling Stones, specifically focusing on their",
+    "correct": false,
+    "ground_truth": "Bowie (disambiguation)"
+  },
+  {
+    "question": "What is the final event in a decathlon?",
+    "model_answer": " The javelin throw. \n\nThe decathlon is a track and field competition that includes 10 events, with the javelin throw being the final event. It was introduced as part of the modern Olympics in 1912. The first",
+    "correct": false,
+    "ground_truth": "1500 metres"
+  },
+  {
+    "question": "Peter Simple, Jack Horner and Ben Nevis have all won which famous sporting event?",
+    "model_answer": " The Three Peaks Challenge. \n\nPeter Simple, Jack Horner, and Ben Nevis are participants in the Three Peaks Challenge, an endurance sports event where they climb the highest three mountains in England (Scafell Pike, Ben Nevis, and S",
+    "correct": false,
+    "ground_truth": "The Grand National"
+  },
+  {
+    "question": "What is the largest city in Turkey?",
+    "model_answer": " Istanbul. \n\nIstanbul is the largest city in Turkey, with a population of over 14 million people. It is also the most populous city on the European continent and one of the world's busiest ports. The city is known for its historical",
+    "correct": true,
+    "ground_truth": "Stambulu"
+  },
+  {
+    "question": "Who bought Chelsea football club for \u00a31 in 1982?",
+    "model_answer": " Roman Abramovich bought Chelsea football club for \u00a31 in 1982.",
+    "correct": false,
+    "ground_truth": "Ken Bates"
+  },
+  {
+    "question": "In 1998, which director's Oscar acceptance speech included the line I'm king of the world?",
+    "model_answer": " The Oscar acceptance speech that includes \"I'm king of the world\" was given by Ang Lee for Best Director for his film \"Crouching Tiger, Hidden Dragon.\" Lee won the award at the 70th Academy Awards ceremony held on April",
+    "correct": false,
+    "ground_truth": "James cameron"
+  },
+  {
+    "question": "What nationality was the painter Vincent Van Gogh?",
+    "model_answer": " Dutch. \n\nVincent van Gogh was a Dutch artist known for his vivid and expressive paintings, including The Starry Night. He is considered one of the most important figures in the history of Western art. Born on March 30, ",
+    "correct": true,
+    "ground_truth": "Dtuch"
+  },
+  {
+    "question": "Which film features the characters Sally Albright and Harry Burns?",
+    "model_answer": " The film \"Breakfast at Tiffany's\" features the characters Sally Albright and Harry Burns.",
+    "correct": true,
+    "ground_truth": "When Harry Met Sally\u2026"
+  },
+  {
+    "question": "Which act won the Eurovision Song Contest for the United Kingdom singing Love Shine A Light?",
+    "model_answer": " The United Kingdom's winning entry at the Eurovision Song Contest was \"Love Shine a Light\" by Katrina and the Waves. This song represented them in 1986.\n\nThe Eurovision Song Contest is an annual music competition held to select the",
+    "correct": true,
+    "ground_truth": "Katrina and the Waves"
+  },
+  {
+    "question": "Which English word comes from an old French word meaning sour wine?",
+    "model_answer": " Sauternes. \n\nExplanation: The word \"sauvage\" is derived from the Old French word \"saucier,\" which means sour or bitter, and it originally referred to wines that were too sour for consumption. Over time, this",
+    "correct": false,
+    "ground_truth": "White vinegar"
+  },
+  {
+    "question": "Which team beat American Samoa 31-0 in a qualifying match for the 2002 World Cup, but still failed to qualify?",
+    "model_answer": " The answer is not provided. Please provide more information or context for me to give an accurate answer.",
+    "correct": false,
+    "ground_truth": "Australia (Commonwealth realm)"
+  },
+  {
+    "question": "What was the name of Roland Rat's gerbil friend?",
+    "model_answer": " The name of Roland Rat's gerbil friend is Jerry. \n\nRoland Rat and Jerry are characters from the children's book series \"The Adventures of Tom Sawyer\" by Mark Twain, which was later adapted into a popular movie franchise. In this",
+    "correct": false,
+    "ground_truth": "Coemgen"
+  },
+  {
+    "question": "Which animal has the longest gestation period at around 22 months?",
+    "model_answer": " Giraffe. Giraffes have the longest gestation period at around 22 months.\n\nThe giraffe is an interesting animal with a unique feature - its long neck. It's one of the tallest animals on Earth, standing up to 1",
+    "correct": false,
+    "ground_truth": "Elephant (disambiguation)"
+  },
+  {
+    "question": "What name is given to the home of a beaver?",
+    "model_answer": " The beaver's nest. \n\nExplanation: A beaver's nest is where a beaver builds its dam and raises its young. It is typically located near water, such as a river or lake, and serves as both a shelter for the be",
+    "correct": false,
+    "ground_truth": "Lodge"
+  },
+  {
+    "question": "What name is given to a baby marsupial?",
+    "model_answer": " Koala. \n\nKoalas are marsupials and their scientific name is Phascolarctos cinereus. They are native to Australia, where they are found in the eucalypt forests of the Northern Territory, Queensland",
+    "correct": false,
+    "ground_truth": "Joey (disambiguation)"
+  },
+  {
+    "question": "Who dated actress Elizabeth Hurley between 2000 and 2001 and denied he was the father of her son born in 2002 before a DNA test proved otherwise?",
+    "model_answer": " The actor who denied being the father of Elizabeth Hurley's son is Jason Statham. He stated that he was not the biological father, but later admitted to being the father through DNA testing.\n\nThe actor who denied being the father of Elizabeth Hurley",
+    "correct": false,
+    "ground_truth": "Steve bing"
+  },
+  {
+    "question": "What type of animal is the star of the 2005 film Racing Stripes?",
+    "model_answer": " The star of the 2005 film Racing Stripes is a horse.",
+    "correct": false,
+    "ground_truth": "Zevra"
+  },
+  {
+    "question": "Author Dick Francis is famous for writing novels based around which sport?",
+    "model_answer": " Horse racing. \n\nDick Francis is known for his popular series of horse racing novels featuring characters such as Inspector Reginald \"Reg\" Wexford and his assistant, Sergeant Jack O'Connell. His books often feature themes of justice, morality,",
+    "correct": true,
+    "ground_truth": "Scratch sheet"
+  },
+  {
+    "question": "Which Scottish newspaper features the Broons and Oor Wullie?",
+    "model_answer": " The Daily Express.",
+    "correct": false,
+    "ground_truth": "Sunday Post"
+  },
+  {
+    "question": "Which famous book features the character of Bob Cratchit?",
+    "model_answer": " \"A Christmas Carol\" by Charles Dickens.",
+    "correct": true,
+    "ground_truth": "A. Christmas Carol"
+  },
+  {
+    "question": "Which act has had more Christmas number one singles than any other?",
+    "model_answer": " The Beatles' \"Help!\" album. \n\nThe Beatles have released 10 Christmas number one singles, which is more than any other artist. Their most successful single during this time was \"Santa Claus Is Comin' to Town,\" which reached number",
+    "correct": true,
+    "ground_truth": "Fab 4"
+  },
+  {
+    "question": "Which Christmas song includes the line It seems so long since I could say 'sister Susie sitting on a thistle'?",
+    "model_answer": " \"Jingle Bells\" by Bing Crosby. The line is from the song's lyrics, which are \"It seems so long since I could say 'sister Susie sitting on a thistle.'\"\n\nThe answer to this question can be found by",
+    "correct": false,
+    "ground_truth": "All I Want for Christmas Is My 2 Front Teeth"
+  },
+  {
+    "question": "Which British footballer has the most number of International caps?",
+    "model_answer": " Gary Lineker has the most number of international caps for England. He holds the record with 108 caps as of 2023.\n\nGary Lineker is an English former professional footballer who played as a striker and is widely regarded",
+    "correct": false,
+    "ground_truth": "Peter Leslie Shilton OBE"
+  },
+  {
+    "question": "Who holds a trumpet on the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles?",
+    "model_answer": " Ringo Starr holds the trumpet on the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles.\n\nRingo Starr holds the trumpet on the album cover of Sgt. Pepper's Lonely Hearts Club Band by The Beatles. This iconic image,",
+    "correct": true,
+    "ground_truth": "RINGO"
+  },
+  {
+    "question": "Which song begins with the line The taxman's taken all my dough?",
+    "model_answer": " \"The Taxman's Comin'\" by Bob Dylan.",
+    "correct": false,
+    "ground_truth": "Sunny Afternoon"
+  },
+  {
+    "question": "The Kray twins were convicted of the murder of George Cornell in the East End of London in 1966. What was the name of the pub in which he was shot?",
+    "model_answer": " The Angel Inn.\n\nThe Kray twins, Ronnie and Reggie, were notorious figures in the criminal underworld during the 1950s and 1960s. They were known for their involvement in various crimes such as drug trafficking,",
+    "correct": false,
+    "ground_truth": "The Blind Beggar"
+  },
+  {
+    "question": "Who composed the musical theme for the Pink Panther?",
+    "model_answer": " The Pink Panther theme was composed by Henry Mancini.",
+    "correct": true,
+    "ground_truth": "Henry Mancini"
+  },
+  {
+    "question": "Who was the cartoon adversary of Pixie and Dixie, who would often say I hate those meeces to pieces?",
+    "model_answer": " The cartoon adversary of Pixie and Dixie is named \"The Phantom Thieves\". They are known for saying \"I hate those meeces to pieces.\" This phrase became popular in the 1950s and has since been referenced in",
+    "correct": false,
+    "ground_truth": "Mr Jinx"
+  },
+  {
+    "question": "Which actress married Dennis Quaid on Valentine's Day in 1991?",
+    "model_answer": " Kim Basinger married Dennis Quaid on Valentine's Day in 1991. \n\nStep-by-step justification:\n- The question asks for an actress who married Dennis Quaid on Valentine's Day in 1991.\n- I",
+    "correct": false,
+    "ground_truth": "Margaret Hyra"
+  },
+  {
+    "question": "During Margaret Thatcher's years as Prime Minister, there were three Chancellors of the Exchequer. Geoffrey Howe and Nigel Lawson were two, but who was the other one?",
+    "model_answer": " Denis Healey was the third Chancellor of the Exchequer under Margaret Thatcher.\n\nMargaret Thatcher served as Prime Minister from 1979 to 1990, during which time she appointed Geoffrey Howe and Nigel Lawson as her Chancellor of",
+    "correct": false,
+    "ground_truth": "John major"
+  },
+  {
+    "question": "Buddy Holly and the Big Bopper were two of the three musicians who died in a plane crash in February 1959. Who was the other one?",
+    "model_answer": " The other musician who died in the plane crash was J.P. \"The Big Bopper\" Richardson.\n\nBuddy Holly, The Big Bopper, and Ritchie Valens were all killed in a plane crash on February 3, 19",
+    "correct": true,
+    "ground_truth": "Ritchie S. Valens"
+  },
+  {
+    "question": "Fruit, cricket and horseshoe are varieties of what type of animal?",
+    "model_answer": " Insects. \n\nFruit is a variety of a fruit fly (Diptera), cricket is a type of insect, and horseshoe crab is also an insect. All three are part of the phylum Arthropoda. The term \"",
+    "correct": false,
+    "ground_truth": "Bat Conservation"
+  },
+  {
+    "question": "Apart from being warm blooded and giving birth to live young, what do mammals produce to differentiate them from other families of animals?",
+    "model_answer": " Mammals produce milk. \n\nExplanation: Mammals are a group of animals that give birth to live young (placental) and have mammary glands for producing milk to feed their offspring. This is one of the key differences between mammals",
+    "correct": true,
+    "ground_truth": "Whole Milk"
+  },
+  {
+    "question": "To which poet does Il Postino deliver mail?",
+    "model_answer": " The Poet is Federico Garc\u00eda Lorca. \n\nThe answer is based on the premise that \"Il Postino\" (The Postman) is a poem by Federico Garc\u00eda Lorca, and it is known for its imagery of love and longing",
+    "correct": false,
+    "ground_truth": "Neruda, Pablo"
+  },
+  {
+    "question": "Which scientist was Time magazine's \"Person of the 20th Century\"?",
+    "model_answer": " Stephen Hawking. \n\nStep 1: Identify the key information needed to answer the question, which is the name of the person who was named \"Time magazine's 'Person of the 20th Century'.\"\n\nStep 2: Recall or",
+    "correct": false,
+    "ground_truth": "Albert Enstien"
+  },
+  {
+    "question": "What was the nickname given to premiership footballer Neil Ruddock?",
+    "model_answer": " \"The Beast\" or \"Beastie\"\n\nNeil Ruddock, a former professional footballer known for his aggressive playing style and physical presence on the field, is often referred to as \"The Beast\" or \"Beastie.\" This nickname reflects",
+    "correct": false,
+    "ground_truth": "Electric shaver"
+  },
+  {
+    "question": "The Ducati is manufactured in which city and what country?",
+    "model_answer": " The Ducati motorcycle brand is manufactured in Bologna, Italy. \n\nExplanation: Ducati is an Italian motorcycle manufacturer that was founded in 1926 by Giacomo Agnelli. It's headquartered in Bologna, Italy, where",
+    "correct": true,
+    "ground_truth": "Comune di Bologna"
+  },
+  {
+    "question": "Wayne Rooney signed for Manchester United from which other Premiership Club?",
+    "model_answer": " Wayne Rooney signed for Manchester United from Everton.",
+    "correct": true,
+    "ground_truth": "Everton"
+  },
+  {
+    "question": "The Yalu river forms a sort of natural border between China and which of its neighbours?",
+    "model_answer": " North Korea. \n\nThe Yalu River is a major boundary between China and North Korea, serving as a natural barrier along their shared border. It plays an essential role in regulating trade and transportation across this region. Despite being a border, the Yalu",
+    "correct": true,
+    "ground_truth": "Korea north"
+  },
+  {
+    "question": "Which stand-up comedian presents 8 Out Of 10 Cats and Distraction?",
+    "model_answer": " The stand-up comedian presenting 8 Out Of 10 Cats and Distraction is Russell Brand. \n\nRussell Brand is an English actor, comedian, writer, and television presenter who has been involved with various comedy shows including \"8 Out of ",
+    "correct": false,
+    "ground_truth": "Jimmy Carr"
+  },
+  {
+    "question": "Name the game show, presented by Leslie Grantham and Melinda Messenger, where contestants were set physical and mental challenges?",
+    "model_answer": " \"The Price Is Right\" is the game show. It was presented by Leslie Grantham and Melinda Messenger. Contestants faced physical and mental challenges to win prizes.\n\nThe game show you're referring to is called \"The Price Is Right.\"",
+    "correct": false,
+    "ground_truth": "Fort Boyard (disambiguation)"
+  },
+  {
+    "question": "Who presented Family Fortunes in the two years between Bob Monkhouse and Les Dennis?",
+    "model_answer": " The presenter of Family Fortunes during the two-year period between Bob Monkhouse and Les Dennis was Alan Price.",
+    "correct": false,
+    "ground_truth": "Max Bygraves"
+  },
+  {
+    "question": "For what did Einstien gat Nobel prize in Physics?",
+    "model_answer": " He received the Nobel Prize in Physics for his theory of general relativity. \n\nExplanation: Albert Einstein is known for his groundbreaking work on special and general relativity, which revolutionized our understanding of gravity and space-time. His theory of general relativity",
+    "correct": false,
+    "ground_truth": "Photo-electric effect"
+  },
+  {
+    "question": "Which planet has moons named after Shakespearean characters?",
+    "model_answer": " Saturn has moons named after Shakespearean characters. \n\nExplanation: Saturn's moon Titan is named after the Titan god from Greek mythology, while its two largest moons, Rhea and Dione, are named after characters from William Shakespeare's plays. These names",
+    "correct": false,
+    "ground_truth": "Magnetosphere of Uranus"
+  },
+  {
+    "question": "Who was part man, part machine, all cop and hailed from a futuristic Detroit?",
+    "model_answer": " RoboCop. \n\nRoboCop is a fictional character who first appeared in the 1987 film of the same name and later became a popular comic book series, video game franchise, and movie sequel. The character is depicted as a",
+    "correct": true,
+    "ground_truth": "I'd buy that for a dollar"
+  },
+  {
+    "question": "Who dubbed Miss Piggy's singing voice in The Muppet Movie?",
+    "model_answer": " Jim Henson.\n\nThe Muppets are known for their puppeteering, but Jim Henson is credited with dubbing the singing voices of many characters. In \"The Muppet Movie,\" he provided the singing voice for Miss Piggy. So",
+    "correct": false,
+    "ground_truth": "John Royce Mathis"
+  },
+  {
+    "question": "Who wrote the Bourne trilogy of books, made into movies starring Matt Damon?",
+    "model_answer": " Robert Ludlum wrote the Bourne trilogy. \n\nExplanation: The Bourne series is a book series written by Robert Ludlum, which was later adapted into a movie franchise starring Matt Damon. Therefore, the answer to the question is Robert Lud",
+    "correct": true,
+    "ground_truth": "Ludlum Entertainment"
+  },
+  {
+    "question": "The Bible tells of 3 wise men visiting Jesus after his birth, but in which of the Gospels does this appear?",
+    "model_answer": " Matthew.",
+    "correct": true,
+    "ground_truth": "Matthew"
+  },
+  {
+    "question": "Athos and Porthos are two of the 3 musketeers, name the other one.",
+    "model_answer": " Aramis. \n\nAramis is another Musketeer from Alexandre Dumas' novel \"The Three Musketeers.\" He is known for his wit, charm, and loyalty to the trio. The three Musketeers were originally created by",
+    "correct": true,
+    "ground_truth": "Aramis"
+  },
+  {
+    "question": "What is the name of the small fifth claw called on the side of a dog's foot ?",
+    "model_answer": " The small fifth claw on the side of a dog's foot is called the \"heel\" or \"paw pad\". It helps the dog to grip and walk.",
+    "correct": false,
+    "ground_truth": "Dewclaws"
+  },
+  {
+    "question": "What is the name of the plastic bit on the end of shoelaces?",
+    "model_answer": " Lace tip.",
+    "correct": false,
+    "ground_truth": "Anglets"
+  },
+  {
+    "question": "The river Danube flows into which sea?",
+    "model_answer": " The Danube River flows into the Black Sea. \n\nExplanation: The Danube is a major river that originates in central Europe and flows through several countries before emptying into the Black Sea, located on the European continent. Therefore, it's accurate to",
+    "correct": true,
+    "ground_truth": "Marea Neagr\u0103"
+  },
+  {
+    "question": "Anna Nicole Smith was controversially married to which oil billionaire?",
+    "model_answer": " J. Howard Marshall II\n\nAnna Nicole Smith, an American model and actress, was famously married to J. Howard Marshall II, an oil tycoon. Their marriage was highly publicized due to its unconventional nature, including their unusual wedding ceremony and subsequent",
+    "correct": true,
+    "ground_truth": "J. Howard Marshall II"
+  },
+  {
+    "question": "Wayne Rooney scored his first senior goal against which club?",
+    "model_answer": " Wayne Rooney scored his first senior goal against Everton. \n\nExplanation: The question is asking for the name of the club where Wayne Rooney scored his first senior goal as a professional footballer. The answer is Everton, as Rooney played for them during his early",
+    "correct": false,
+    "ground_truth": "Arsenal (weaponry)"
+  },
+  {
+    "question": "How meny times have Liverpool won the Europion Cup?",
+    "model_answer": " Liverpool has won the UEFA Champions League twice. \n\nLiverpool Football Club, commonly known as Liverpool FC, is an English professional football club based in Liverpool, Merseyside. The team was founded on 16 October 1892 and compet",
+    "correct": false,
+    "ground_truth": "five"
+  },
+  {
+    "question": "The Sign Of Four was a detective story written by which author?",
+    "model_answer": " Sir Arthur Conan Doyle. \n\nThe Sign of Four is a detective novel written by Sir Arthur Conan Doyle, an English writer known for his work with Sherlock Holmes. It was first published in 1902 and features characters such as Colonel Race and",
+    "correct": true,
+    "ground_truth": "A Conan Doyle"
+  },
+  {
+    "question": "Who was the author of 'The Old Curiosity Shop'?",
+    "model_answer": " Charles Dickens. \n\nExplanation: The text provided is a question about the author of \"The Old Curiosity Shop.\" The answer is given as Charles Dickens, who wrote this novel. This information can be directly inferred from the context and title of the book",
+    "correct": true,
+    "ground_truth": "Charles Dickons"
+  },
+  {
+    "question": "In which sport or pastime can you see nose walking?",
+    "model_answer": " Wrestling. \n\nExplanation: Nose walking, also known as nose-slapping, is a common practice among wrestlers during matches to distract their opponents and gain an advantage. It involves slapping one's opponent's nose with the hand or arm while wrestling. This",
+    "correct": false,
+    "ground_truth": "Cutback (surfing move)"
+  },
+  {
+    "question": "What sport or pastime would you be playing if your balls were black and blue and your opponent's were red and yellow?",
+    "model_answer": " You would be playing tennis. \n\nExplanation: Tennis is played with white and orange balls, while opponents' balls are typically red and yellow. The color of the ball does not affect the game itself; it only affects the visual appeal of the match.",
+    "correct": false,
+    "ground_truth": "Croquet mallet"
+  },
+  {
+    "question": "The age of the railway began in which year with the introduction of the Liverpool-Manchester line?",
+    "model_answer": " 1825\n\nThe age of the railway began in 1825 with the introduction of the Liverpool-Manchester line. This event marked the beginning of mass transportation and paved the way for modern-day railroads, connecting cities across continents",
+    "correct": false,
+    "ground_truth": "1830"
+  },
+  {
+    "question": "Who played Frankenstein in the 1994 film of the same name?",
+    "model_answer": " Peter Cushing played Frankenstein in the 1994 film. \n\nPeter Cushing was an English actor known for his roles in horror films, including playing Count Dracula and Frankenstein in the 1931 film \"Dracula",
+    "correct": false,
+    "ground_truth": "Kenneth Charles Branagh"
+  },
+  {
+    "question": "Who was the first person to sell one million records?",
+    "model_answer": " The Beatles were the first group to sell one million records. \n\nExplanation: The Beatles, an English rock band formed in Liverpool in 1960, achieved significant commercial success with their music and became one of the most popular bands in the world",
+    "correct": false,
+    "ground_truth": "Errico Caruso"
+  },
+  {
+    "question": "In Greek mythology, where do righteous souls go after death?",
+    "model_answer": " They go to Elysium. \n\nExplanation: In Greek mythology, righteous souls are believed to be rewarded with eternal life and happiness in the afterlife, known as Elysium. This is often depicted as a paradise on earth or an idyl",
+    "correct": false,
+    "ground_truth": "Alysian fields"
+  },
+  {
+    "question": "What is the scientific name given to tea?",
+    "model_answer": " Camellia sinensis. \n\nExplanation: The scientific name of tea, which refers to its botanical classification, is \"Camellia sinensis.\" This name comes from the genus Camellia and the species sinensis, which are derived from Chinese",
+    "correct": true,
+    "ground_truth": "Camelia sinensis"
+  },
+  {
+    "question": "In the 1999 film Stuart Little, who plays the part of Mrs Eleanor Little?",
+    "model_answer": " Jodi Benson plays Mrs. Eleanor Little in the 1999 film Stuart Little.\n\nIn the 1999 animated film \"Stuart Little,\" Jodi Benson voices the character of Mrs. Eleanor Little. She is an actress known",
+    "correct": false,
+    "ground_truth": "Virginia Elizabeth Davis"
+  },
+  {
+    "question": "Suger Mice was a 1987 single for which British rock band?",
+    "model_answer": " The song \"Suger Mice\" was released by the British rock band Def Leppard. \n\nExplanation: The song \"Suger Mice\" is an iconic track from the album \"Hysteria,\" which was released by the English rock band",
+    "correct": false,
+    "ground_truth": "In The Last Waking Moments"
+  },
+  {
+    "question": "In which decade were ZIP codes introduced in the USA?",
+    "model_answer": " The 1960s. \n\nZIP codes, or Zip Codes, were introduced in the United States during the 1960s as part of a nationwide postal reorganization effort to simplify and standardize the delivery process for mail.",
+    "correct": true,
+    "ground_truth": "Sixties Revolution"
+  },
+  {
+    "question": "What are the shape-shifting foxes of the Japanese folklore?",
+    "model_answer": " Kitsune.",
+    "correct": true,
+    "ground_truth": "Kintsu"
+  },
+  {
+    "question": "In Greek mythology who was the twin of Polydeuces?",
+    "model_answer": " The twins are named Epona and Euphorbus. They were the sons of King Priam of Troy.\n\nThe twins, Epona and Euphorbus, were the sons of King Priam of Troy. They were known for",
+    "correct": false,
+    "ground_truth": "Castor (disambiguation)"
+  },
+  {
+    "question": "Which film features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank?",
+    "model_answer": " The film \"The Thomas Crown Affair\" features the Dawes Tomes Mousley Grubbs Fidelity Fiduciary Bank.",
+    "correct": false,
+    "ground_truth": "Mrs. George Banks"
+  },
+  {
+    "question": "What is Robin Williams character called in Good Morning Vietnam?",
+    "model_answer": " Al Borland. \n\nRobin Williams played the character Al Borland in the movie \"Good Morning, Vietnam.\" The character is known for his role as a U.S. Army private who becomes disillusioned with the war and ultimately decides to leave it behind",
+    "correct": false,
+    "ground_truth": "Adrian"
+  },
+  {
+    "question": "Who plays Cruella de Vil in the 1996 live action version of 101 Dalmations?",
+    "model_answer": " Emma Thompson plays Cruella de Vil in the 1996 live action version of 101 Dalmatians.",
+    "correct": false,
+    "ground_truth": "Glenn close"
+  },
+  {
+    "question": "Who stars in the 2008 movie Seven Pounds?",
+    "model_answer": " Denzel Washington stars in the 2008 movie Seven Pounds.",
+    "correct": false,
+    "ground_truth": "Sheree Zampino"
+  },
+  {
+    "question": "Marilyn Monroe starred in the Seven Year Itch. Who directed it?",
+    "model_answer": " The film \"The Seven Year Itch\" was directed by Billy Wilder. \n\nExplanation: The Seven Year Itch is a 1955 American comedy film starring Marilyn Monroe and Tom Ewell, directed by Billy Wilder. Therefore,",
+    "correct": true,
+    "ground_truth": "Billy Wilder"
+  },
+  {
+    "question": "On Red Nose Day 2001 who won Celebrity Big Brother?",
+    "model_answer": " The winner of Celebrity Big Brother on Red Nose Day 2001 was Paul Sinha. \n\nStep 1: Identify the key information needed to answer the question - \"Red Nose Day 2001\", \"Celebrity Big Brother",
+    "correct": false,
+    "ground_truth": "Dee, Jack"
+  },
+  {
+    "question": "What is the name of the London Underground station in EastEnders?",
+    "model_answer": " Albert Square. \n\nIn EastEnders, Albert Square is the main location and the heart of the fictional town of Walford. It's where many characters live, work, and interact with each other. The station itself is named after this iconic",
+    "correct": true,
+    "ground_truth": "Walford East tube station"
+  },
+  {
+    "question": "How many runs did Donald Bradman score in his last ever test match innings?",
+    "model_answer": " 125 runs. \n\nDonald Bradman scored 125 runs in his last ever Test match innings against Australia at Sydney in 1980-81. This was his final Test match, and he retired from international cricket",
+    "correct": false,
+    "ground_truth": "None"
+  },
+  {
+    "question": "Nicknamed the cannibal, who is the only rider to have won all three jerseys in the same year in the Tour de France?",
+    "model_answer": " Jacques Anquetil. He won all three jerseys (green, yellow, and polka dot) in 1978.\n\nJacques Anquetil was the only rider to win all three jerseys (green, yellow, and polka dot",
+    "correct": false,
+    "ground_truth": "Edward Merckx"
+  },
+  {
+    "question": "Whose arch nemisis is the Red Skull?",
+    "model_answer": " The Red Skull's arch nemesis is Baron Heinrich Zemo. \n\nExplanation: In the Marvel Comics universe, the Red Skull is a supervillain who serves as the main antagonist of the \"Red Skull\" storyline. He is portrayed as a",
+    "correct": false,
+    "ground_truth": "Runaways (comics)"
+  },
+  {
+    "question": "By what name is comic book villain Oswald Chesterfield Cobblepot better known?",
+    "model_answer": " Batman's archenemy, The Penguin.",
+    "correct": true,
+    "ground_truth": "Penguin (comics)"
+  },
+  {
+    "question": "First appearing on TV in 1967, which detective solved all of his crimes sitting down?",
+    "model_answer": " Columbo. He sat and solved crimes.\n\nThe answer is: Columbo. He sat and solved crimes. \n\nColumbo was a popular detective character who first appeared on television in 1967. The show revolves around the character's",
+    "correct": false,
+    "ground_truth": "Ironside (disambiguation)"
+  },
+  {
+    "question": "How many times was Wyatt Earp shot?",
+    "model_answer": " Wyatt Earp was shot three times.",
+    "correct": false,
+    "ground_truth": "None"
+  },
+  {
+    "question": "Which famous cowboy was created by George W. Trendle?",
+    "model_answer": " The Lone Ranger is the famous cowboy created by George W. Trendle. \n\nExplanation: George W. Trendle, an American illustrator and cartoonist, created the character of the Lone Ranger for the comic strip \"The Spirit of the West\" in",
+    "correct": true,
+    "ground_truth": "Lone Ranger (comics)"
+  },
+  {
+    "question": "The pub with the longest name in the UK has how many letters in it? 55, 75 or 95?",
+    "model_answer": " 95\n\nThe pub with the longest name in the UK has 95 letters. This title is held by \"The Sun Inn,\" located in the village of Hopton-on-Sea, Norfolk, England. The name spans over ",
+    "correct": false,
+    "ground_truth": "55"
+  },
+  {
+    "question": "Which movie starred Michael Caine as a murderous transvestite psychiatrist?",
+    "model_answer": " \"The Italian Job\" (1969) starring Michael Caine. \n\nExplanation: The movie is about a group of thieves who plan to rob a bank, but they need a getaway car and a driver. They hire a professional driver named",
+    "correct": false,
+    "ground_truth": "Dressed to Kill"
+  },
+  {
+    "question": "In 1961, who famously scored six goals in a match but still ended up on the losing team in a FA Cup tie?",
+    "model_answer": " Bobby Moore of England scored six goals in a match but was on the losing side in a FA Cup tie. \n\nExplanation: The question is asking for the name of an individual who scored six goals in a match and then lost the game. The answer",
+    "correct": false,
+    "ground_truth": "Denis Law"
+  },
+  {
+    "question": "Which economist wrote The Wealth Of Nations?",
+    "model_answer": " Adam Smith wrote The Wealth of Nations. \n\nExplanation: The Wealth of Nations is an economic work by Adam Smith, published in 1776. It discusses topics such as free trade and the division of labor, which are foundational to modern economics",
+    "correct": true,
+    "ground_truth": "Vile maxim"
+  },
+  {
+    "question": "Macbeth belonged to which royal house or dynasty?",
+    "model_answer": " Macbeth was from the House of MacDonald. \n\nMacDonald is a Scottish royal family that has been associated with the throne of Scotland since the 13th century. The name \"MacDonald\" itself means \"son of MacDonald.\" Thus, Mac",
+    "correct": false,
+    "ground_truth": "House of Dunkeld"
+  },
+  {
+    "question": "Was James II known as: James The Bald, Fiery Face, or The Red King?",
+    "model_answer": " James II was known as \"The Red King.\" He was also referred to as \"James the Bald\" and \"Fiery Face.\"\n\nJames II (1630\u20131702) was the king of England from 168",
+    "correct": true,
+    "ground_truth": "Fiery Face"
+  },
+  {
+    "question": "In Harry Potter And The Goblet Of Fire, which dragon did Harry have to defeat?",
+    "model_answer": " Nagini.",
+    "correct": false,
+    "ground_truth": "Ronan (Harry Potter)"
+  },
+  {
+    "question": "What is the full name of the train robber played by Phil Collins in a 1988 movie?",
+    "model_answer": " \"Red Riding Hood\" (1988) - \"The Train Robbers\" - Phil Collins as \"Jack the Ripper\". \n\nNote: This answer refers to a fictional character and not a real-life event or person. The context provided",
+    "correct": false,
+    "ground_truth": "Buster Edwards"
+  },
+  {
+    "question": "Tony Hadley was the lead singer with which 1980s new romantic band?",
+    "model_answer": " The B-52's. \n\nTony Hadley was the lead singer of the British new romantic band Spandau Ballet, but he is also known for his work with the B-52's as their lead vocalist from 198",
+    "correct": true,
+    "ground_truth": "List of awards and nominations received by Spandau Ballet"
+  },
+  {
+    "question": "What was the surname of the butler played by Gordon Jackson in Upstairs Downstairs?",
+    "model_answer": " Jackson's butler's surname is Carson.",
+    "correct": false,
+    "ground_truth": "Hudson (disambiguation)"
+  },
+  {
+    "question": "Which Jackson appeared in Celebrity Big Brother in January 2009?",
+    "model_answer": " Michael Jackson appeared in Celebrity Big Brother in January 2009. \n\nMichael Jackson was a well-known American singer, songwriter, and dancer who gained worldwide fame as a member of The Jackson 5 and later as the leader of the pop group",
+    "correct": false,
+    "ground_truth": "Latoya jackson"
+  },
+  {
+    "question": "Who was the seventh president of the United States?",
+    "model_answer": " James Madison. He served from 1809 to 1817.\n\nJames Madison was the seventh president of the United States, serving from 1809 to 1817. He is known for his role in",
+    "correct": true,
+    "ground_truth": "Seventh President of the United States"
+  },
+  {
+    "question": "In which country are the Angel Falls, the highest waterfall in the world?",
+    "model_answer": " Venezuela. The Angel Falls are located in Venezuela.",
+    "correct": true,
+    "ground_truth": "ISO 3166-1:VE"
+  },
+  {
+    "question": "The 1955 comedy movie We're No Angels centred on three escaped convicts. Peter Ustinov and Aldo Ray were two, but who played the third?",
+    "model_answer": " The third escaped convict was played by Jack Palance.\n\nThe 1955 comedy film \"We're No Angels\" starred several actors, including Peter Ustinov, Aldo Ray, and Jack Palance. However, Jack Palance played",
+    "correct": false,
+    "ground_truth": "Humphrey boggart"
+  },
+  {
+    "question": "Who played King Arthur in the 1967 musical film Camelot?",
+    "model_answer": " Richard Burton played King Arthur in the 1967 musical film Camelot.",
+    "correct": false,
+    "ground_truth": "Richard Harris (actor)"
+  },
+  {
+    "question": "Which country grows the largest number of mangoes?",
+    "model_answer": " India is known for growing the largest number of mangoes. \n\nExplanation: Mango trees are native to India, and it has been a significant agricultural crop there for centuries. The Indian state of Maharashtra is particularly famous for its large production of mangoes.",
+    "correct": true,
+    "ground_truth": "\u0d2d\u0d3e\u0d30\u0d24 \u0d2e\u0d39\u0d3e\u0d30\u0d3e\u0d1c\u0d4d\u0d2f\u0d02"
+  },
+  {
+    "question": "Ecuador has a border with Peru and which other country ?",
+    "model_answer": " Colombia. \n\nEcuador shares borders with Peru to the west, and Colombia to the north and east. The country is located on the western coast of South America, bordered by the Pacific Ocean to its west and south, and the Caribbean Sea to its",
+    "correct": true,
+    "ground_truth": "Rep\u00fablica de Colombia"
+  },
+  {
+    "question": "In 2009, who was convicted of the murder of Lana Clarkson?",
+    "model_answer": " O.J. Simpson was convicted of the murder of Lana Clarkson in 2009.\n\nO.J. Simpson was convicted of the murder of Lana Clarkson in 2009.",
+    "correct": false,
+    "ground_truth": "Annette Records"
+  },
+  {
+    "question": "The left side of the heart pumps blood to all parts of the body, but the right side pumps blood to which organ in particular?",
+    "model_answer": " The right side of the heart pumps blood to the lungs.",
+    "correct": true,
+    "ground_truth": "Pulmonary surgical procedures"
+  },
+  {
+    "question": "Which cartoon character lives in a pineapple under the sea?",
+    "model_answer": " SpongeBob SquarePants. \n\nSpongeBob SquarePants is a popular animated television series that follows the adventures of SpongeBob, an octopus who lives in a pineapple under the sea with his friends Patrick Star and Gary Unwound. The",
+    "correct": true,
+    "ground_truth": "Money And Music"
+  },
+  {
+    "question": "Which serial killer hanged himself in Wakefield Prison in January 2004, four years after being found guilty of 15 murders?",
+    "model_answer": " Peter Sutcliffe. He was hanged on January 30, 2004.\n\nPeter Sutcliffe is known for his crimes as the \"Yorkshire Ripper,\" a serial killer who committed fifteen murders between 197",
+    "correct": false,
+    "ground_truth": "Doctor shipman"
+  },
+  {
+    "question": "What public school did the Duke of Edinburgh and Prince Charles attend?",
+    "model_answer": " Eton College. \n\nThe Duke of Edinburgh attended Eton College, while Prince Charles also attended this prestigious boarding school. Both institutions are renowned for their academic excellence and tradition-rich history.",
+    "correct": false,
+    "ground_truth": "Gordonstoun School"
+  },
+  {
+    "question": "If it was Phil Mickelson in 2006, Zach Johnson in 2007, and Trevor Immelman in 2008, who was it in 2009?",
+    "model_answer": " Tiger Woods. \n\nExplanation: The question is asking for the golfer who won the Masters Tournament in 2009 after Phil Mickelson, Zach Johnson, and Trevor Immelman did not win in consecutive years from 2006 to",
+    "correct": false,
+    "ground_truth": "Angel Cabrera"
+  },
+  {
+    "question": "Red Stripe lager comes from which country?",
+    "model_answer": " Red Stripe lager is brewed in Jamaica. \n\nExplanation: The question asks for the country of origin of Red Stripe lager, and the answer provides this information directly without any additional context or explanation. Therefore, it meets the criteria of being a straightforward",
+    "correct": true,
+    "ground_truth": "Jamica"
+  },
+  {
+    "question": "Which architect was known as the Wizard of the Dome?",
+    "model_answer": " Frank Lloyd Wright. He is often referred to as the \"Wizard of the Dome\" due to his innovative use of domed structures in his buildings.\n\nFrank Lloyd Wright, also known as the \"Wizard of the Dome,\" was an American architect who designed",
+    "correct": true,
+    "ground_truth": "BUCKY function"
+  },
+  {
+    "question": "What is the name of the Salvador Dali painting that shows clocks oozing over a landscape?",
+    "model_answer": " \"The Persistence of Memory\" (1931) by Salvador Dali. \n\nExplanation: The question asks for the title of a specific painting by Salvador Dali, which features clocks oozing over a landscape. The answer provides the correct",
+    "correct": true,
+    "ground_truth": "Persistance of Memory"
+  },
+  {
+    "question": "In what year did Edward Vlll abdicate?",
+    "model_answer": " Edward VIII abdicated in 1936. \n\nExplanation: The question is asking for the specific year when Edward VIII, who was King of the United Kingdom and the Dominions from 1936 to 1937",
+    "correct": true,
+    "ground_truth": "one thousand, nine hundred and thirty-six"
+  },
+  {
+    "question": "Which well known couple live at Bagshot Park in Surrey?",
+    "model_answer": " The Duke and Duchess of Cambridge and Prince Harry. \n\nThe answer is based on the information that Bagshot Park, located in Surrey, England, is home to the Duke and Duchess of Cambridge (Prince William and Kate Middleton) and their son, Prince",
+    "correct": false,
+    "ground_truth": "HRH The Earl of Wessex"
+  },
+  {
+    "question": "Which notorious murderer lived at 10 Rillington Place?",
+    "model_answer": " Anthony Blunt, a British spy and former MI6 officer, lived at 10 Rillington Place. He was also involved in the murder of five women. However, he is not considered a notorious murderer as his crimes were committed under du",
+    "correct": false,
+    "ground_truth": "John Christie (footballer)"
+  },
+  {
+    "question": "Who killed Lee harvey Oswald?",
+    "model_answer": " Jack Ruby shot Lee Harvey Oswald.",
+    "correct": true,
+    "ground_truth": "Tom Howard (attorney)"
+  },
+  {
+    "question": "Who killed Robert F Kennedy?",
+    "model_answer": " Sirhan Sirhan is believed to have killed Robert F. Kennedy.\n\nSirhan Sirhan, an Arab-American college student, was convicted of the assassination and sentenced to life in prison. He died while serving his sentence at San Quentin State Prison on November",
+    "correct": true,
+    "ground_truth": "Sir Han Sir Han"
+  },
+  {
+    "question": "Who killed Jean Paul Marat?",
+    "model_answer": " Maximilien Robespierre executed Jean-Paul Marat. \n\nJean-Paul Marat was a French writer and journalist who became known for his controversial writings, including \"The Decembrist Book,\" which criticized the French monarchy. He was also",
+    "correct": false,
+    "ground_truth": "Corday, Charlotte"
+  },
+  {
+    "question": "What was the name of the kangaroo often mistaken by Sylvester the cat to be a giant mouse?",
+    "model_answer": " \"The Tasmanian Devil\"",
+    "correct": false,
+    "ground_truth": "Hippety Hopper"
+  },
+  {
+    "question": "Gjetost is the national cheese of which country?",
+    "model_answer": " Norway. Gjetost is a traditional Norwegian cheese.",
+    "correct": true,
+    "ground_truth": "Norv\u00e8ge"
+  },
+  {
+    "question": "A youngberry is a cross between a dewberry and what else?",
+    "model_answer": " A youngberry is a hybrid of a dewberry and a blackberry. \n\nExplanation: The term \"youngberry\" refers to a type of berry that has been crossed with a dewberry, which is a small, wildflower-like plant native to",
+    "correct": true,
+    "ground_truth": "Blackberry bush"
+  },
+  {
+    "question": "Who is Arthur Wellesley better known as?",
+    "model_answer": " He is better known as Lord Wellington. \n\nArthur Wellesley was a British general and statesman who served as Prime Minister of the United Kingdom from 1820 to 1827, during which time he led Britain's military",
+    "correct": true,
+    "ground_truth": "First Duke of Wellington"
+  },
+  {
+    "question": "Which town in East Sussex now stands on the site of the battle of Hastings?",
+    "model_answer": " Battle of Hastings took place in Hastings, East Sussex. The town is now located on the site where the battle occurred.",
+    "correct": true,
+    "ground_truth": "Battle"
+  },
+  {
+    "question": "Which 1986 Peter Weir movie and based on a Paul Theroux novel starred Harrison Ford, Helen Mirren and River Phoenix?",
+    "model_answer": " \"The Last of the Mohicans\" (1992) starring Harrison Ford.",
+    "correct": false,
+    "ground_truth": "The Mosquito Coast"
+  },
+  {
+    "question": "What is the name of CS Lewis' 7 book fantasy?",
+    "model_answer": " The Chronicles of Narnia.",
+    "correct": true,
+    "ground_truth": "Narnia"
+  },
+  {
+    "question": "Name the tv series about FBI agent Don Eppes and his mathematical genius brother Charlie",
+    "model_answer": " \"Quantum Leap\" is the TV series you are referring to. It stars Scott Bakula as Don Eppes and Judd Nelson as his brother Charlie. The show revolves around their adventures while working for the Federal Bureau of Investigation (FBI",
+    "correct": false,
+    "ground_truth": "Numb3rs"
+  },
+  {
+    "question": "All children except one grow up.",
+    "model_answer": " The statement is false. There are always more than one child.\n\nThe statement \"All children except one grow up\" is false because there can never be only one child, as every individual has at least one parent and thus two parents. Therefore, it",
+    "correct": false,
+    "ground_truth": "Peter Pan (literary character)"
+  },
+  {
+    "question": "Scarlett O'Hara was not beautiful, but men seldom realised it when caught by her charm as the Tarleton twins were",
+    "model_answer": " Scarlett O'Hara's beauty was deceptive. The Tarleton twins' attraction to her stemmed from her charm rather than her physical appearance.",
+    "correct": false,
+    "ground_truth": "Gone with teh wind"
+  },
+  {
+    "question": "Which horse racing jockey was sometimes referred to as the long fellow?",
+    "model_answer": " The horse racing jockey sometimes referred to as the \"long fellow\" is Eddie Arcaro. He was known for his distinctive height and was often compared to a long-legged horse.\n\nThe horse racing jockey who was sometimes referred to as the \"long",
+    "correct": false,
+    "ground_truth": "Lester Piggot"
+  },
+  {
+    "question": "Who is the patron saint of lost causes?",
+    "model_answer": " Saint Michael the Archangel. \n\nExplanation: Saint Michael is often depicted as the protector and champion of Christians, particularly those who are persecuted or in need of divine assistance. He is considered the patron saint of soldiers, sailors, and pilots, among other",
+    "correct": false,
+    "ground_truth": "Jude Taddhaeus"
+  },
+  {
+    "question": "True or False: Sharks do not blink?",
+    "model_answer": " True. Sharks do not blink. They have a unique feature called \"ocular lid\" that covers their eyes, preventing them from blinking. This adaptation helps sharks to conserve energy and reduce water loss through their gills. However, they still need to",
+    "correct": true,
+    "ground_truth": "True (disambiguation)"
+  },
+  {
+    "question": "Which `B` was the name of the mechanical shark used in the original `Jaws` film?",
+    "model_answer": " The mechanical shark's name is \"Great White Shark\". \n\nExplanation: In the original 1975 film \"Jaws\", the mechanical shark that terrorized the small town of Amity Island is named \"Great White Shark\" or simply \"",
+    "correct": false,
+    "ground_truth": "Bruce"
+  },
+  {
+    "question": "The American legal drama Shark ran from Sept 06 to May 08. Who starred in the title role, playing Sebastian Stark?",
+    "model_answer": " John Travolta starred as Sebastian Stark in the title role of \"Shark.\"",
+    "correct": false,
+    "ground_truth": "James Woods filmography"
+  },
+  {
+    "question": "Which Italian fashion designer was shot dead on the steps of his Miami mansion in 1997?",
+    "model_answer": " Gianni Versace. He was shot dead on the steps of his Miami mansion in 1997.\n\nStep 1: Identify the key information needed to answer the question - Italian fashion designer, shot dead, Miami mansion, and year (",
+    "correct": true,
+    "ground_truth": "Giani Versaci"
+  },
+  {
+    "question": "Who was famous for popularising the 'little black dress' in the 1920s?",
+    "model_answer": " Coco Chanel. She is known for popularizing the little black dress during the 1920s.\n\nThe answer to this question is: Coco Chanel. She is renowned for popularizing the \"little black dress\" in the 192",
+    "correct": true,
+    "ground_truth": "Gabriella Bonheur Chanel"
+  },
+  {
+    "question": "Who designed Madonna's wedding dress for her marriage to Guy Ritchie?",
+    "model_answer": " David\u82f1\u8fea\u8bbe\u8ba1\u4e86Madonna\u4e0eGuy Ritchie\u5a5a\u793c\u4e0a\u7684\u5a5a\u7eb1\u3002",
+    "correct": false,
+    "ground_truth": "Stella Nina McCartney"
+  },
+  {
+    "question": "Meryl Streep's character, Miranda, in the 2006 film The Devil Wears Prada was based on the editor-in-chief of which fashion magazine?",
+    "model_answer": " Miranda Priestly.",
+    "correct": false,
+    "ground_truth": "Vogue (disambiguation)"
+  },
+  {
+    "question": "In the TV show Camberwick Green, who lived in Colly's Mill?",
+    "model_answer": " The characters from Camberwick Green live in Colly's Mill.",
+    "correct": true,
+    "ground_truth": "Windy Miller"
+  },
+  {
+    "question": "Which part of the human body produces insulin?",
+    "model_answer": " The pancreas. Insulin is produced by beta cells in the pancreas.",
+    "correct": true,
+    "ground_truth": "Inferior surfaces of the pancreas"
+  },
+  {
+    "question": "Who played Dr. Doug Ross on the TV show E.R.?",
+    "model_answer": " George Clooney played Dr. Doug Ross on the TV show E.R.\n\nGeorge Clooney played the role of Dr. Doug Ross on the TV show \"ER.\" He was known for his portrayal of this character, which aired from 199",
+    "correct": true,
+    "ground_truth": "Max (pig)"
+  },
+  {
+    "question": "Who played the role of Kate Flax in the 1990 film Mermaids?",
+    "model_answer": " The role of Kate Flax was played by actress Sarah Jessica Parker. \n\nExplanation: In the 1990 film \"Mermaids,\" Sarah Jessica Parker portrayed the character Kate Flax, who is the main protagonist and the love interest of the",
+    "correct": false,
+    "ground_truth": "Christine ricci"
+  },
+  {
+    "question": "Who played the character Mrs. Merton on TV?",
+    "model_answer": " The character Mrs. Merton was played by actress Mary Tyler Moore on TV. She is best known for her role as Laura Petrie on \"The Mary Tyler Moore Show.\"",
+    "correct": false,
+    "ground_truth": "Caroline Hook"
+  },
+  {
+    "question": "What nationality was three time Olympic gold medallist in figure skating Sonja Henie?",
+    "model_answer": " Norwegian. Sonja Henie is of Norwegian nationality.\n\nSonja Henie, a three-time Olympic gold medalist in figure skating, was indeed of Norwegian nationality. She was born on January 17, 1902, in St",
+    "correct": true,
+    "ground_truth": "Norwegain"
+  },
+  {
+    "question": "At which Winter Olympic host city would you find the Cresta Run?",
+    "model_answer": " In 1968, the Cresta Run took place at the Winter Olympics held in Grenoble, France. \n\nThe Cresta Run is a ski jump competition that was part of the alpine skiing events during the Winter Olympics. It's",
+    "correct": false,
+    "ground_truth": "St. Moritz (Graub\u00fcnden)"
+  },
+  {
+    "question": "What kind of an animal is a wireworm?",
+    "model_answer": " Wireworm is a type of earthworm. \n\nExplanation: A wireworm is a species of soil-dwelling worm that belongs to the order Nematoda, which includes other well-known animals like nematodes and roundworms. They are",
+    "correct": false,
+    "ground_truth": "The Beetle"
+  }
+]

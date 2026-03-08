@@ -1,0 +1,20 @@
+# model weights
+qwen1.5b/
+*.safetensors
+
+# cache
+.cache/
+
+# python
+__pycache__/
+*.pyc
+
+# environments
+venv/
+.venv/
+
+# notebooks
+.ipynb_checkpoints/
+
+# mac files
+.DS_Store
