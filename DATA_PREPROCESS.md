@@ -1,4 +1,9 @@
 # Gnosis Data Pipeline
+
+> **Scope:** This document describes the **Gnosis SFT pipeline** — a separate track from the hidden-state probing experiment in the [main README](README.md). The probing demo (`src/demo.py`) does not use vLLM, these scripts, or `open-r1/`. See the README's [Repository scope](README.md#repository-scope) section for how the two tracks relate.
+
+> **Reproducibility:** Install pinned deps with `pip install -r requirements-gnosis.txt` (data/eval) or `bash scripts/setup_gnosis_env.sh` (full training stack). See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for versions, seeds, and exact commands.
+
 **Training + Benchmarks (Test/Eval)**
 
 This repo uses one unified pipeline to:

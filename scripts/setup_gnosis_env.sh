@@ -50,6 +50,9 @@ python -m pip install --upgrade pip wheel setuptools
 # Faster HF uploads (optional, harmless if not installed)
 export HF_HUB_ENABLE_HF_TRANSFER="${HF_HUB_ENABLE_HF_TRANSFER:-1}"
 
+echo "📦 Installing Gnosis data/eval requirements ..."
+python -m pip install -r "${ROOT_DIR}/requirements-gnosis.txt"
+
 echo "📦 Installing vLLM (${VLLM_VERSION}) ..."
 python -m pip install "vllm==${VLLM_VERSION}"
 

@@ -1,5 +1,7 @@
 # Open R1
 
+> **In this repository:** `open-r1/` is the **Gnosis training stack** (SFT/GRPO fine-tuning on verified TriviaQA/math data). It is downstream of the hidden-state probing experiment documented in the [root README](../README.md). For data generation and labeling, see [DATA_PREPROCESS.md](../DATA_PREPROCESS.md).
+
 *A fully open reproduction of DeepSeek-R1. This repo is a work in progress, let's build it together!*
 
 **Table of Contents**  

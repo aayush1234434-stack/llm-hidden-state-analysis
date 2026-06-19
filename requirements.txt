@@ -1,7 +1,15 @@
-torch
-numpy
-transformers
-datasets
-scikit-learn
-matplotlib
-tqdm
+# Hidden-state probing experiment (src/demo.py)
+#
+#   pip install -r requirements.txt
+#   python src/demo.py
+
+numpy==1.26.4
+transformers==4.56.1
+datasets==5.0.0
+huggingface_hub==0.36.2
+fsspec==2024.6.0
+scikit-learn==1.5.2
+matplotlib==3.9.2
+tqdm==4.66.5
+pyyaml>=6.0
+# Install torch separately for your platform: https://pytorch.org/get-started/locally/

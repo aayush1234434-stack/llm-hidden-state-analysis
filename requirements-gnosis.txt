@@ -1,0 +1,31 @@
+# Gnosis data-prep + evaluation pipeline (CUDA GPU required for vLLM generation)
+# Does NOT install open-r1 training forks (transformers/trl) — use scripts/setup_gnosis_env.sh
+# for the full SFT/GRPO stack.
+#
+#   pip install -r requirements-gnosis.txt
+#   pip install -e open-r1[dev] --no-deps   # after setup_gnosis_env.sh installs local forks
+
+# Core generation (vLLM pins torch==2.6.0 on Linux+CUDA)
+vllm==0.8.5.post1
+torch==2.6.0
+
+# HF + data
+transformers==4.52.3
+datasets==3.2.0
+huggingface_hub==0.36.2
+fsspec==2024.6.0
+safetensors>=0.4.5
+sentencepiece>=0.1.99
+
+# Task evaluators (math + trivia labeling)
+math-verify==0.5.2
+latex2sympy2_extended>=1.0.6
+
+# Data prep / scoring scripts
+pandas==2.2.3
+rich>=13.7.1
+pyarrow>=15.0.0
+numpy==1.26.4
+scikit-learn==1.5.2
+matplotlib==3.9.2
+tqdm==4.66.5
