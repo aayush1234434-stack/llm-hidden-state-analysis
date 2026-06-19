@@ -113,7 +113,7 @@ AUROC and balanced accuracy provide a better assessment.
 
 ---
 <img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/fdaad8a3-d6b5-4694-b840-a6066da4ea7f" />
-## Note: the plot above currently overlays a 0.88 "majority baseline" line on an AUROC axis. Majority-baseline AUROC is 0.5 by definition, not 0.88 — that comparison only holds for plain accuracy. The plot needs a fix (either two y-axes, or drop the majority-baseline line and keep only the permutation-baseline line, which is the correct AUROC comparison).
+ Note: the plot above currently overlays a 0.88 "majority baseline" line on an AUROC axis. Majority-baseline AUROC is 0.5 by definition, not 0.88 — that comparison only holds for plain accuracy. The plot needs a fix (either two y-axes, or drop the majority-baseline line and keep only the permutation-baseline line, which is the correct AUROC comparison).
 
 
 # Key Observations
