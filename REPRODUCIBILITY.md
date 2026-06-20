@@ -35,6 +35,20 @@ python src/demo.py
 
 Resolved revisions are written to `run_manifest.json` after each run.
 
+### Primary 500-sample run (reported in README)
+
+| Artifact | Resolved SHA |
+| -------- | ------------ |
+| Model `Qwen/Qwen2-1.5B-Instruct` | `ba1cf1846d7df0a0591d6c00649f57e798519da8` |
+| Dataset `mandarjoshi/trivia_qa` | `0f7faf33a3908546c6fd5b73a660e0f8ff173c2f` |
+
+Reproduce the README numbers with:
+
+```bash
+export MODEL_REVISION=ba1cf1846d7df0a0591d6c00649f57e798519da8
+export DATASET_REVISION=0f7faf33a3908546c6fd5b73a660e0f8ff173c2f
+python src/demo.py --no-show-plot
+
 ### Seeds and splits
 
 | Purpose | Seed / range |
