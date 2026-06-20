@@ -1,8 +1,8 @@
 # Gnosis Data Pipeline
 
-> **Scope:** This document describes the **Gnosis SFT pipeline** — a separate track from the hidden-state probing experiment in the [main README](README.md). The probing demo (`src/demo.py`) does not use vLLM, these scripts, or `open-r1/`. See the README's [Repository scope](README.md#repository-scope) section for how the two tracks relate.
+> **Scope:** This document describes the **Gnosis SFT pipeline** — a separate track from the hidden-state probing experiment in the [main README](../README.md). The probing demo (`src/demo.py`) does not use vLLM, these scripts, or `gnosis/open-r1/`. See the README's [Repository scope](../README.md#repository-scope) section for how the two tracks relate.
 
-> **Reproducibility:** Install pinned deps with `pip install -r requirements-gnosis.txt` (data/eval) or `bash scripts/setup_gnosis_env.sh` (full training stack). See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for versions, seeds, and exact commands.
+> **Reproducibility:** Install pinned deps with `pip install -r gnosis/requirements-gnosis.txt` (data/eval) or `bash gnosis/scripts/setup_gnosis_env.sh` (full training stack). See [`REPRODUCIBILITY.md`](../REPRODUCIBILITY.md) for versions, seeds, and exact commands.
 
 **Training + Benchmarks (Test/Eval)**
 
@@ -32,20 +32,20 @@ This repo uses one unified pipeline to:
 
 ### Core
 - **Generate completions (training + benchmarks)**  
-  `src/data_preprocess/data_generation.py`
+  `gnosis/src/data_preprocess/data_generation.py`
 
 - **Verify / label completions (training + benchmarks)**  
-  `src/data_preprocess/Label_for_SFT.py`
+  `gnosis/src/data_preprocess/Label_for_SFT.py`
 
 ### Training-only
 - **Merge + rebalance verified datasets (e.g., trivia + math)**  
-  `src/data_preprocess/merge_sft_data.py`
+  `gnosis/src/data_preprocess/merge_sft_data.py`
 
 ### Benchmark preprocessing
 - **Merge math benchmarks → standardized CSV**  
-  `src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py`
+  `gnosis/src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py`
 - **Convert MMLU-Pro → minimal CSV**  
-  `src/data_preprocess/test_data_prepreprocess/mmlupro.py`
+  `gnosis/src/data_preprocess/test_data_prepreprocess/mmlupro.py`
 
 ---
 
@@ -54,14 +54,14 @@ This repo uses one unified pipeline to:
 ### A) Training data (SFT) ✅
 
 #### A1) Generate raw training completions (two-step vLLM)
-**Script:** `src/data_preprocess/data_generation.py`  
+**Script:** `gnosis/src/data_preprocess/data_generation.py`  
 **Output:** shards with `question`, optional gold (`answer/solution`), and `completion`.
 
 **Examples**
 
 **Math (DAPO)**
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode hf \
   --dataset_id open-r1/DAPO-Math-17k-Processed \
   --dataset_config en \
@@ -74,7 +74,7 @@ python src/data_preprocess/data_generation.py \
 **TriviaQA (train)**
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode hf \
   --dataset_id mandarjoshi/trivia_qa \
   --dataset_config rc \
@@ -88,7 +88,7 @@ python src/data_preprocess/data_generation.py \
 
 #### A2) Verify + label training completions
 
-**Script:** `src/data_preprocess/Label_for_SFT.py`
+**Script:** `gnosis/src/data_preprocess/Label_for_SFT.py`
 **Output:** mirrored shards under `verified/` with:
 
 * `correctness_label` ∈ {0, 1}
@@ -96,12 +96,12 @@ python src/data_preprocess/data_generation.py \
 
 ```bash
 # Trivia
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/train/Qwen3_8B_trivia_qa40k-6k \
   --task trivia
 
 # Math
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/train/Qwen3_8B_DAPO_Math_9k3k_2gen \
   --task math
 ```
@@ -110,7 +110,7 @@ python src/data_preprocess/Label_for_SFT.py \
 
 #### A3) Merge + rebalance (training only)
 
-**Script:** `src/data_preprocess/merge_sft_data.py`
+**Script:** `gnosis/src/data_preprocess/merge_sft_data.py`
 **Does:** unify schema + rebalance per-question completion buckets:
 
 * **all-correct**, **all-wrong**, **mixed**
@@ -118,7 +118,7 @@ python src/data_preprocess/Label_for_SFT.py \
 * optional per-task row caps
 
 ```bash
-python src/data_preprocess/merge_sft_data.py
+python gnosis/src/data_preprocess/merge_sft_data.py
 ```
 
 **Final output**
@@ -133,22 +133,22 @@ python src/data_preprocess/merge_sft_data.py
 
 #### B0.1 Math benchmark CSV (merged)
 
-**Script:** `src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py`
+**Script:** `gnosis/src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py`
 **Output columns:** `question`, `solution`, `original_source`
 
 ```bash
-python src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py \
+python gnosis/src/data_preprocess/test_data_prepreprocess/merge_eval_math_data.py \
   --out_csv data/test/merged_math.csv \
   --out_hf_dir data/test/merged_math_hf
 ```
 
 #### B0.2 MMLU-Pro CSV
 
-**Script:** `src/data_preprocess/test_data_prepreprocess/mmlupro.py`
+**Script:** `gnosis/src/data_preprocess/test_data_prepreprocess/mmlupro.py`
 **Output columns:** `question`, `answer` (letter)
 
 ```bash
-python src/data_preprocess/test_data_prepreprocess/mmlupro.py \
+python gnosis/src/data_preprocess/test_data_prepreprocess/mmlupro.py \
   --out_dir data/test/mmlu_pro_csv
 ```
 
@@ -158,12 +158,12 @@ python src/data_preprocess/test_data_prepreprocess/mmlupro.py \
 
 ### B1) Generate benchmark completions (same generator as training)
 
-**Script:** `src/data_preprocess/data_generation.py`
+**Script:** `gnosis/src/data_preprocess/data_generation.py`
 
 #### Math (from merged CSV)
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode csv \
   --data_path data/test/merged_math.csv \
   --system_prompt "Please reason step by step, and put your final answer within \\boxed{}." \
@@ -174,7 +174,7 @@ python src/data_preprocess/data_generation.py \
 #### MMLU-Pro (from CSV)
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode csv \
   --data_path data/test/mmlu_pro_csv/test.csv \
   --system_prompt "Please reason step by step, and put your final answer with only the choice letter within \\boxed{}." \
@@ -186,7 +186,7 @@ python src/data_preprocess/data_generation.py \
 #### TriviaQA (HF)
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode hf \
   --dataset_id mandarjoshi/trivia_qa \
   --dataset_config rc \
@@ -200,22 +200,22 @@ python src/data_preprocess/data_generation.py \
 
 ### B2) (Optional) Verify / score benchmark completions
 
-**Script:** `src/data_preprocess/Label_for_SFT.py`
+**Script:** `gnosis/src/data_preprocess/Label_for_SFT.py`
 **Output:** `verified/` shards with `correctness_label` + `pred_parsed`
 
 ```bash
 # Math
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/test/Qwen3_8B_MergedMath \
   --task math
 
 # Trivia
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/test/Qwen3_8B_TriviaQA_val \
   --task trivia
 
 # MMLU-Pro (letter evaluation)
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/test/Qwen3_8B_MMLUPro \
   --task gpqa
 ```

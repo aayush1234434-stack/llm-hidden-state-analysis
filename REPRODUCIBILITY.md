@@ -85,23 +85,23 @@ Outputs:
 | ---- | ----- |
 | Python | 3.11 |
 | GPU | NVIDIA CUDA (vLLM generation) |
-| Data/eval deps | [`requirements-gnosis.txt`](requirements-gnosis.txt) |
-| Full training stack | [`scripts/setup_gnosis_env.sh`](scripts/setup_gnosis_env.sh) |
+| Data/eval deps | [`gnosis/requirements-gnosis.txt`](gnosis/requirements-gnosis.txt) |
+| Full training stack | [`gnosis/scripts/setup_gnosis_env.sh`](gnosis/scripts/setup_gnosis_env.sh) |
 
 The setup script installs:
 
 - `vllm==0.8.5.post1` (brings `torch==2.6.0`)
 - Local editable `transformers/` and `trl[vllm]` forks (expected beside repo root)
-- `open-r1[dev]` with pins from [`open-r1/setup.py`](open-r1/setup.py)
+- `open-r1[dev]` with pins from [`gnosis/open-r1/setup.py`](gnosis/open-r1/setup.py)
 
 ```bash
-chmod +x scripts/setup_gnosis_env.sh
-bash scripts/setup_gnosis_env.sh
+chmod +x gnosis/scripts/setup_gnosis_env.sh
+bash gnosis/scripts/setup_gnosis_env.sh
 conda activate Gnosis1
 export TOKENIZERS_PARALLELISM=false
 ```
 
-### Pinned training dependencies (`open-r1/setup.py`)
+### Pinned training dependencies (`gnosis/open-r1/setup.py`)
 
 | Package | Pin |
 | ------- | --- |
@@ -120,7 +120,7 @@ export TOKENIZERS_PARALLELISM=false
 **Generate completions (vLLM):**
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --data_mode hf \
   --dataset_id mandarjoshi/trivia_qa \
   --dataset_config rc \
@@ -133,7 +133,7 @@ python src/data_preprocess/data_generation.py \
 **Label completions:**
 
 ```bash
-python src/data_preprocess/Label_for_SFT.py \
+python gnosis/src/data_preprocess/Label_for_SFT.py \
   --save_dir data/train/Qwen3_8B_trivia_qa40k-6k \
   --task trivia
 ```
@@ -141,13 +141,13 @@ python src/data_preprocess/Label_for_SFT.py \
 **Merge + rebalance:**
 
 ```bash
-python src/data_preprocess/merge_sft_data.py
+python gnosis/src/data_preprocess/merge_sft_data.py
 ```
 
 **SFT training (open-r1):**
 
 ```bash
-cd open-r1
+cd gnosis/open-r1
 accelerate launch --config_file recipes/accelerate_configs/ddp.yaml \
   src/open_r1/sft.py \
   --config recipes/training/Qwen3/Qwen3-8B_hybrid_gnosis.yaml
@@ -156,24 +156,24 @@ accelerate launch --config_file recipes/accelerate_configs/ddp.yaml \
 **Benchmark scoring:**
 
 ```bash
-python src/evaluation/score_completions_Gnosis_outputscores_script_version.py \
+python gnosis/src/evaluation/score_completions_Gnosis_outputscores_script_version.py \
   --save_dir data/test/Qwen3_8B_TriviaQA_val \
   --task trivia
 ```
 
-See [`DATA_PREPROCESS.md`](DATA_PREPROCESS.md) for full pipeline documentation.
+See [`gnosis/DATA_PREPROCESS.md`](gnosis/DATA_PREPROCESS.md) for full pipeline documentation.
 
 ### Gnosis model / dataset revisions
 
 Pin at generation time via CLI:
 
 ```bash
-python src/data_preprocess/data_generation.py \
+python gnosis/src/data_preprocess/data_generation.py \
   --model_id Qwen/Qwen3-8B \
   ...  # add --model_revision <sha> when supported
 ```
 
-Training YAMLs under `open-r1/recipes/training/` reference local dataset paths; record the Hub revision used during `data_generation.py` in your run notes or W&B config.
+Training YAMLs under `gnosis/open-r1/recipes/training/` reference local dataset paths; record the Hub revision used during `data_generation.py` in your run notes or W&B config.
 
 ---
 

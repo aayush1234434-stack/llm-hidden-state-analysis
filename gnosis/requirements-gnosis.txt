@@ -1,9 +1,9 @@
 # Gnosis data-prep + evaluation pipeline (CUDA GPU required for vLLM generation)
-# Does NOT install open-r1 training forks (transformers/trl) — use scripts/setup_gnosis_env.sh
+# Does NOT install open-r1 training forks (transformers/trl) — use gnosis/scripts/setup_gnosis_env.sh
 # for the full SFT/GRPO stack.
 #
-#   pip install -r requirements-gnosis.txt
-#   pip install -e open-r1[dev] --no-deps   # after setup_gnosis_env.sh installs local forks
+#   pip install -r gnosis/requirements-gnosis.txt
+#   pip install -e gnosis/open-r1[dev] --no-deps   # after setup_gnosis_env.sh installs local forks
 
 # Core generation (vLLM pins torch==2.6.0 on Linux+CUDA)
 vllm==0.8.5.post1

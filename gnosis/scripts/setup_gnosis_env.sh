@@ -4,25 +4,29 @@ set -euo pipefail
 # ---------------------------------------
 # Gnosis one-command installer
 # Usage (from repo root):
-#   chmod +x scripts/setup_gnosis_env.sh
-#   bash scripts/setup_gnosis_env.sh
+#   chmod +x gnosis/scripts/setup_gnosis_env.sh
+#   bash gnosis/scripts/setup_gnosis_env.sh
 #   conda activate Gnosis
 #
 # Optional overrides:
-#   ENV_NAME=Gnosis PYTHON_VERSION=3.11 VLLM_VERSION=0.8.5.post1 bash scripts/setup_gnosis_env.sh
+#   ENV_NAME=Gnosis PYTHON_VERSION=3.11 VLLM_VERSION=0.8.5.post1 bash gnosis/scripts/setup_gnosis_env.sh
 # ---------------------------------------
 
 ENV_NAME="${ENV_NAME:-Gnosis1}"
 PYTHON_VERSION="${PYTHON_VERSION:-3.11}"
 VLLM_VERSION="${VLLM_VERSION:-0.8.5.post1}"
 
-# Resolve repo root (assumes this file is in scripts/)
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "$ROOT_DIR"
+# Resolve gnosis/ and repo root (this file is in gnosis/scripts/)
+GNOSIS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+REPO_ROOT="$(cd "${GNOSIS_DIR}/.." && pwd)"
+cd "$REPO_ROOT"
 
 # Basic sanity checks
-for d in transformers trl open-r1 src; do
-  [[ -d "$ROOT_DIR/$d" ]] || { echo "❌ Missing '$d/' under repo root: $ROOT_DIR"; exit 1; }
+for d in open-r1 src; do
+  [[ -d "$GNOSIS_DIR/$d" ]] || { echo "❌ Missing '$d/' under gnosis/: $GNOSIS_DIR"; exit 1; }
+done
+for d in transformers trl; do
+  [[ -d "$REPO_ROOT/$d" ]] || { echo "❌ Missing '$d/' under repo root: $REPO_ROOT"; exit 1; }
 done
 
 # Make conda activation available inside non-interactive shells
@@ -51,7 +55,7 @@ python -m pip install --upgrade pip wheel setuptools
 export HF_HUB_ENABLE_HF_TRANSFER="${HF_HUB_ENABLE_HF_TRANSFER:-1}"
 
 echo "📦 Installing Gnosis data/eval requirements ..."
-python -m pip install -r "${ROOT_DIR}/requirements-gnosis.txt"
+python -m pip install -r "${GNOSIS_DIR}/requirements-gnosis.txt"
 
 echo "📦 Installing vLLM (${VLLM_VERSION}) ..."
 python -m pip install "vllm==${VLLM_VERSION}"
@@ -75,13 +79,13 @@ python -m pip install flash-attn --no-build-isolation || {
 
 echo "🔧 Installing local Transformers fork (Gnosis-integrated) ..."
 python -m pip uninstall -y transformers >/dev/null 2>&1 || true
-python -m pip install -e "./transformers"
+python -m pip install -e "${REPO_ROOT}/transformers"
 
 echo "🔧 Installing local TRL fork ..."
-python -m pip install -e "./trl[vllm]"
+python -m pip install -e "${REPO_ROOT}/trl[vllm]"
 
 echo "🔧 Installing open-r1 (dev, no deps) ..."
-pushd "open-r1" >/dev/null
+pushd "${GNOSIS_DIR}/open-r1" >/dev/null
 GIT_LFS_SKIP_SMUDGE=1 python -m pip install -e ".[dev]" --no-deps
 popd >/dev/null
 
