@@ -48,6 +48,7 @@ Reproduce the README numbers with:
 export MODEL_REVISION=ba1cf1846d7df0a0591d6c00649f57e798519da8
 export DATASET_REVISION=0f7faf33a3908546c6fd5b73a660e0f8ff173c2f
 python src/demo.py --no-show-plot
+```
 
 ### Seeds and splits
 
