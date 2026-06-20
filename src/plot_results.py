@@ -44,7 +44,6 @@ def run(cfg, *, show_plot: bool = True) -> Path:
 
     per_layer_auroc = validation["per_layer_mean_test_auroc"]
     num_layers = len(per_layer_auroc)
-    baseline = validation["majority_baseline"]
     perm_mean = validation["permutation_baseline"]["auroc"]["mean"]
     best_layer = validation["best_layer"]
 
@@ -65,16 +64,26 @@ def run(cfg, *, show_plot: bool = True) -> Path:
         linewidth=2, color="#4C8BF5", label="Mean test AUROC",
     )
     ax.fill_between(x, ci_low, ci_high, alpha=0.2, color="#4C8BF5", label="95% bootstrap CI")
-    ax.axhline(baseline, linestyle="--", color="#E8453C", linewidth=1.5,
-               label=f"Majority baseline ({baseline:.2f})")
-    ax.axhline(perm_mean, linestyle="--", color="#9E9E9E", linewidth=1.5,
-               label=f"Permutation baseline ({perm_mean:.2f})")
-    ax.axvline(best_layer, linestyle=":", color="#34A853", linewidth=1.5,
-               label=f"Best layer by val ({best_layer})")
-    ax.fill_between(
-        x, baseline, mean_test_auroc,
-        where=mean_test_auroc > baseline,
-        alpha=0.15, color="#4C8BF5", label="Above majority baseline",
+    ax.axhline(
+        0.5,
+        linestyle="--",
+        color="#9E9E9E",
+        linewidth=1.5,
+        label="Random baseline (0.50)",
+    )
+    ax.axhline(
+        perm_mean,
+        linestyle="--",
+        color="#BDBDBD",
+        linewidth=1.5,
+        label=f"Permutation baseline ({perm_mean:.2f})",
+    )
+    ax.axvline(
+        best_layer,
+        linestyle=":",
+        color="#34A853",
+        linewidth=1.5,
+        label=f"Best layer by val ({best_layer})",
     )
 
     ax.set_xlabel("Layer", fontsize=12)
