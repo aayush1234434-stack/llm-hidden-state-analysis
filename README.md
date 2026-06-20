@@ -1,203 +1,289 @@
-# Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits
+# Linear Probing for Correctness Signals in LLM Hidden States
 
-A mechanistic interpretability experiment probing whether correctness information is encoded in the hidden states of a language model **before it finishes generating an answer**.
-
-## Repository scope
-
-This repo contains **two related but separate tracks**:
-
-| Track | Purpose | Entry point |
-| ----- | ------- | ----------- |
-| **Hidden-state probing** (primary) | Test whether correctness is linearly decodable from layer activations on TriviaQA | `configs/probe_default.yaml` · `python src/demo.py` |
-| **Gnosis SFT pipeline** (downstream) | Generate, verify, merge, and fine-tune models that may learn to use internal correctness signals | [`gnosis/DATA_PREPROCESS.md`](gnosis/DATA_PREPROCESS.md) · [`gnosis/open-r1/`](gnosis/open-r1/) |
-
-The probing experiment is **self-contained**: it needs only `requirements.txt` and `python src/demo.py`. It does not depend on vLLM, Gnosis training configs, or the data-preprocessing scripts.
-
-The Gnosis pipeline is **downstream research infrastructure** for a follow-on question: *if correctness is already present in hidden states, can we train models to act on it?*
-
-The Gnosis/Open-R1 training pipeline is in-progress follow-up work and is separate from the core hidden-state probing result. Concretely:
-
-1. **Probing** (this README) establishes whether Qwen2 encodes answer correctness in its activations.
-2. **Gnosis data prep** ([`gnosis/DATA_PREPROCESS.md`](gnosis/DATA_PREPROCESS.md)) builds verified SFT datasets (TriviaQA, math, etc.) with correctness labels from task-specific evaluators.
-3. **Gnosis training** ([`gnosis/open-r1/`](gnosis/open-r1/)) fine-tunes Qwen3 (and related) models on those datasets via SFT/GRPO recipes under `gnosis/open-r1/recipes/training/`.
-4. **Scoring** ([`gnosis/src/evaluation/`](gnosis/src/evaluation/)) evaluates whether fine-tuned models improve at self-aware behavior on held-out benchmarks.
-
-The probing track is self-contained via [`src/triviaqa_eval.py`](src/triviaqa_eval.py). The Gnosis track uses its own evaluators under `gnosis/src/` but serves a different goal: **train models to use correctness signals** rather than **measure whether they exist in hidden states**.
+> **Attribution:** The research question, framing, and Gnosis method originate from Ghasemabadi & Niu (2025), *Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits*.
+>
+> This repository is an **independent linear-probing study** on **Qwen2-1.5B-Instruct + TriviaQA** with a fully reproducible evaluation pipeline. It is **not** the original Gnosis paper or implementation.
 
 ---
 
-When a transformer generates text, it produces a hidden state vector at every layer.
-If a model internally "knows" it might be wrong, that uncertainty may already be encoded in those hidden states.
+## Quick Start
 
-This project tests whether **correctness can be linearly decoded from those activations**.
-
-Using **Qwen2-1.5B-Instruct**, I train linear probes on hidden states from every transformer layer to predict whether the model's answer will ultimately be correct.
-
----
-
-## Experimental Setup
-
-Dataset: TriviaQA (rc.nocontext, validation)
-Model: Qwen2-1.5B-Instruct
-Samples: 500 questions
-
-Procedure:
-
-1. Run the model on TriviaQA questions.
-2. Capture hidden states at the **first generated token**.
-3. Extract hidden vectors for all **28 transformer layers**.
-4. Train **logistic regression probes** to predict whether the final answer was correct.
-5. Evaluate probe accuracy vs layer depth.
-
-If probe accuracy exceeds the **majority baseline**, it suggests correctness information is already encoded in the activations.
-
----
-
-## Results
-
-| Metric                    | Value                |
-| ------------------------- | -------------------- |
-| Model accuracy            | 40.2%                |
-| Majority baseline         | 60.0%                |
-| Best probe accuracy       | **73.0% (Layer 27)** |
-| Improvement over baseline | **+13.2%**           |
-
-![Layer Probe Accuracy](assets/layer_probe_accuracy.png)
-
----
-
-## Key Observations
-
-**1. Correctness is linearly decodable**
-
-A simple logistic regression probe achieves **73% accuracy**, outperforming the majority baseline by **13.2%**.
-
-This suggests correctness information is genuinely encoded in the hidden states.
-
----
-
-**2. The signal concentrates in late layers**
-
-The strongest signal appears in **layers 27–28**, indicating that the model consolidates answer confidence late in processing.
-
----
-
-**3. Early and middle layers behave differently**
-
-Layers **3–6** remain near baseline accuracy, suggesting they primarily handle syntactic or positional processing rather than semantic evaluation.
-
----
-
-**4. A surprising spike appears around layer 15**
-
-Layer 15 shows a noticeable accuracy bump that may indicate an intermediate reasoning stage.
-
-This deserves further investigation.
-
----
-
-## Limitations
-
-The model answered only **40.2%** of questions correctly, which means the majority class becomes **incorrect answers (60%)**.
-
-This makes the probe's task somewhat easier because predicting "wrong" already performs well.
-
-A stronger experiment would evaluate a model with accuracy closer to **50%**, ensuring balanced classes.
-
-Despite this limitation, the **13% improvement over baseline** suggests a real signal beyond simple class frequency.
-
----
-
-## Future Work
-
-Possible extensions:
-
-* Repeat the experiment on stronger models
-* Evaluate across multiple datasets
-* Probe intermediate reasoning tokens rather than only the first generated token
-* Investigate the layer-15 spike in more detail
-* Compare linear probes with nonlinear probes
-
----
-
-## Repository Structure
-
-```
-src/
-  demo.py                  # full pipeline orchestrator
-  collect_activations.py   # stage 1: generate answers + save activations
-  train_probes.py          # stage 2: nested CV probe training
-  plot_results.py          # stage 3: layer AUROC plot
-  probe/                   # shared config, inference, probe utilities
-  triviaqa_eval.py         # TriviaQA EM/F1 labeling
-configs/
-  probe_default.yaml       # experiment config (model, dataset, seeds, paths)
-
-gnosis/                    # Gnosis/Open-R1 follow-up (separate from probing)
-  DATA_PREPROCESS.md       # data generation, labeling, merge docs
-  requirements-gnosis.txt    # vLLM + data/eval deps
-  scripts/setup_gnosis_env.sh
-  open-r1/                 # SFT/GRPO training recipes
-  src/
-    data_preprocess/       # vLLM generation + labeling scripts
-    evaluation/            # benchmark scoring scripts
-```
-
-For the **probing experiment only**, you need `configs/probe_default.yaml`, the `src/probe/` package, and `requirements.txt`. See [Running the experiment](#running-the-experiment) below.
-
-For the **Gnosis SFT pipeline**, see [`gnosis/DATA_PREPROCESS.md`](gnosis/DATA_PREPROCESS.md), [`gnosis/requirements-gnosis.txt`](gnosis/requirements-gnosis.txt), and [`gnosis/open-r1/README.md`](gnosis/open-r1/README.md). That track requires a CUDA GPU, vLLM, and additional setup (`gnosis/scripts/setup_gnosis_env.sh`).
-
----
-
-## Running the Experiment
-
-See [`REPRODUCIBILITY.md`](REPRODUCIBILITY.md) for pinned versions, Hub revisions, seeds, hardware notes, and exact commands.
-
-Install dependencies:
-
-```
+```bash
 pip install -r requirements.txt
-pip install torch   # platform-specific wheel from pytorch.org
+pip install torch  # platform-specific wheel from https://pytorch.org
+
+python src/demo.py --no-show-plot
 ```
-
-Run the probing experiment:
-
-```
-# Full pipeline (config: configs/probe_default.yaml)
-python src/demo.py
-
-# Or stage by stage:
-python src/collect_activations.py --config configs/probe_default.yaml
-python src/train_probes.py --config configs/probe_default.yaml
-python src/plot_results.py --config configs/probe_default.yaml --no-show-plot
-
-# Quick smoke test
-python src/demo.py --num-samples 5 --no-show-plot
-```
-
-CLI options (all stages): `--config`, `--seed`, `--output-dir`, `--assets-dir`.  
-`demo.py` also accepts `--model`, `--num-samples`, `--stage {all,collect,train,plot}`, `--no-show-plot`.
-
-Outputs go to `results/` (JSON) and `assets/` (plots) by default.
-
-Optional: pin Hub artifact revisions before running:
-
-```
-export MODEL_REVISION=main
-export DATASET_REVISION=main
-python src/demo.py
-```
-
-Each run writes `results/run_manifest.json` with resolved revisions, package versions, seeds, and hardware.
 
 ---
 
 ## Motivation
 
-Understanding what models internally represent is a core question in **mechanistic interpretability**.
+When a transformer generates text, it produces a hidden-state vector at every layer. If a model internally "knows" it might be wrong, that signal may already be present in those activations before generation is complete.
 
-If correctness signals are encoded before an answer is generated, it may enable:
+Following **Ghasemabadi & Niu (2025)**, this project asks:
 
-* self-verification systems
-* uncertainty estimation
-* safer deployment of language models
+> Can answer correctness be linearly decoded from hidden states during generation?
+
+Using logistic regression probes trained on hidden states from **Qwen2-1.5B-Instruct**, we test whether each transformer layer encodes whether the model's answer will ultimately be correct on **TriviaQA**.
+
+---
+
+## Results
+
+### Main Metrics (500 TriviaQA Validation Samples)
+
+| Metric | Value |
+|----------|----------|
+| Model EM Accuracy | **12.2%** (61 / 500) |
+| Probe AUROC (Layer 27) | **0.809** [0.780, 0.841] |
+| Probe Balanced Accuracy | **0.584** [0.541, 0.627] |
+| Permutation Baseline AUROC | **0.476** [0.451, 0.502] |
+| Best Layer | **27** |
+
+### Takeaway
+
+A simple linear probe achieves **AUROC ≈ 0.81** at late layers, substantially outperforming a permutation baseline near chance level.
+
+This suggests correctness information is already encoded in internal activations before answer generation is complete.
+
+> **Important:** Because 87.8% of examples are labeled incorrect, raw accuracy is misleading. A classifier that always predicts "wrong" already achieves 87.8% accuracy. AUROC and balanced accuracy are therefore the primary metrics.
+
+---
+
+## Key Findings
+
+### 1. Correctness Is Linearly Decodable
+
+The strongest probe reaches:
+
+```text
+AUROC = 0.809
+95% CI = [0.780, 0.841]
+```
+
+compared with:
+
+```text
+Permutation baseline AUROC = 0.476
+```
+
+Layer selection is performed strictly using validation data within nested train/validation/test splits.
+
+### 2. Signal Concentrates in Late Layers
+
+The strongest performance appears around layers **22–28**, with AUROC values approximately **0.77–0.82**.
+
+Earlier layers remain substantially weaker, around **0.64–0.65 AUROC**, suggesting correctness-related information becomes increasingly explicit near the top of the network.
+
+### 3. Mid-Layer Bump
+
+A secondary increase appears around layers **15–19**, with AUROC values approximately **0.67–0.72**.
+
+This may reflect an intermediate stage of internal reasoning before final answer formation.
+
+### 4. Strict Labeling Depresses Apparent Model Accuracy
+
+Under TriviaQA exact-match evaluation with answer extraction, the model achieves only **12.2% EM**.
+
+Inspection of `results/label_audit.json` reveals many failures arise from:
+
+- verbose outputs
+- extraction mistakes
+- formatting mismatches
+
+rather than necessarily lacking the correct answer internally.
+
+---
+
+## Experimental Setup
+
+| Setting | Value |
+|----------|----------|
+| Model | Qwen/Qwen2-1.5B-Instruct |
+| Dataset | TriviaQA (rc.nocontext validation split) |
+| Samples | 500 |
+| Hidden States | First generated token from all 28 layers |
+| Probe | Logistic Regression (C=1.0, max_iter=1000) |
+| Evaluation | Nested train/val/test splits |
+| Baselines | Majority class, label permutation |
+| Label | TriviaQA official normalization + alias-matched EM |
+
+---
+
+## Method
+
+For each TriviaQA question:
+
+1. Prompt the model.
+2. Generate an answer using greedy decoding.
+3. Capture hidden states from the first generated token.
+4. Label the answer using TriviaQA exact-match scoring.
+5. Train layer-wise logistic regression probes.
+6. Evaluate using nested validation and held-out test splits.
+
+```text
+Question
+   ↓
+Qwen2-1.5B-Instruct
+   ↓
+Generated Answer
+   ↓
+Hidden States (28 layers)
+   ↓
+Correct / Incorrect Label
+   ↓
+Logistic Regression Probe
+   ↓
+AUROC Evaluation
+```
+
+---
+
+## Limitations
+
+### Severe Class Imbalance
+
+Approximately:
+
+```text
+87.8% incorrect
+12.2% correct
+```
+
+Therefore raw accuracy is misleading.
+
+### Answer Extraction Issues
+
+The model often ignores the "few words" instruction and generates verbose outputs.
+
+Strict answer extraction can underestimate true correctness.
+
+### Single Model / Dataset
+
+Results currently cover:
+
+- Qwen2-1.5B-Instruct
+- TriviaQA
+
+only.
+
+### Linear Probes Only
+
+The original Gnosis work trains a dedicated head using hidden states and attention patterns.
+
+This repository intentionally focuses on simple linear probes as a baseline analysis.
+
+### Correlation ≠ Causation
+
+High probe AUROC demonstrates that correctness information is encoded in activations.
+
+It does **not** prove the model uses that information during generation.
+
+---
+
+## Repository Scope
+
+| Track | Purpose | Entry Point |
+|---------|---------|---------|
+| Hidden-State Probing (Primary) | Linear probing replication on Qwen2 + TriviaQA | `python src/demo.py` |
+| Gnosis SFT Pipeline (WIP) | Follow-up work aligned with the official Gnosis implementation | `gnosis/DATA_PREPROCESS.md` |
+
+The probing experiment is completely self-contained and requires only:
+
+```bash
+pip install -r requirements.txt
+python src/demo.py
+```
+
+---
+
+## Repository Structure
+
+```text
+src/
+├── demo.py
+├── collect_activations.py
+├── train_probes.py
+├── plot_results.py
+├── probe/
+└── triviaqa_eval.py
+
+configs/
+└── probe_default.yaml
+
+gnosis/
+├── DATA_PREPROCESS.md
+├── open-r1/
+└── src/
+
+results/
+assets/
+```
+
+---
+
+## Running the Experiment
+
+See `REPRODUCIBILITY.md` for exact package versions, model revisions, seeds, and hardware notes.
+
+Run the full pipeline:
+
+```bash
+python src/demo.py --no-show-plot
+```
+
+Collect activations only:
+
+```bash
+python src/demo.py --stage collect
+```
+
+Train probes only:
+
+```bash
+python src/demo.py --stage train --no-show-plot
+```
+
+Generate plots only:
+
+```bash
+python src/demo.py --stage plot --no-show-plot
+```
+
+---
+
+## Outputs
+
+| File | Description |
+|--------|--------|
+| `results/run_manifest.json` | Versions, hardware, seeds, revisions |
+| `results/results.json` | Per-sample generations and labels |
+| `results/activations.npz` | Hidden states |
+| `results/label_audit.json` | Manual label-quality audit |
+| `results/validation_results.json` | Nested-CV metrics and confidence intervals |
+| `assets/layer_probe_accuracy.png` | Layer-wise AUROC figure |
+
+---
+
+## Citation
+
+```bibtex
+@article{ghasemabadi2025can,
+  title={Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits},
+  author={Ghasemabadi, Amirhosein and Niu, Di},
+  journal={arXiv preprint arXiv:2512.20578},
+  year={2025}
+}
+```
+
+---
+
+## Future Work
+
+- Improve answer extraction and prompting
+- Compare probe AUROC against token log-probability baselines
+- Evaluate larger models
+- Test additional benchmarks
+- Implement the full Gnosis head (hidden states + attention)
+- Study whether self-awareness signals can improve generation quality
