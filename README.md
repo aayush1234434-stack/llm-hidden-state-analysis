@@ -1,6 +1,9 @@
 # Linear Probing for Correctness Signals in LLM Hidden States
 
-> **Attribution:** The research question, framing, and Gnosis method originate from Ghasemabadi & Niu (2025), *Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits*.
+**Author:** Aayush Singh  
+**GitHub:** [aayush1234434-stack/llm-hidden-state-analysis](https://github.com/aayush1234434-stack/llm-hidden-state-analysis)
+
+> **Attribution:** The research question, framing, and Gnosis method originate from [Ghasemabadi & Niu (2025)](https://arxiv.org/abs/2512.20578), [*Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits*](https://arxiv.org/abs/2512.20578) ([official code](https://github.com/Amirhosein-gh98/Gnosis)).
 >
 > This repository is an **independent linear-probing study** on **Qwen2-1.5B-Instruct + TriviaQA** with a fully reproducible evaluation pipeline. It is **not** the original Gnosis paper or implementation.
 
@@ -40,6 +43,8 @@ Using logistic regression probes trained on hidden states from **Qwen2-1.5B-Inst
 | Probe Balanced Accuracy | **0.584** [0.541, 0.627] |
 | Permutation Baseline AUROC | **0.476** [0.451, 0.502] |
 | Best Layer | **27** |
+
+![Layer-wise probe AUROC](assets/layer_probe_accuracy.png)
 
 ### Takeaway
 
@@ -265,6 +270,14 @@ python src/demo.py --stage plot --no-show-plot
 | `assets/layer_probe_accuracy.png` | Layer-wise AUROC figure |
 
 ---
+
+## Figures
+
+| File | Source |
+|------|--------|
+| `assets/layer_probe_accuracy.png` | **This repo** — layer-wise probe AUROC from the 500-sample run |
+| `assets/main_fig.png` | From [Ghasemabadi & Niu (2025)](https://arxiv.org/abs/2512.20578) / [Gnosis repo](https://github.com/Amirhosein-gh98/Gnosis) (reference only) |
+| `assets/Gnosis_demo.gif` | From [Gnosis repo](https://github.com/Amirhosein-gh98/Gnosis) (reference only) |
 
 ## Citation
 
